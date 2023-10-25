@@ -1,0 +1,12 @@
+{
+  "name": "ci-project-01",
+  "description": "Code Institute Project 1",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickhladun/ci-project-01.git"
+  },
+  "author": "Patrick Hladun",
+  "license": "ISC",
+  "homepage": "https://patrickhladun.github.io/ci-project-01/"
+}
