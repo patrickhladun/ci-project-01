@@ -11,7 +11,9 @@
 */
 
 :root {
-  --text-color: #333333;
+  --color-neutral-900: #1c1c1d;
+  --text-color: #333;
+  --text-color-light: #fff;
 }
 * {
   margin: 0;
@@ -138,3 +140,11 @@ main {
 }
 
 /* 3.2 - Footer */
+
+.copyright {
+  background-color: var(--color-neutral-900);
+  color: var(--text-color-light);
+  padding: 16px 36px;
+  display: flex;
+  justify-content: center;
+}
