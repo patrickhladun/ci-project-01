@@ -9,7 +9,7 @@
 * 3.0 - Header
 * 4.0 - Page Specific Styles
 */
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;900&display=swap");
 :root {
   --color-neutral-900: #1c1c1d;
   --text-color: #333;
@@ -32,8 +32,9 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: poppins;
+  font-weight: 500;
 }
-
 /* 2.0 - Layout */
 main {
   padding-top: 100px;
