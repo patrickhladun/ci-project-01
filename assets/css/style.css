@@ -72,6 +72,11 @@ main {
 .logo {
 }
 
+.logo img {
+  width: 116px;
+  padding: 16px 0;
+}
+
 .navigation {
   background: #f4f4f4;
   width: 100%;

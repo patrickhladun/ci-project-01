@@ -1,1 +1,1 @@
-# CI Project 1
+# Mindset Makeover Website - CI Project 1
