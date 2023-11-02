@@ -99,6 +99,22 @@ main {
   background-color: var(--color-neutral-50);
 }
 
+/* Buttons */
+
+.button {
+  display: inline-block;
+  border: none;
+  background-color: var(--color-neutral-500);
+  color: var(--color-neutral-50);
+  font-size: 16px;
+  font-weight: normal;
+  padding: 12px 24px;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  opacity: 0.7;
+}
+
 /* 3.1 - Header */
 
 .header {
