@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <title>Fresh Food, Straight to Your Doorstep</title>
+    <title>Contact | Mindset Makeover</title>
   </head>
   <body>
     <header class="header">
       <div class="header-content">
         <div class="branding">
-          <a href="/"><img src="./assets/images/logo.png" alt="Logo" /></a>
+          <a class="logo" href="/"
+            ><img src="./assets/images/logo.png" alt="Logo"
+          /></a>
         </div>
         <div class="mobile-menu-toggle">
           <div class="menu-toggle-button">
@@ -30,14 +32,62 @@
     <main>
       <section>
         <div>
-          <h1>Contact</h1>
+          <h1>Get in Touch</h1>
+          <p>
+            We're here to answer any questions you might have about the "Unlock
+            Your Potential" webinar or any other inquiries. Reach out, and we'll
+            get back to you as soon as possible.
+          </p>
         </div>
+      </section>
+      <section>
+        <form>
+          <label for="firstName">First Name:</label>
+          <input
+            id="firstName"
+            name="firstName"
+            placeholder="First name"
+            required
+          />
+
+          <label for="lastName">Last Name:</label>
+          <input
+            id="lastName"
+            name="lastName"
+            placeholder="Last name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            id="email"
+            name="email"
+            placeholder="Your best email"
+            required
+          />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write something"
+            required
+          ></textarea>
+
+          <button type="submit">Get in Touch!</button>
+        </form>
       </section>
     </main>
     <footer class="footer">
       <p>Newsletter</p>
       <p>Social Links</p>
-      <p>Secondary Links</p>
+      <section>
+        <ul>
+          <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="./terms.html">Terms and Conditions</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </section>
       <section class="copyright">
         <p>© 2023 Mindset Makeover All rights reserved.</p>
       </section>
