@@ -157,30 +157,47 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="home-newsletter container-small">
-        <h3>Stay Ahead with Mindset Insights</h3>
-        <p>
-          Unlock a world of transformation. Join our exclusive newsletter and
-          receive actionable tips, inspiring stories, and updates on upcoming
-          webinars. Start your journey to a better mindset today!
-        </p>
+      <div class="newsletter container-small">
+        <div class="newsletter-header">
+          <h3>Stay Ahead with Mindset Insights</h3>
+          <p>
+            Unlock a world of transformation. Join our exclusive newsletter and
+            receive actionable tips, inspiring stories, and updates on upcoming
+            webinars. Start your journey to a better mindset today!
+          </p>
+        </div>
         <form>
-          <label for="email">Email</label>
-          <input
-            id="email"
-            type="email"
-            placeholder="Your best email"
-            required
-          />
-          <input id="gdpr" type="checkbox" required />
-          <label for="gdpr"
-            >I have read the
-            <a href="./privacy-policy" target="_blank" rel="noopener noreferrer"
-              >privacy policy</a
+          <div class="field field__text">
+            <label class="field__label" for="email">Email</label>
+            <input
+              id="email"
+              class="field__input"
+              type="email"
+              placeholder="Your best email"
+              required
+            />
+          </div>
+
+          <div class="field field__checkbox">
+            <input
+              class="field__input-checkbox"
+              id="gdpr"
+              type="checkbox"
+              required
+            />
+            <label class="field__label" for="gdpr"
+              >I have read the
+              <a
+                href="./privacy-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                >privacy policy</a
+              >
+              and I agree to the terms and data processing practices outlined in
+              it.</label
             >
-            and I agree to the terms and data processing practices outlined in
-            it.</label
-          >
+          </div>
+
           <button class="button" type="submit">Subscribe!</button>
         </form>
       </div>
