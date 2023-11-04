@@ -42,6 +42,7 @@
   --spacing-sm: 8px;
   --spacing-md: 16px;
   --spacing-lg: 32px;
+  --grid-gap: 32px;
 }
 * {
   box-sizing: border-box;
@@ -156,6 +157,10 @@ main {
 .newsletter,
 .page-section {
   padding: 64px 24px;
+}
+
+.home-change-actions {
+  padding: 0 24px 64px 24px;
 }
 
 .footer__content {
@@ -287,7 +292,7 @@ textarea {
 
 .menu {
   list-style-type: none;
-  padding: 36px 0;
+  padding: var(--spacing-lg) 0;
 }
 
 .menu li a {
@@ -405,8 +410,15 @@ textarea {
   .home-makeover {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 36px;
+    gap: var(--grid-gap);
   }
+
+  .home-change-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
   /* Social Links */
   .footer__content {
     display: flex;
