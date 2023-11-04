@@ -1,7 +1,7 @@
 {
   "name": "ci-project-01",
   "description": "Code Institute Project 1",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/patrickhladun/ci-project-01.git"
