@@ -35,9 +35,24 @@
   --color-red-950: #460b1b;
   --text-color: #333;
   --text-color-light: #fff;
+
   --text-size-sm: 14px;
   --text-size-md: 16px;
   --text-size-lg: 20px;
+
+  --text-size-h1: 48px;
+  --text-size-h1-sm: 38px;
+  --text-size-h2: 39px;
+  --text-size-h2-sm: 32px;
+  --text-size-h3: 31px;
+  --text-size-h3-sm: 28px;
+  --text-size-h4: 25px;
+  --text-size-h4-sm: 24px;
+  --text-size-h5: 20px;
+  --text-size-h5-sm: 20px;
+  --text-size-h6: 16px;
+  --text-size-h6-sm: 16px;
+
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing-md: 16px;
@@ -64,28 +79,31 @@ body {
 img {
   width: 100%;
 }
+
+/* Typography */
+
 h1 {
-  font-size: 48px;
+  font-size: var(--text-size-h1-sm);
   line-height: 1.2;
 }
 h2 {
-  font-size: 39px;
+  font-size: var(--text-size-h2-sm);
   line-height: 1.2;
 }
 h3 {
-  font-size: 31px;
+  font-size: var(--text-size-h3-sm);
   line-height: 1.2;
 }
 h4 {
-  font-size: 25px;
+  font-size: var(--text-size-h4-sm);
   line-height: 1.2;
 }
 h5 {
-  font-size: 20px;
+  font-size: var(--text-size-h5-sm);
   line-height: 1.2;
 }
 h6 {
-  font-size: 16px;
+  font-size: var(--text-size-h6-sm);
   line-height: 1.2;
 }
 h1,
@@ -114,6 +132,7 @@ a {
 .text-large {
   font-size: var(--text-size-lg);
 }
+
 /* 2.0 - Layout */
 
 main {
@@ -375,6 +394,26 @@ textarea {
 }
 
 @media all and (min-width: 768px) {
+  /* Typoghraphy */
+  h1 {
+    font-size: var(--text-size-h1);
+  }
+  h2 {
+    font-size: var(--text-size-h2);
+  }
+  h3 {
+    font-size: var(--text-size-h3);
+  }
+  h4 {
+    font-size: var(--text-size-h4);
+  }
+  h5 {
+    font-size: var(--text-size-h5);
+  }
+  h6 {
+    font-size: var(--text-size-h6);
+  }
+
   .header-content {
     align-items: center;
   }
