@@ -5,12 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Webinar | Mindset Makeover</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets/fonts/fontawesome/css/fontawesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/fonts/fontawesome/css/brands.min.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
       <div class="header-content">
         <div class="branding">
-          <a class="logo" href="/"
+          <a class="logo" href="./"
             ><img src="./assets/images/logo.png" alt="Logo"
           /></a>
         </div>
@@ -30,33 +41,35 @@
       </div>
     </header>
     <main>
-      <section>
-        <div>
-          <h1>Unlock the Secrets to a Better Life: Join Our Free Webinar</h1>
-          <p>
-            Are you ready to break free from the barriers holding you back? Our
-            free webinar offers the steps you need to rewire your mindset and
-            take control of your future.
-          </p>
+      <section class="background">
+        <div class="webinar-hero container">
+          <div>
+            <h1>Unlock the Secrets to a Better Life: Join Our Free Webinar</h1>
+            <p>
+              Are you ready to break free from the barriers holding you back?
+              Our free webinar offers the steps you need to rewire your mindset
+              and take control of your future.
+            </p>
+          </div>
+          <div>
+            <p>Webinar Date: 01/02/2024</p>
+            <p>Webinar Time: 10:00 am</p>
+            <p>Time zone: Irish Standard Time (IST)</p>
+          </div>
+          <div>Webinar Teaser</div>
         </div>
-        <div>
-          <p>Webinar Date: 01/02/2024</p>
-          <p>Webinar Time: 10:00 am</p>
-          <p>Time zone: Irish Standard Time (IST)</p>
-        </div>
-        <div>Webinar Teaser</div>
       </section>
-      <section>
+      <section class="webinar-agenda container">
         <h2>Agenda</h2>
         <div>
-          <h3>1. Introduction (5 minutes)</h3>
+          <h3>Introduction (5 minutes)</h3>
           <ul>
             <li>Welcome note by Alex</li>
             <li>Brief overview of the webinar's objective</li>
           </ul>
         </div>
         <div>
-          <h3>2. The Foundation of Mindset (15 minutes)</h3>
+          <h3>The Foundation of Mindset (15 minutes)</h3>
           <ul>
             <li>The difference between fixed and growth mindsets</li>
             <li>Real-world examples of how mindset impacts success</li>
@@ -129,7 +142,7 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="webinar-host container">
         <div>
           <h2>The Host</h2>
           <p>
@@ -141,7 +154,7 @@
           </p>
         </div>
       </section>
-      <section>
+      <section class="webinar-faq container">
         <div>
           <h2>FAQ</h2>
           <dl class="faq">
@@ -187,7 +200,7 @@
           </dl>
         </div>
       </section>
-      <section aria-label="Testimonials">
+      <section class="webinar-testimonials container" aria-label="Testimonials">
         <h2>Testimonials</h2>
         <div>
           <figure>
@@ -246,7 +259,7 @@
           </figure>
         </div>
       </section>
-      <section>
+      <section class="webinar-form container-small">
         <h2>Ready to Unlock Your Potential?</h2>
         <p>
           Embark on a transformative journey with Alex and discover strategies
@@ -254,50 +267,74 @@
           a brighter, more empowered future. Don't miss out!
         </p>
         <form>
-          <label for="firstName">First Name:</label>
-          <input
-            id="firstName"
-            name="firstName"
-            placeholder="First name"
-            required
-          />
+          <div class="field field__text">
+            <label for="firstName">First Name:</label>
+            <input
+              id="firstName"
+              name="firstName"
+              placeholder="First name"
+              required
+            />
+          </div>
 
-          <label for="lastName">Last Name:</label>
-          <input
-            id="lastName"
-            name="lastName"
-            placeholder="Last name"
-            required
-          />
+          <div class="field field__text">
+            <label for="lastName">Last Name:</label>
+            <input
+              id="lastName"
+              name="lastName"
+              placeholder="Last name"
+              required
+            />
+          </div>
 
-          <label for="email">Email:</label>
-          <input
-            id="email"
-            name="email"
-            placeholder="Your best email"
-            required
-          />
+          <div class="field field__text">
+            <label for="email">Email:</label>
+            <input
+              id="email"
+              name="email"
+              placeholder="Your best email"
+              required
+            />
+          </div>
 
-          <label for="how">How did you hear about us?:</label>
-          <input id="how" name="how" placeholder="Your best email" required />
+          <div class="field field__text">
+            <label for="how">How did you hear about us?:</label>
+            <select id="how" name="how" required>
+              <option value="">-- Select an option --</option>
+              <option value="plain">On a plain</option>
+              <option value="radio">On radio</option>
+            </select>
+          </div>
 
-          <button type="submit">Reserve Your Seat!</button>
+          <button class="button" type="submit">Reserve Your Seat!</button>
         </form>
       </section>
     </main>
     <footer class="footer">
-      <p>Newsletter</p>
-      <p>Social Links</p>
-      <section>
-        <ul>
-          <li><a href="./privacy-policy.html">Privacy Policy</a></li>
-          <li><a href="./terms.html">Terms and Conditions</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </section>
-      <section class="copyright">
+      <div class="background">
+        <div class="footer__content container">
+          <div class="social-links">
+            <a class="social-link" href="https://twitter.com/"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a class="social-link" href="https://facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="social-link" href="https://instagram.com/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <ul class="secondary-links">
+            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="./terms.html">Terms and Conditions</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
         <p>© 2023 Mindset Makeover All rights reserved.</p>
-      </section>
+      </div>
     </footer>
   </body>
 </html>

@@ -5,12 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>About | Mindset Makeover</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets/fonts/fontawesome/css/fontawesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/fonts/fontawesome/css/brands.min.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
       <div class="header-content">
         <div class="branding">
-          <a class="logo" href="/"
+          <a class="logo" href="./"
             ><img src="./assets/images/logo.png" alt="Logo"
           /></a>
         </div>
@@ -30,17 +41,19 @@
       </div>
     </header>
     <main>
-      <section>
-        <div>
-          <h1>Unlock Your Mind's Potential</h1>
-          <p>
-            With Alex Richards' guidance and the power of Mindset Makeover, step
-            into a world where challenges become opportunities, and dreams
-            become realities. Begin your transformation today.
-          </p>
+      <section class="background">
+        <div class="about-hero container">
+          <div>
+            <h1>Unlock Your Mind's Potential</h1>
+            <p>
+              With Alex Richards' guidance and the power of Mindset Makeover,
+              step into a world where challenges become opportunities, and
+              dreams become realities. Begin your transformation today.
+            </p>
+          </div>
         </div>
       </section>
-      <section>
+      <section class="about-alex container">
         <div>
           <h2>Alex Richards: From Challenge to Change</h2>
           <p>
@@ -57,7 +70,7 @@
           </p>
         </div>
       </section>
-      <section>
+      <section class="about-vision container">
         <div>
           <h2>The Vision Behind Mindset Makeover</h2>
           <p>
@@ -93,29 +106,86 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="about-transformation container">
         <h2>Embark on Your Transformation</h2>
         <p>
           With Alex Richards and Mindset Makeover, you're not alone on your
           journey to self-improvement. Dive into our resources, attend our
           webinars, and let's reshape our futures together.
         </p>
-        <a href="#">Learn More</a>
+        <a class="button" href="./webinar.html">Learn More</a>
       </section>
     </main>
     <footer class="footer">
-      <p>Newsletter</p>
-      <p>Social Links</p>
-      <section>
-        <ul>
-          <li><a href="./privacy-policy.html">Privacy Policy</a></li>
-          <li><a href="./terms.html">Terms and Conditions</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </section>
-      <section class="copyright">
+      <div class="background-newsletter">
+        <div class="newsletter container-small">
+          <div class="newsletter-header">
+            <h3>Stay Ahead with Mindset Insights</h3>
+            <p>
+              Unlock a world of transformation. Join our exclusive newsletter
+              and receive actionable tips, inspiring stories, and updates on
+              upcoming webinars. Start your journey to a better mindset today!
+            </p>
+          </div>
+          <form>
+            <div class="field field__text">
+              <label class="field__label" for="email">Email</label>
+              <input
+                id="email"
+                class="field__input"
+                type="email"
+                placeholder="Your best email"
+                required
+              />
+            </div>
+            <div class="field field__checkbox">
+              <input
+                class="field__input-checkbox"
+                id="gdpr"
+                type="checkbox"
+                required
+              />
+              <label class="field__label" for="gdpr"
+                >I have read the
+                <a
+                  href="./privacy-policy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >privacy policy</a
+                >
+                and I agree to the terms and data processing practices outlined
+                in it.</label
+              >
+            </div>
+            <button class="button" type="submit">Subscribe!</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="background">
+        <div class="footer__content container">
+          <div class="social-links">
+            <a class="social-link" href="https://twitter.com/"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a class="social-link" href="https://facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="social-link" href="https://instagram.com/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <ul class="secondary-links">
+            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="./terms.html">Terms and Conditions</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
         <p>© 2023 Mindset Makeover All rights reserved.</p>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
