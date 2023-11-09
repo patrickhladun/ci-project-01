@@ -131,60 +131,80 @@ img {
 * #1.1 Typography 
 */
 
-h1 {
+h1,
+.h1 {
   font-size: var(--text-size-h1-sm);
   font-weight: 700;
   line-height: 1.2;
 }
-h2 {
+h2,
+.h2 {
   font-size: var(--text-size-h2-sm);
   font-weight: 700;
   line-height: 1.2;
 }
-h3 {
+h3,
+.h3 {
   font-size: var(--text-size-h3-sm);
   font-weight: 700;
   line-height: 1.2;
 }
-h4 {
+h4,
+.h4 {
   font-size: var(--text-size-h4-sm);
   font-weight: 700;
   line-height: 1.2;
 }
-h5 {
+h5,
+.h5 {
   font-size: var(--text-size-h5-sm);
   font-weight: 700;
   line-height: 1.2;
 }
-h6 {
+h6,
+. {
   font-size: var(--text-size-h6-sm);
   font-weight: 700;
   line-height: 1.2;
 }
 
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3,
 h4,
+.h4,
 h5,
+.h5,
 h6,
+.h6,
 p,
 ul {
   margin: 16px 0;
 }
 
 h1:first-child,
+.h1:first-child,
 h2:first-child,
+.h2:first-child,
 h3:first-child,
+.h3:first-child,
 h4:first-child,
+.h4:first-child,
 h5:first-child,
+.h5:first-child,
 h6:first-child,
+.h6:first-child,
 p:first-child {
   margin-top: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 .text-large {
   font-size: var(--text-size-lg);
 }
