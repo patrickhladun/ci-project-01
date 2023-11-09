@@ -15,18 +15,15 @@
 * 4.0 - Footer
 * 5.0 - Pages
 * 6.0 - Components
-* 10.0 - Media Tablet Up min 768px
-* 11.0 - General
-*   11.1 - Typography
-*   11.2 - Backgrounds
-*   11.3 - Buttons
-*   11.4 - Forms
-* 12.0 - Layout
-* 13.0 - Header
-
-* 14.0 - Footer
-* 15.0 - Pages
-* 16.0 - Components
+* 10.0 - Media min 576px
+*   12.0 - Layout  
+* 20.0 - Media min 768px
+*   21.0 - General
+*     21.1 - Typography
+*     21.3 - Buttons
+*   22.0 - Layout
+*   23.0 - Header
+*   24.0 - Footer
 *
 */
 
@@ -496,11 +493,23 @@ main {
   margin: 0;
 }
 
-/* #10.0 - Media Tablet Up min 768px */
+@media all and (min-width: 576px) {
+  /**
+  * #12.0 Layout
+  */
+
+  .home-change-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+}
+
+/* #20.0 - Media Tablet Up min 768px */
 
 @media all and (min-width: 768px) {
   /**
-  * #11.1 Typography
+  * #21.1 Typography
   */
 
   h1 {
@@ -523,7 +532,7 @@ main {
   }
 
   /**
-  * #11.3 Buttons
+  * #21.3 Buttons
   */
 
   .button--margin {
@@ -531,7 +540,7 @@ main {
   }
 
   /**
-  * #12.0 Layout
+  * #22.0 Layout
   */
 
   .home-hero,
@@ -544,16 +553,13 @@ main {
   }
 
   .home-change-actions {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: var(--grid-gap);
-  }
-  .home-change-actions > div {
-    flex: 25% 0 1;
   }
 
   /**
-  * #13.0 Header
+  * #23.0 Header
   */
 
   .header-content {
@@ -584,7 +590,7 @@ main {
   }
 
   /**
-  * #14.0 Footer
+  * #24.0 Footer
   */
 
   .footer__content {
