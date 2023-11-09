@@ -60,6 +60,8 @@
   --color-red-950: #460b1b;
   --text-color: #333;
   --text-color-light: #fff;
+  --headings-color: var(--color-shark-600);
+  --headings-color-light: #fff;
 }
 
 /**
@@ -134,38 +136,44 @@ img {
 h1,
 .h1 {
   font-size: var(--text-size-h1-sm);
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.2;
+  color: var(--headings-color);
 }
 h2,
 .h2 {
   font-size: var(--text-size-h2-sm);
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.2;
+  color: var(--headings-color);
 }
 h3,
 .h3 {
   font-size: var(--text-size-h3-sm);
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.2;
+  color: var(--headings-color);
 }
 h4,
 .h4 {
   font-size: var(--text-size-h4-sm);
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.2;
+  color: var(--headings-color);
 }
 h5,
 .h5 {
   font-size: var(--text-size-h5-sm);
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.2;
+  color: var(--headings-color);
 }
 h6,
 . {
   font-size: var(--text-size-h6-sm);
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.2;
+  color: var(--headings-color);
 }
 
 h1,
