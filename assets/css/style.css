@@ -234,23 +234,24 @@ a {
 
 .button {
   display: inline-block;
-  background-color: var(--color-red-500);
+  background-color: var(--color-shark-100);
+  color: var(--color-shark-700);
   padding: 12px 24px;
   border: none;
-  color: var(--color-shark-50);
   font-size: 16px;
   font-weight: normal;
 }
 
-.button__primary {
+.button--primary {
   background-color: var(--color-red-500);
+  color: var(--color-shark-50);
   transition: opacity 0.3s ease-in-out;
 }
-.button__primary:hover {
+.button--primary:hover {
   opacity: 0.7;
 }
 
-.button__submit {
+.button--submit {
 }
 
 .button--margin {
