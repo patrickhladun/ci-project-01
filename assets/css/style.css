@@ -344,8 +344,14 @@ main {
   padding: 36px 24px;
 }
 
+.home-change-cta,
 .home-change-actions {
-  padding: 0 24px 64px 24px;
+  padding: 0 24px 36px 24px;
+}
+
+.home-change-cta {
+  display: flex;
+  justify-content: center;
 }
 
 .home-hero,
