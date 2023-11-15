@@ -693,8 +693,8 @@ main {
 
 .home-hero__image img {
   object-fit: cover;
-  mask-image: url("./assets/images/mask-01.svg");
-  -webkit-mask-image: url("./assets/images/mask-01.svg");
+  mask-image: url("../images/mask-01.svg");
+  -webkit-mask-image: url("../images/mask-01.svg");
   mask-repeat: no-repeat round;
   -webkit-mask-repeat: no-repeat round;
   mask-size: contain;
@@ -702,8 +702,8 @@ main {
 }
 .home-future__image img {
   object-fit: cover;
-  mask-image: url("./assets/images/mask-02.svg");
-  -webkit-mask-image: url("./assets/images/mask-02.svg");
+  mask-image: url("../images/mask-02.svg");
+  -webkit-mask-image: url("../images/mask-02.svg");
   mask-repeat: no-repeat round;
   -webkit-mask-repeat: no-repeat round;
   mask-size: contain;
@@ -711,8 +711,8 @@ main {
 }
 .home-change__image img {
   object-fit: cover;
-  mask-image: url("./assets/images/mask-03.svg");
-  -webkit-mask-image: url("./assets/images/mask-03.svg");
+  mask-image: url("../images/mask-03.svg");
+  -webkit-mask-image: url("../images/mask-03.svg");
   mask-repeat: no-repeat round;
   -webkit-mask-repeat: no-repeat round;
   mask-size: contain;
@@ -720,8 +720,8 @@ main {
 }
 .home-about__image img {
   object-fit: cover;
-  mask-image: url("./assets/images/mask-04.svg");
-  -webkit-mask-image: url("./assets/images/mask-04.svg");
+  mask-image: url("../images/mask-04.svg");
+  -webkit-mask-image: url("../images/mask-04.svg");
   mask-repeat: no-repeat round;
   -webkit-mask-repeat: no-repeat round;
   mask-size: contain;
