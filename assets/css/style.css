@@ -278,10 +278,10 @@ strong {
 * #1.2 Backgrounds 
 */
 
-.background {
+.background-lighter {
   background-color: var(--color-neutral-100);
 }
-.background-newsletter {
+.background-light {
   background-color: var(--color-neutral-200);
 }
 
@@ -397,7 +397,6 @@ main {
 .page-hero,
 .home-future,
 .home-change,
-.home-about,
 .home-ready,
 .webinar-agenda,
 .webinar-host,
@@ -534,7 +533,7 @@ main {
 */
 
 .footer {
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 
 /* Social Links */
@@ -664,6 +663,23 @@ main {
   -webkit-mask-repeat: no-repeat round;
   mask-size: contain;
   -webkit-mask-size: contain;
+}
+
+/* Dividers */
+
+.divider {
+  line-height: 0;
+}
+.divider--invert {
+  transform: scaleY(-1);
+}
+.divider--lighter-to-base {
+  background: var(--color-neutral-100);
+  fill: var(--color-neutral-50);
+}
+.divider--light-to-lighter {
+  background: var(--color-neutral-200);
+  fill: var(--color-neutral-100);
 }
 
 @media all and (min-width: 576px) {
