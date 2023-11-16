@@ -412,6 +412,14 @@ main {
   padding: 36px 24px;
 }
 
+.home-about {
+  padding: 96px 24px 36px 24px;
+}
+
+.home-ready {
+  padding: 36px 24px 124px 24px;
+}
+
 .home-change-cta,
 .home-change-actions {
   padding: 0 24px 36px 24px;
