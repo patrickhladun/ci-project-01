@@ -90,8 +90,8 @@
   --color-headings-light: var(--color-neutral-50);
   --color-link: var(--color-primary-600);
   --color-link-hover: var(--color-primary-400);
-  --color-link-light: var(--color-secondary-50);
-  --color-link-light-hover: var(--color-secondary-200);
+  --color-link-light: var(--color-neutral-300);
+  --color-link-light-hover: var(--color-neutral-100);
 }
 
 /**
@@ -132,13 +132,10 @@
 html {
   background-color: var(--color-neutral-50);
   color: var(--color-text-700);
+  box-sizing: border-box;
   height: 100%;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-}
-
-html {
-  box-sizing: border-box;
 }
 
 *,
@@ -250,9 +247,7 @@ a:hover {
   color: var(--color-link-hover);
 }
 
-a:not(.logo, .button, .social-link, .menu li a):after {
-  content: "";
-  display: block;
+a:after {
   position: absolute;
   left: 0;
   bottom: 2px;
@@ -261,9 +256,13 @@ a:not(.logo, .button, .social-link, .menu li a):after {
   height: 6px;
   z-index: -1;
 }
-a:not(.logo, .button, .social-link, .menu li a):hover:after {
+a:hover:after {
   width: 100%;
   transition: width 0.3s;
+}
+
+a:not(.logo, .button, .social-link, .menu li a):after {
+  content: "";
 }
 
 strong {
@@ -278,11 +277,23 @@ strong {
 * #1.2 Backgrounds 
 */
 
-.background {
+.background-lighter {
   background-color: var(--color-neutral-100);
 }
-.background-newsletter {
+.background-light {
   background-color: var(--color-neutral-200);
+}
+.background-color {
+  background-color: var(--color-secondary-800);
+}
+.background-color-dark {
+  background-color: var(--color-secondary-900);
+}
+.background-dark {
+  background-color: var(--color-neutral-700);
+}
+.background-darker {
+  background-color: var(--color-neutral-800);
 }
 
 /**
@@ -308,21 +319,17 @@ strong {
   background-color: var(--color-primary-800);
   color: var(--color-primary-50);
 }
-
 .button--secondary {
   background-color: var(--color-secondary-500);
   color: var(--color-secondary-50);
   transition: background-color 0.3s ease-in-out;
 }
-
 .button--secondary:hover {
   background-color: var(--color-secondary-800);
   color: var(--color-secondary-50);
 }
-
 .button--submit {
 }
-
 .button--margin {
   margin-bottom: 32px;
 }
@@ -397,7 +404,6 @@ main {
 .page-hero,
 .home-future,
 .home-change,
-.home-about,
 .home-ready,
 .webinar-agenda,
 .webinar-host,
@@ -411,6 +417,14 @@ main {
 .newsletter,
 .page-section {
   padding: 36px 24px;
+}
+
+.home-about {
+  padding: 96px 24px 36px 24px;
+}
+
+.home-ready {
+  padding: 36px 24px 124px 24px;
 }
 
 .home-change-cta,
@@ -461,9 +475,6 @@ main {
   flex: 50% 1 1;
   position: relative;
   z-index: 30;
-}
-
-.logo {
 }
 
 .logo img {
@@ -534,7 +545,7 @@ main {
 */
 
 .footer {
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 
 /* Social Links */
@@ -546,14 +557,14 @@ main {
 }
 
 .social-link {
-  margin-right: 8px;
-  color: var(--color-primary-500);
+  margin-right: 24px;
+  color: var(--color-neutral-200);
   font-size: 24px;
   transition: color 0.3s ease-in-out;
 }
 
 .social-link:hover {
-  color: var(--color-primary-300);
+  color: var(--color-primary-400);
 }
 
 .social-link:last-child {
@@ -574,6 +585,7 @@ main {
 .secondary-links li:after {
   content: "\00B7";
   margin: 0 8px;
+  color: var(--color-link-light);
 }
 
 .secondary-links li:last-child:after {
@@ -581,7 +593,15 @@ main {
 }
 
 .secondary-links li a {
+  color: var(--color-link-light);
   font-size: 14px;
+}
+.secondary-links li a:hover {
+  color: var(--color-link-light-hover);
+}
+
+.secondary-links li a:after {
+  background: var(--color-primary-400);
 }
 
 /* Copyright */
@@ -589,13 +609,109 @@ main {
 .copyright {
   display: flex;
   justify-content: center;
-  background-color: var(--color-neutral-800);
   padding: 16px 36px;
   color: var(--color-text-light);
 }
 
 .copyright p {
   margin: 0;
+}
+
+/**
+* #5.0 Pages
+*/
+
+/**
+* #6.0 Components
+*/
+
+/* Newsletter */
+
+.newsletter-header h3,
+.newsletter label,
+.newsletter-header {
+  color: white;
+}
+
+/* Custom Icons */
+.icon {
+  display: block;
+  width: 140px;
+  height: 140px;
+  background: var(--color-secondary-600);
+}
+.icon--negative {
+  -webkit-mask: url("../images/mindset-negative-icon.svg") no-repeat center;
+  mask: url("../images/mindset-negative-icon.svg") no-repeat center;
+}
+.icon--positive {
+  -webkit-mask: url("../images/mindset-positive-icon.svg") no-repeat center;
+  mask: url("../images/mindset-positive-icon.svg") no-repeat center;
+}
+.icon--goals {
+  -webkit-mask: url("../images/mindset-goals-icon.svg") no-repeat center;
+  mask: url("../images/mindset-goals-icon.svg") no-repeat center;
+}
+.icon--responsibility {
+  -webkit-mask: url("../images/mindset-responsibility-icon.svg") no-repeat
+    center;
+  mask: url("../images/mindset-responsibility-icon.svg") no-repeat center;
+}
+
+/* Image Masks */
+
+.image-mask-1 img {
+  object-fit: cover;
+  mask-image: url("../images/mask-01.svg");
+  -webkit-mask-image: url("../images/mask-01.svg");
+  mask-repeat: no-repeat round;
+  -webkit-mask-repeat: no-repeat round;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+}
+.image-mask-2 img {
+  object-fit: cover;
+  mask-image: url("../images/mask-02.svg");
+  -webkit-mask-image: url("../images/mask-02.svg");
+  mask-repeat: no-repeat round;
+  -webkit-mask-repeat: no-repeat round;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+}
+.image-mask-3 img {
+  object-fit: cover;
+  mask-image: url("../images/mask-03.svg");
+  -webkit-mask-image: url("../images/mask-03.svg");
+  mask-repeat: no-repeat round;
+  -webkit-mask-repeat: no-repeat round;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+}
+.image-mask-4 img {
+  object-fit: cover;
+  mask-image: url("../images/mask-04.svg");
+  -webkit-mask-image: url("../images/mask-04.svg");
+  mask-repeat: no-repeat round;
+  -webkit-mask-repeat: no-repeat round;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+}
+
+/* Dividers */
+
+.divider {
+  line-height: 0;
+}
+.divider--invert {
+  transform: scaleY(-1);
+}
+.divider--lighter-to-base {
+  background: var(--color-neutral-100);
+  fill: var(--color-neutral-50);
+}
+.divider--light-to-lighter {
+  background: var(--color-neutral-200);
+  fill: var(--color-neutral-100);
 }
 
 @media all and (min-width: 576px) {
@@ -707,64 +823,4 @@ main {
   .social-links {
     margin-bottom: 0;
   }
-}
-
-.home-hero__image img {
-  object-fit: cover;
-  mask-image: url("../images/mask-01.svg");
-  -webkit-mask-image: url("../images/mask-01.svg");
-  mask-repeat: no-repeat round;
-  -webkit-mask-repeat: no-repeat round;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-}
-.home-future__image img {
-  object-fit: cover;
-  mask-image: url("../images/mask-02.svg");
-  -webkit-mask-image: url("../images/mask-02.svg");
-  mask-repeat: no-repeat round;
-  -webkit-mask-repeat: no-repeat round;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-}
-.home-change__image img {
-  object-fit: cover;
-  mask-image: url("../images/mask-03.svg");
-  -webkit-mask-image: url("../images/mask-03.svg");
-  mask-repeat: no-repeat round;
-  -webkit-mask-repeat: no-repeat round;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-}
-.home-about__image img {
-  object-fit: cover;
-  mask-image: url("../images/mask-04.svg");
-  -webkit-mask-image: url("../images/mask-04.svg");
-  mask-repeat: no-repeat round;
-  -webkit-mask-repeat: no-repeat round;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-}
-
-.icon {
-  display: block;
-  width: 140px;
-  height: 140px;
-  background: var(--color-secondary-600);
-}
-.icon--negative {
-  -webkit-mask: url('../images/mindset-negative-icon.svg') no-repeat center;
-  mask: url('../images/mindset-negative-icon.svg') no-repeat center;
-}
-.icon--positive {
-  -webkit-mask: url('../images/mindset-positive-icon.svg') no-repeat center;
-  mask: url('../images/mindset-positive-icon.svg') no-repeat center;
-}
-.icon--goals {
-  -webkit-mask: url('../images/mindset-goals-icon.svg') no-repeat center;
-  mask: url('../images/mindset-goals-icon.svg') no-repeat center;
-}
-.icon--responsibility {
-  -webkit-mask: url('../images/mindset-responsibility-icon.svg') no-repeat center;
-  mask: url('../images/mindset-responsibility-icon.svg') no-repeat center;
 }
