@@ -90,8 +90,8 @@
   --color-headings-light: var(--color-neutral-50);
   --color-link: var(--color-primary-600);
   --color-link-hover: var(--color-primary-400);
-  --color-link-light: var(--color-secondary-50);
-  --color-link-light-hover: var(--color-secondary-200);
+  --color-link-light: var(--color-neutral-300);
+  --color-link-light-hover: var(--color-neutral-100);
 }
 
 /**
@@ -247,9 +247,7 @@ a:hover {
   color: var(--color-link-hover);
 }
 
-a:not(.logo, .button, .social-link, .menu li a):after {
-  content: "";
-  display: block;
+a:after {
   position: absolute;
   left: 0;
   bottom: 2px;
@@ -258,9 +256,13 @@ a:not(.logo, .button, .social-link, .menu li a):after {
   height: 6px;
   z-index: -1;
 }
-a:not(.logo, .button, .social-link, .menu li a):hover:after {
+a:hover:after {
   width: 100%;
   transition: width 0.3s;
+}
+
+a:not(.logo, .button, .social-link, .menu li a):after {
+  content: "";
 }
 
 strong {
@@ -317,21 +319,17 @@ strong {
   background-color: var(--color-primary-800);
   color: var(--color-primary-50);
 }
-
 .button--secondary {
   background-color: var(--color-secondary-500);
   color: var(--color-secondary-50);
   transition: background-color 0.3s ease-in-out;
 }
-
 .button--secondary:hover {
   background-color: var(--color-secondary-800);
   color: var(--color-secondary-50);
 }
-
 .button--submit {
 }
-
 .button--margin {
   margin-bottom: 32px;
 }
@@ -479,9 +477,6 @@ main {
   z-index: 30;
 }
 
-.logo {
-}
-
 .logo img {
   padding: 16px 0;
   width: 116px;
@@ -562,14 +557,14 @@ main {
 }
 
 .social-link {
-  margin-right: 8px;
-  color: var(--color-primary-500);
+  margin-right: 24px;
+  color: var(--color-neutral-200);
   font-size: 24px;
   transition: color 0.3s ease-in-out;
 }
 
 .social-link:hover {
-  color: var(--color-primary-300);
+  color: var(--color-primary-400);
 }
 
 .social-link:last-child {
@@ -590,7 +585,7 @@ main {
 .secondary-links li:after {
   content: "\00B7";
   margin: 0 8px;
-  color: var(--color-link);
+  color: var(--color-link-light);
 }
 
 .secondary-links li:last-child:after {
@@ -598,7 +593,15 @@ main {
 }
 
 .secondary-links li a {
+  color: var(--color-link-light);
   font-size: 14px;
+}
+.secondary-links li a:hover {
+  color: var(--color-link-light-hover);
+}
+
+.secondary-links li a:after {
+  background: var(--color-primary-400);
 }
 
 /* Copyright */
