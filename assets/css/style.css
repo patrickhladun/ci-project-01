@@ -132,13 +132,10 @@
 html {
   background-color: var(--color-neutral-50);
   color: var(--color-text-700);
+  box-sizing: border-box;
   height: 100%;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-}
-
-html {
-  box-sizing: border-box;
 }
 
 *,
@@ -283,6 +280,18 @@ strong {
 }
 .background-light {
   background-color: var(--color-neutral-200);
+}
+.background-color {
+  background-color: var(--color-secondary-800);
+}
+.background-color-dark {
+  background-color: var(--color-secondary-900);
+}
+.background-dark {
+  background-color: var(--color-neutral-700);
+}
+.background-darker {
+  background-color: var(--color-neutral-800);
 }
 
 /**
@@ -581,6 +590,7 @@ main {
 .secondary-links li:after {
   content: "\00B7";
   margin: 0 8px;
+  color: var(--color-link);
 }
 
 .secondary-links li:last-child:after {
@@ -596,7 +606,6 @@ main {
 .copyright {
   display: flex;
   justify-content: center;
-  background-color: var(--color-neutral-800);
   padding: 16px 36px;
   color: var(--color-text-light);
 }
@@ -606,8 +615,20 @@ main {
 }
 
 /**
+* #5.0 Pages
+*/
+
+/**
 * #6.0 Components
 */
+
+/* Newsletter */
+
+.newsletter-header h3,
+.newsletter label,
+.newsletter-header {
+  color: white;
+}
 
 /* Custom Icons */
 .icon {
