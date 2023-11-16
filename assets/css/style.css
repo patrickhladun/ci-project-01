@@ -88,8 +88,8 @@
   --color-text-light: var(--color-neutral-50);
   --color-headings: var(--color-secondary-800);
   --color-headings-light: var(--color-neutral-50);
-  --color-link: var(--color-secondary-600);
-  --color-link-hover: var(--color-secondary-800);
+  --color-link: var(--color-primary-600);
+  --color-link-hover: var(--color-primary-400);
   --color-link-light: var(--color-secondary-50);
   --color-link-light-hover: var(--color-secondary-200);
 }
@@ -241,11 +241,29 @@ p:first-child {
 }
 
 a {
+  position: relative;
   color: var(--color-link);
   text-decoration: none;
+  z-index: 0;
 }
 a:hover {
   color: var(--color-link-hover);
+}
+
+a:not(.logo, .button, .social-link, .menu li a):after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  background: var(--color-primary-200);
+  width: 0;
+  height: 6px;
+  z-index: -1;
+}
+a:not(.logo, .button, .social-link, .menu li a):hover:after {
+  width: 100%;
+  transition: width 0.3s;
 }
 
 strong {
@@ -555,6 +573,7 @@ main {
 
 .secondary-links li:after {
   content: "\00B7";
+  margin: 0 8px;
 }
 
 .secondary-links li:last-child:after {
@@ -562,7 +581,6 @@ main {
 }
 
 .secondary-links li a {
-  padding: 0 8px;
   font-size: 14px;
 }
 
@@ -726,4 +744,27 @@ main {
   -webkit-mask-repeat: no-repeat round;
   mask-size: contain;
   -webkit-mask-size: contain;
+}
+
+.icon {
+  display: block;
+  width: 140px;
+  height: 140px;
+  background: var(--color-secondary-600);
+}
+.icon--negative {
+  -webkit-mask: url('../images/mindset-negative-icon.svg') no-repeat center;
+  mask: url('../images/mindset-negative-icon.svg') no-repeat center;
+}
+.icon--positive {
+  -webkit-mask: url('../images/mindset-positive-icon.svg') no-repeat center;
+  mask: url('../images/mindset-positive-icon.svg') no-repeat center;
+}
+.icon--goals {
+  -webkit-mask: url('../images/mindset-goals-icon.svg') no-repeat center;
+  mask: url('../images/mindset-goals-icon.svg') no-repeat center;
+}
+.icon--responsibility {
+  -webkit-mask: url('../images/mindset-responsibility-icon.svg') no-repeat center;
+  mask: url('../images/mindset-responsibility-icon.svg') no-repeat center;
 }
