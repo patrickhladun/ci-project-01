@@ -577,12 +577,12 @@ main {
   padding: 36px 24px 124px 24px;
 }
 
-.home-change-cta,
-.home-change-actions {
+.home-change__cta,
+.home-change__actions {
   padding: 0 24px 36px 24px;
 }
 
-.home-change-cta {
+.home-change__cta {
   display: flex;
   justify-content: center;
 }
@@ -678,25 +678,32 @@ main {
 
 /* Custom Icons */
 
-.icon {
+.icon-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 14px;
+}
+.icon-text__icon {
   display: block;
   width: 140px;
   height: 140px;
   background: var(--color-primary-400);
 }
-.icon--negative {
+.icon-text--negative {
   -webkit-mask: url("../images/mindset-negative-icon.svg") no-repeat center;
   mask: url("../images/mindset-negative-icon.svg") no-repeat center;
 }
-.icon--positive {
+.icon-text--positive {
   -webkit-mask: url("../images/mindset-positive-icon.svg") no-repeat center;
   mask: url("../images/mindset-positive-icon.svg") no-repeat center;
 }
-.icon--goals {
+.icon-text--goals {
   -webkit-mask: url("../images/mindset-goals-icon.svg") no-repeat center;
   mask: url("../images/mindset-goals-icon.svg") no-repeat center;
 }
-.icon--responsibility {
+.icon-text--responsibility {
   -webkit-mask: url("../images/mindset-responsibility-icon.svg") no-repeat
     center;
   mask: url("../images/mindset-responsibility-icon.svg") no-repeat center;
@@ -767,7 +774,7 @@ main {
   * #12.0 Layout
   */
 
-  .home-change-actions {
+  .home-change__actions {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--grid-gap);
@@ -823,7 +830,7 @@ main {
     gap: var(--grid-gap);
   }
 
-  .home-change-actions {
+  .home-change__actions {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: var(--grid-gap);
