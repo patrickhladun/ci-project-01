@@ -36,29 +36,29 @@
 */
 
 :root {
-  --color-primary-50: #fff9eb;
-  --color-primary-100: #fdefc8;
-  --color-primary-200: #fcdc8b;
-  --color-primary-300: #fac552;
-  --color-primary-400: #f8ad27;
-  --color-primary-500: #f28a0e;
-  --color-primary-600: #d66609;
-  --color-primary-700: #b2450b;
-  --color-primary-800: #903610;
-  --color-primary-900: #772d10;
-  --color-primary-950: #441504;
+  --color-primary-50: #fff1f1;
+  --color-primary-100: #fee5e6;
+  --color-primary-200: #fccfd2;
+  --color-primary-300: #faa7ae;
+  --color-primary-400: #f67280;
+  --color-primary-500: #ee455b;
+  --color-primary-600: #da2445;
+  --color-primary-700: #b81839;
+  --color-primary-800: #9a1736;
+  --color-primary-900: #841735;
+  --color-primary-950: #4a0717;
 
-  --color-secondary-50: #f1f7fd;
-  --color-secondary-100: #deedfb;
-  --color-secondary-200: #c5e2f8;
-  --color-secondary-300: #9dd0f3;
-  --color-secondary-400: #6fb6eb;
-  --color-secondary-500: #579ee5;
-  --color-secondary-600: #397dd7;
-  --color-secondary-700: #2f69c6;
-  --color-secondary-800: #2c56a1;
-  --color-secondary-900: #29497f;
-  --color-secondary-950: #1d2e4e;
+  --color-secondary-50: #f4f7fb;
+  --color-secondary-100: #e9eff5;
+  --color-secondary-200: #cdddea;
+  --color-secondary-300: #a2c0d7;
+  --color-secondary-400: #70a0c0;
+  --color-secondary-500: #4e84a9;
+  --color-secondary-600: #3b698e;
+  --color-secondary-700: #355c7d;
+  --color-secondary-800: #2c4960;
+  --color-secondary-900: #283e52;
+  --color-secondary-950: #1b2836;
 
   --color-neutral-50: #fafafa;
   --color-neutral-100: #f5f5f5;
@@ -73,8 +73,8 @@
   --color-neutral-950: #0a0a0a;
 
   --color-text: var(--color-neutral-600);
-  --color-text-light: var(--color-neutral-50);
-  --color-headings: var(--color-secondary-800);
+  --color-text-light: white;
+  --color-headings: var(--color-secondary-700);
   --color-headings-light: var(--color-neutral-50);
   --color-link: var(--color-primary-600);
   --color-link-hover: var(--color-primary-400);
@@ -254,7 +254,7 @@ a:not(.logo, .button, .social-link, .menu li a):after {
 }
 
 strong {
-  color: var(--color-neutral-600);
+  color: var(--color-secondary-700);
 }
 
 .text-large {
@@ -298,44 +298,44 @@ strong {
 }
 
 .button--primary {
-  background-color: var(--color-primary-500);
-  color: var(--color-primary-50);
-  transition: background-color 0.3s ease-in-out;
+  background-color: var(--color-primary-600);
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .button--primary:hover {
-  background-color: var(--color-primary-600);
+  background-color: var(--color-primary-700);
   color: var(--color-primary-50);
 }
 .button--primary-outline {
   padding: 10px 22px;
   background-color: transparent;
-  border: 2px solid var(--color-primary-500);
-  color: var(--color-primary-500);
-  transition: background-color 0.3s ease-in-out;
+  border: 2px solid var(--color-primary-400);
+  color: var(--color-primary-400);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .button--primary-outline:hover {
-  background-color: var(--color-primary-500);
-  color: var(--color-primary-50);
+  background-color: var(--color-primary-400);
+  color: white;
 }
 .button--secondary {
-  background-color: var(--color-secondary-500);
-  color: var(--color-primary-50);
-  transition: background-color 0.3s ease-in-out;
+  background-color: var(--color-secondary-600);
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .button--secondary:hover {
   background-color: var(--color-secondary-600);
-  color: var(--color-primary-50);
+  color: white;
 }
 .button--secondary-outline {
   padding: 10px 22px;
   background-color: transparent;
   border: 2px solid var(--color-secondary-500);
   color: var(--color-secondary-500);
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .button--secondary-outline:hover {
   background-color: var(--color-secondary-500);
-  color: var(--color-secondary-50);
+  color: white;
 }
 .button--margin {
   margin-bottom: 32px;
@@ -349,7 +349,7 @@ input,
 textarea,
 select {
   padding: 12px 16px;
-  border: 1px solid var(--color-primary-200);
+  border: 1px solid var(--color-neutral-300);
   border-radius: 4px;
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
@@ -525,8 +525,10 @@ main {
   display: inline-block;
   position: relative;
   padding: 4px 8px;
-  color: var(--color-text);
+  color: var(--color-secondary-700);
   font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -645,7 +647,7 @@ main {
   display: block;
   width: 140px;
   height: 140px;
-  background: var(--color-secondary-600);
+  background: var(--color-primary-400);
 }
 .icon--negative {
   -webkit-mask: url("../images/mindset-negative-icon.svg") no-repeat center;
