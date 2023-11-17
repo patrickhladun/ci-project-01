@@ -479,13 +479,13 @@ main {
   padding: 36px 24px;
 }
 
-.newsletter-header h3,
 .newsletter label,
-.newsletter-header {
+.newsletter__header h3,
+.newsletter__header {
   color: white;
 }
 
-.newsletter-header {
+.newsletter__header {
   text-align: center;
 }
 
