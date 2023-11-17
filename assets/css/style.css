@@ -584,13 +584,16 @@ main {
 }
 
 .home-hero__image,
+.home-about__image,
 .home-webinar__future__image,
 .home-webinar__change__image {
   margin-bottom: 32px;
 }
 
 .home-about {
-  padding: 96px 24px 36px 24px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 96px 24px;
 }
 
 .home-ready {
