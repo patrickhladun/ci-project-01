@@ -615,6 +615,10 @@ main {
   padding: 36px 24px;
 }
 
+.home-hero__image {
+  margin-bottom: 32px;
+}
+
 .home-about {
   padding: 96px 24px 36px 24px;
 }
