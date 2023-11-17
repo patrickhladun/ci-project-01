@@ -36,6 +36,7 @@
         </div>
         <nav class="navigation">
           <ul class="menu">
+            <li><a href="./">Home</a></li>
             <li><a href="./webinar.html">Webinar</a></li>
             <li><a href="./about.html">About</a></li>
             <li><a href="./contact.html">Contact</a></li>
@@ -53,8 +54,10 @@
             />
           </div>
           <div class="home-hero__content">
-            <h1>Rewire your mind transform your life.</h1>
-            <p class="text-large">
+            <h1 class="home-hero__heading">
+              Rewire your mind transform your life.
+            </h1>
+            <p class="text-large home-hero__heading">
               Change the way you think, and actively create the fulfilling life
               you truly deserve.
             </p>
@@ -64,16 +67,18 @@
               his mindset. Join our FREE webinar to start your own
               transformation journey!
             </p>
-            <a
-              class="button button--primary button--margin"
-              href="./webinar.html"
-              >Join My Free Webinar</a
-            >
-            <a
-              class="button button--secondary button--margin"
-              href="./about.html"
-              >About Me</a
-            >
+            <div class="buttons">
+              <a
+                class="button button--primary button--margin"
+                href="./webinar.html"
+                >Join My Free Webinar</a
+              >
+              <a
+                class="button button--secondary button--margin"
+                href="./about.html"
+                >About Me</a
+              >
+            </div>
           </div>
         </div>
       </section>
@@ -86,9 +91,9 @@
         </svg>
       </div>
 
-      <section>
-        <div class="home-future container">
-          <div class="home-future__content">
+      <section class="home-webinar">
+        <div class="home-webinar__future container">
+          <div class="home-webinar__future__content">
             <h2>The key to your better future starts here.</h2>
             <p>
               Did you know your mindset shapes your life? A negative mindset can
@@ -113,38 +118,23 @@
                 own life through mindset work, and now helps others do the same.
               </li>
             </ul>
-            <a
-              class="button button--primary button--margin"
-              href="./webinar.html"
-              >Join My Free Webinar</a
-            >
           </div>
-          <div class="home-future__image image-mask-2">
+          <div class="home-webinar__future__image image-mask-2">
             <img
               src="./assets/images/home-positive-thinking-large.webp"
               alt="Your Better Future"
             />
           </div>
         </div>
-      </section>
 
-      <div class="divider divider--invert divider--lighter-to-base">
-        <svg viewBox="0 0 650 40">
-          <path
-            d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z"
-          />
-        </svg>
-      </div>
-
-      <section class="background-lighter">
-        <div class="home-change container">
-          <div class="home-change__image image-mask-3">
+        <div class="home-webinar__change container">
+          <div class="home-webinar__change__image image-mask-3">
             <img
               src="./assets/images/home-the-key-large.webp"
               alt="Power of Positive Thinking"
             />
           </div>
-          <div class="home-change__content">
+          <div class="home-webinar__change__content">
             <h2>Forge your path with the power of positive thinking.</h2>
             <p class="text-large">
               Seize control of your mental narrative and forge a path to success
@@ -157,33 +147,34 @@
             </p>
           </div>
         </div>
-        <div class="home-change-actions container">
-          <div>
-            <i class="icon icon--negative"></i>
+
+        <div class="home-webinar__icons container">
+          <div class="icon-text">
+            <i class="icon-text__icon icon-text--negative"></i>
             <h3 class="h5">Break free from negative thoughts.</h3>
             <p>
               Understand how your mindset traps you and learn strategies to
               escape.
             </p>
           </div>
-          <div>
-            <i class="icon icon--responsibility"></i>
+          <div class="icon-text">
+            <i class="icon-text__icon icon-text--responsibility"></i>
             <h3 class="h5">Take 100% responsibility.</h3>
             <p>
               Discover the power of owning every aspect of your life, both the
               good and the bad.
             </p>
           </div>
-          <div>
-            <i class="icon icon--goals"></i>
+          <div class="icon-text">
+            <i class="icon-text__icon icon-text--goals"></i>
             <h3 class="h5">Set achievable goals.</h3>
             <p>
               Master the art of setting goals that push you forward without
               overwhelming you.
             </p>
           </div>
-          <div>
-            <i class="icon icon--positive"></i>
+          <div class="icon-text">
+            <i class="icon-text__icon icon-text--positive"></i>
             <h3 class="h5">Harness positive thinking.</h3>
             <p>
               Learn how to replace toxic thoughts with positive ones that
@@ -191,8 +182,42 @@
             </p>
           </div>
         </div>
-        <div class="home-change-cta container">
+
+        <div class="home-webinar__cta container">
           <a class="button button--primary" href="./webinar.html">Learn More</a>
+        </div>
+      </section>
+
+      <div class="divider divider--lighter-to-base divider--invert">
+        <svg viewBox="0 0 650 40">
+          <path
+            d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z"
+          />
+        </svg>
+      </div>
+
+      <section class="background-lighter">
+        <div class="home-about container">
+          <div class="home-about__content">
+            <h2>Meet Alex, the man behind your Mindset Makeover.</h2>
+            <p>
+              Alex wasn't always the positive, goal-driven person you see today.
+              He faced obstacles that seemed insurmountable. From financial
+              struggles to a life that felt stuck, Alex knew something had to
+              change. That's when he started his journey to rewire his mindset.
+              Today, he's not only transformed his own life, but he's also
+              committed to helping you do the same.
+            </p>
+            <a class="button button--primary button--margin" href="./about.html"
+              >My Story</a
+            >
+          </div>
+          <div class="home-about__image image-mask-4">
+            <img
+              src="./assets/images/alex-horizontal.jpg"
+              alt="Alex Richards"
+            />
+          </div>
         </div>
       </section>
 
@@ -204,35 +229,7 @@
         </svg>
       </div>
 
-      <section class="home-about container">
-        <div class="home-about__content">
-          <h2>Meet Alex, the man behind your Mindset Makeover.</h2>
-          <p>
-            Alex wasn't always the positive, goal-driven person you see today.
-            He faced obstacles that seemed insurmountable. From financial
-            struggles to a life that felt stuck, Alex knew something had to
-            change. That's when he started his journey to rewire his mindset.
-            Today, he's not only transformed his own life, but he's also
-            committed to helping you do the same.
-          </p>
-          <a class="button button--primary button--margin" href="./about.html"
-            >My Story</a
-          >
-        </div>
-        <div class="home-about__image image-mask-4">
-          <img src="./assets/images/alex-horizontal.jpg" alt="Alex Richards" />
-        </div>
-      </section>
-
-      <div class="divider divider--invert divider--lighter-to-base">
-        <svg viewBox="0 0 650 40">
-          <path
-            d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z"
-          />
-        </svg>
-      </div>
-
-      <section class="background-lighter">
+      <section>
         <div class="home-ready container-small">
           <div class="home-ready__content">
             <h2>Ready to change your life?</h2>
@@ -252,7 +249,7 @@
     <footer class="footer">
       <div class="background-color">
         <div class="newsletter container-small">
-          <div class="newsletter-header">
+          <div class="newsletter__header">
             <h3>Stay Ahead with Mindset Insights.</h3>
             <p>
               Unlock a world of transformation. Join our exclusive newsletter
