@@ -1,31 +1,32 @@
-/*
-*
-* Index
-*
-* 0.0 - Variables
-*   0.1 - Colors
-*   0.2 - Sizes and Spacings
-* 1.0 - General
-*   1.1 - Typography
-*   1.2 - Backgrounds
-*   1.3 - Buttons
-*   1.4 - Forms
-* 2.0 - Layout
-* 3.0 - Header
-* 4.0 - Footer
-* 5.0 - Pages
-* 6.0 - Components
-* 10.0 - Media min 576px
-*   12.0 - Layout  
-* 20.0 - Media min 768px
-*   21.0 - General
-*     21.1 - Typography
-*     21.3 - Buttons
-*   22.0 - Layout
-*   23.0 - Header
-*   24.0 - Footer
-*
-*/
+/**
+ *
+ * Index
+ *
+ * 0.0 - Variables
+ *   0.1 - Colors
+ *   0.2 - Sizes and Spacings
+ * 1.0 - General
+ *   1.1 - Typography
+ *   1.2 - Backgrounds
+ *   1.3 - Buttons
+ *   1.4 - Forms
+ * 2.0 - Layout
+ * 3.0 - Header
+ * 4.0 - Footer
+ * 5.0 - Pages
+ *   5.1 - Home
+ * 6.0 - Components
+ * 10.0 - Media min 576px
+ *   12.0 - Layout  
+ * 20.0 - Media min 768px
+ *   21.0 - General
+ *     21.1 - Typography
+ *     21.3 - Buttons
+ *   22.0 - Layout
+ *   23.0 - Header
+ *   24.0 - Footer
+ *
+ */
 
 /**
 * #0.0 - Variables 
@@ -263,8 +264,7 @@ a.light::after {
 a:hover::after,
 a.light:hover::after {
   width: 100%;
-  transition: width 0.3s ease-in-out,
-              background-color 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 a:not(.logo, .button, .social-link, .menu li a)::after {
@@ -411,59 +411,8 @@ main {
   max-width: 768px;
 }
 
-.home-hero,
-.webinar-hero,
-.about-hero,
-.contact-hero,
-.page-hero,
-.home-future,
-.home-change,
-.home-ready,
-.webinar-agenda,
-.webinar-host,
-.webinar-faq,
-.webinar-testimonials,
-.webinar-form,
-.about-alex,
-.about-vision,
-.about-transformation,
-.contact-form,
-.newsletter,
-.page-section {
-  padding: 36px 24px;
-}
-
-.home-about {
-  padding: 96px 24px 36px 24px;
-}
-
-.home-ready {
-  padding: 36px 24px 124px 24px;
-}
-
-.home-change-cta,
-.home-change-actions {
-  padding: 0 24px 36px 24px;
-}
-
-.home-change-cta {
-  display: flex;
-  justify-content: center;
-}
-
-.home-hero,
-.home-change {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
 .footer__content {
   padding: 32px 24px;
-}
-
-.newsletter-header,
-.home-ready__content {
-  text-align: center;
 }
 
 /**
@@ -540,6 +489,7 @@ main {
 }
 
 /* Link hover animation */
+
 .menu li a::after {
   content: "";
   display: block;
@@ -562,6 +512,18 @@ main {
 
 .footer {
   /* padding-top: 40px; */
+}
+
+/* Newsletter */
+
+.newsletter-header h3,
+.newsletter label,
+.newsletter-header {
+  color: white;
+}
+
+.newsletter-header {
+  text-align: center;
 }
 
 /* Social Links */
@@ -629,19 +591,63 @@ main {
 * #5.0 Pages
 */
 
+/* #5.1 Home */
+
+.home-hero,
+.webinar-hero,
+.about-hero,
+.contact-hero,
+.page-hero,
+.home-future,
+.home-change,
+.home-ready,
+.webinar-agenda,
+.webinar-host,
+.webinar-faq,
+.webinar-testimonials,
+.webinar-form,
+.about-alex,
+.about-vision,
+.about-transformation,
+.contact-form,
+.newsletter,
+.page-section {
+  padding: 36px 24px;
+}
+
+.home-about {
+  padding: 96px 24px 36px 24px;
+}
+
+.home-ready {
+  padding: 36px 24px 124px 24px;
+}
+
+.home-change-cta,
+.home-change-actions {
+  padding: 0 24px 36px 24px;
+}
+
+.home-change-cta {
+  display: flex;
+  justify-content: center;
+}
+
+.home-future {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.home-ready__content {
+  text-align: center;
+}
+
 /**
 * #6.0 Components
 */
 
-/* Newsletter */
-
-.newsletter-header h3,
-.newsletter label,
-.newsletter-header {
-  color: white;
-}
-
 /* Custom Icons */
+
 .icon {
   display: block;
   width: 140px;
@@ -722,6 +728,10 @@ main {
   fill: var(--color-neutral-100);
 }
 
+/** 
+* #10.0 - Media min 576px 
+*/
+
 @media all and (min-width: 576px) {
   /**
   * #12.0 Layout
@@ -734,7 +744,9 @@ main {
   }
 }
 
-/* #20.0 - Media Tablet Up min 768px */
+/**
+* #20.0 - Media min 768px 
+*/
 
 @media all and (min-width: 768px) {
   /**
