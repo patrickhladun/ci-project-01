@@ -78,8 +78,8 @@
   --color-headings-light: var(--color-neutral-50);
   --color-link: var(--color-primary-600);
   --color-link-hover: var(--color-primary-400);
-  --color-link-light: var(--color-secondary-300);
-  --color-link-light-hover: var(--color-secondary-200);
+  --color-link-light: var(--color-primary-300);
+  --color-link-light-hover: var(--color-primary-400);
 }
 
 /**
@@ -127,8 +127,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -230,6 +230,7 @@ a.light {
   position: relative;
   text-decoration: none;
   z-index: 0;
+  transition: color 0.3s ease-in-out;
 }
 a {
   color: var(--color-link);
@@ -244,8 +245,8 @@ a.light:hover {
   color: var(--color-link-light-hover);
 }
 
-a:after,
-a.light:after {
+a::after,
+a.light::after {
   position: absolute;
   left: 0;
   bottom: 2px;
@@ -253,19 +254,20 @@ a.light:after {
   height: 6px;
   z-index: -1;
 }
-a:after {
-  background: var(--color-primary-200);
+a::after {
+  background-color: var(--color-primary-200);
 }
-a.light:after {
-  background: var(--color-secondary-400);
+a.light::after {
+  opacity: 0.4;
 }
-a:hover:after,
-a.light:hover:after {
+a:hover::after,
+a.light:hover::after {
   width: 100%;
-  transition: width 0.3s;
+  transition: width 0.3s ease-in-out,
+              background-color 0.3s ease-in-out;
 }
 
-a:not(.logo, .button, .social-link, .menu li a):after {
+a:not(.logo, .button, .social-link, .menu li a)::after {
   content: "";
 }
 
@@ -319,7 +321,7 @@ strong {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .button--primary:hover {
-  background-color: var(--color-primary-700);
+  background-color: var(--color-primary-800);
   color: var(--color-primary-50);
 }
 .button--outline-light {
@@ -330,7 +332,7 @@ strong {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .button--outline-light:hover {
-  background-color: var(--color-primary-400);
+  background-color: var(--color-primary-600);
   color: white;
 }
 .button--secondary {
@@ -339,18 +341,7 @@ strong {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .button--secondary:hover {
-  background-color: var(--color-secondary-600);
-  color: white;
-}
-.button--secondary-outline {
-  padding: 10px 22px;
-  background-color: transparent;
-  border: 2px solid var(--color-secondary-500);
-  color: var(--color-secondary-500);
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-.button--secondary-outline:hover {
-  background-color: var(--color-secondary-500);
+  background-color: var(--color-secondary-800);
   color: white;
 }
 .button--margin {
@@ -549,7 +540,7 @@ main {
 }
 
 /* Link hover animation */
-.menu li a:after {
+.menu li a::after {
   content: "";
   display: block;
   position: absolute;
@@ -560,7 +551,7 @@ main {
   height: 10px;
   z-index: -1;
 }
-.menu li a:hover:after {
+.menu li a:hover::after {
   width: 100%;
   transition: width 0.2s;
 }
@@ -607,13 +598,13 @@ main {
   list-style-type: none;
 }
 
-.secondary-links li:after {
+.secondary-links li::after {
   content: "\00B7";
   margin: 0 8px;
   color: var(--color-link-light);
 }
 
-.secondary-links li:last-child:after {
+.secondary-links li:last-child::after {
   content: none;
 }
 
