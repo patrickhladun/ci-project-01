@@ -14,17 +14,27 @@
  * 4.0 - Footer
  * 5.0 - Pages
  *  5.1 - Home
+ *  5.2 - Webinar
+ *  5.3 - About
+ *  5.4 - Contact
  * 6.0 - Components
  *  6.1 - Buttons
+ 
  * 10.0 - Media min 576px
- *  12.0 - Layout  
+ *  12.0 - Layout
+ *  15.0 - Pages
+ *    15.1 - Home
+ 
  * 20.0 - Media min 768px
  *  21.0 - General
  *    21.1 - Typography
- *    21.3 - Buttons
  *  22.0 - Layout
  *  23.0 - Header
  *  24.0 - Footer
+ *  25.0 - Pages
+ *    25.1 - Home
+ *  26.0 - Components
+ *    26.1 - Buttons
  *
  */
 
@@ -600,7 +610,7 @@ main {
   text-align: center;
 }
 
-/* Webinar */
+/* #5.2 Webinar */
 
 .webinar-hero,
 .webinar-agenda,
@@ -611,7 +621,7 @@ main {
   padding: 36px 24px;
 }
 
-/* About */
+/* #5.3 About */
 
 .about-hero,
 .about-alex,
@@ -620,7 +630,7 @@ main {
   padding: 36px 24px;
 }
 
-/* Contact */
+/* #5.4 Contact */
 
 .contact-hero,
 .contact-form {
@@ -770,15 +780,15 @@ main {
 }
 
 /** 
-* #10.0 - Media min 576px 
-*/
+ * #10.0 - Media min 576px 
+ */
 
 @media all and (min-width: 576px) {
   /**
-  * #12.0 Pages
+  * #15.0 Pages
   */
 
-  /* Home */
+  /* #15.1 Home */
 
   .home-webinar__icons {
     display: grid;
@@ -816,42 +826,8 @@ main {
   }
 
   /**
-  * #21.3 Buttons
-  */
-
-  .button--margin {
-    margin-bottom: 0;
-  }
-
-  /**
-  * Pages
-  */
-
-  /* Home */
-
-  .home-hero,
-  .home-about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--grid-gap);
-  }
-
-  .home-webinar__future,
-  .home-webinar__change {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--grid-gap);
-  }
-
-  .home-webinar__icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: var(--grid-gap);
-  }
-
-  /**
-  * #23.0 Header
-  */
+   * #23.0 Header
+   */
 
   .header-content {
     align-items: center;
@@ -881,8 +857,8 @@ main {
   }
 
   /**
-  * #24.0 Footer
-  */
+   * #24.0 Footer
+   */
 
   .footer__content {
     display: flex;
@@ -891,6 +867,42 @@ main {
   }
 
   .social-links {
+    margin-bottom: 0;
+  }
+
+  /**
+  * #25.0 Pages
+  */
+
+  /* #25.1 Home */
+
+  .home-hero,
+  .home-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
+  .home-webinar__future,
+  .home-webinar__change {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
+  .home-webinar__icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
+  /**
+   * #26.0 Components
+   */
+
+  /* #26.1 Buttons */
+
+  .button--margin {
     margin-bottom: 0;
   }
 }
