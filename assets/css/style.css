@@ -365,6 +365,11 @@ main {
   max-width: 768px;
 }
 
+.page-hero,
+.page-section {
+  padding: 36px 24px;
+}
+
 .footer__content {
   padding: 32px 24px;
 }
@@ -470,6 +475,10 @@ main {
 
 /* Newsletter */
 
+.newsletter {
+  padding: 36px 24px;
+}
+
 .newsletter-header h3,
 .newsletter label,
 .newsletter-header {
@@ -548,24 +557,9 @@ main {
 /* #5.1 Home */
 
 .home-hero,
-.webinar-hero,
-.about-hero,
-.contact-hero,
-.page-hero,
 .home-future,
 .home-change,
-.home-ready,
-.webinar-agenda,
-.webinar-host,
-.webinar-faq,
-.webinar-testimonials,
-.webinar-form,
-.about-alex,
-.about-vision,
-.about-transformation,
-.contact-form,
-.newsletter,
-.page-section {
+.home-ready {
   padding: 36px 24px;
 }
 
@@ -600,6 +594,33 @@ main {
 
 .home-ready__content {
   text-align: center;
+}
+
+/* Webinar */
+
+.webinar-hero,
+.webinar-agenda,
+.webinar-host,
+.webinar-faq,
+.webinar-testimonials,
+.webinar-form {
+  padding: 36px 24px;
+}
+
+/* About */
+
+.about-hero,
+.about-alex,
+.about-vision,
+.about-transformation {
+  padding: 36px 24px;
+}
+
+/* Contact */
+
+.contact-hero,
+.contact-form {
+  padding: 36px 24px;
 }
 
 /**
