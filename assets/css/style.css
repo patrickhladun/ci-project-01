@@ -464,10 +464,10 @@ main {
   display: block;
   position: absolute;
   left: 0;
-  bottom: 8px;
+  bottom: 14px;
   background: var(--color-primary-200);
   width: 0;
-  height: 10px;
+  height: 16px;
   z-index: -1;
 }
 .menu li a:hover::after {
@@ -854,6 +854,13 @@ main {
     padding: 4px 8px;
     font-size: 16px;
     text-decoration: none;
+  }
+
+  /* Link hover animation */
+
+  .menu li a::after {
+    bottom: 6px;
+    height: 12px;
   }
 
   /**
