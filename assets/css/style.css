@@ -569,7 +569,9 @@ main {
   padding: 36px 24px;
 }
 
-.home-hero__image {
+.home-hero__image,
+.home-future__image,
+.home-change__image {
   margin-bottom: 32px;
 }
 
