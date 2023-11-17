@@ -78,8 +78,8 @@
   --color-headings-light: var(--color-neutral-50);
   --color-link: var(--color-primary-600);
   --color-link-hover: var(--color-primary-400);
-  --color-link-light: var(--color-neutral-300);
-  --color-link-light-hover: var(--color-neutral-100);
+  --color-link-light: var(--color-secondary-300);
+  --color-link-light-hover: var(--color-secondary-200);
 }
 
 /**
@@ -225,26 +225,42 @@ p:first-child {
   margin-top: 0;
 }
 
-a {
+a,
+a.light {
   position: relative;
-  color: var(--color-link);
   text-decoration: none;
   z-index: 0;
+}
+a {
+  color: var(--color-link);
 }
 a:hover {
   color: var(--color-link-hover);
 }
+a.light {
+  color: var(--color-link-light);
+}
+a.light:hover {
+  color: var(--color-link-light-hover);
+}
 
-a:after {
+a:after,
+a.light:after {
   position: absolute;
   left: 0;
   bottom: 2px;
-  background: var(--color-primary-200);
   width: 0;
   height: 6px;
   z-index: -1;
 }
-a:hover:after {
+a:after {
+  background: var(--color-primary-200);
+}
+a.light:after {
+  background: var(--color-secondary-400);
+}
+a:hover:after,
+a.light:hover:after {
   width: 100%;
   transition: width 0.3s;
 }
@@ -306,14 +322,14 @@ strong {
   background-color: var(--color-primary-700);
   color: var(--color-primary-50);
 }
-.button--primary-outline {
+.button--outline-light {
   padding: 10px 22px;
   background-color: transparent;
-  border: 2px solid var(--color-primary-400);
-  color: var(--color-primary-400);
+  border: 2px solid white;
+  color: white;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-.button--primary-outline:hover {
+.button--outline-light:hover {
   background-color: var(--color-primary-400);
   color: white;
 }
@@ -602,15 +618,7 @@ main {
 }
 
 .secondary-links li a {
-  color: var(--color-link-light);
   font-size: 14px;
-}
-.secondary-links li a:hover {
-  color: var(--color-link-light-hover);
-}
-
-.secondary-links li a:after {
-  background: var(--color-primary-400);
 }
 
 /* Copyright */
