@@ -1,39 +1,50 @@
-/*
-*
-* Index
-*
-* 0.0 - Variables
-*   0.1 - Colors
-*   0.2 - Sizes and Spacings
-* 1.0 - General
-*   1.1 - Typography
-*   1.2 - Backgrounds
-*   1.3 - Buttons
-*   1.4 - Forms
-* 2.0 - Layout
-* 3.0 - Header
-* 4.0 - Footer
-* 5.0 - Pages
-* 6.0 - Components
-* 10.0 - Media min 576px
-*   12.0 - Layout  
-* 20.0 - Media min 768px
-*   21.0 - General
-*     21.1 - Typography
-*     21.3 - Buttons
-*   22.0 - Layout
-*   23.0 - Header
-*   24.0 - Footer
-*
-*/
+/**
+ *
+ * Index
+ *
+ * 0.0 - Variables
+ *  0.1 - Colors
+ *  0.2 - Sizes and Spacings
+ * 1.0 - General
+ *  1.1 - Typography
+ *  1.2 - Backgrounds
+ *  1.4 - Forms
+ * 2.0 - Layout
+ * 3.0 - Header
+ * 4.0 - Footer
+ * 5.0 - Pages
+ *  5.1 - Home
+ *  5.2 - Webinar
+ *  5.3 - About
+ *  5.4 - Contact
+ * 6.0 - Components
+ *  6.1 - Buttons
+ 
+ * 10.0 - Media min 576px
+ *  12.0 - Layout
+ *  15.0 - Pages
+ *    15.1 - Home
+ 
+ * 20.0 - Media min 768px
+ *  21.0 - General
+ *    21.1 - Typography
+ *  22.0 - Layout
+ *  23.0 - Header
+ *  24.0 - Footer
+ *  25.0 - Pages
+ *    25.1 - Home
+ *  26.0 - Components
+ *    26.1 - Buttons
+ *
+ */
 
 /**
-* #0.0 - Variables 
-*/
+ * #0.0 - Variables 
+ */
 
 /**
-* #0.1 - Colors 
-*/
+ * #0.1 - Colors 
+ */
 
 :root {
   --color-primary-50: #fff1f1;
@@ -78,13 +89,13 @@
   --color-headings-light: var(--color-neutral-50);
   --color-link: var(--color-primary-600);
   --color-link-hover: var(--color-primary-400);
-  --color-link-light: var(--color-secondary-300);
-  --color-link-light-hover: var(--color-secondary-200);
+  --color-link-light: var(--color-primary-300);
+  --color-link-light-hover: var(--color-primary-400);
 }
 
 /**
-* #0.2 - Sizes and Spacings 
-*/
+ * #0.2 - Sizes and Spacings 
+ */
 
 :root {
   --text-size-sm: 14px;
@@ -115,8 +126,8 @@
 }
 
 /**
-* #1.0 - General
-*/
+ * #1.0 - General
+ */
 html {
   background-color: var(--color-neutral-50);
   color: var(--color-text-700);
@@ -127,8 +138,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -146,8 +157,8 @@ img {
 }
 
 /**
-* #1.1 Typography 
-*/
+ * #1.1 Typography 
+ */
 
 h1,
 .h1 {
@@ -230,6 +241,7 @@ a.light {
   position: relative;
   text-decoration: none;
   z-index: 0;
+  transition: color 0.3s ease-in-out;
 }
 a {
   color: var(--color-link);
@@ -244,8 +256,8 @@ a.light:hover {
   color: var(--color-link-light-hover);
 }
 
-a:after,
-a.light:after {
+a::after,
+a.light::after {
   position: absolute;
   left: 0;
   bottom: 2px;
@@ -253,19 +265,19 @@ a.light:after {
   height: 6px;
   z-index: -1;
 }
-a:after {
-  background: var(--color-primary-200);
+a::after {
+  background-color: var(--color-primary-200);
 }
-a.light:after {
-  background: var(--color-secondary-400);
+a.light::after {
+  opacity: 0.4;
 }
-a:hover:after,
-a.light:hover:after {
+a:hover::after,
+a.light:hover::after {
   width: 100%;
-  transition: width 0.3s;
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-a:not(.logo, .button, .social-link, .menu li a):after {
+a:not(.logo, .button, .social-link, .menu li a)::after {
   content: "";
 }
 
@@ -278,8 +290,8 @@ strong {
 }
 
 /**
-* #1.2 Backgrounds 
-*/
+ * #1.2 Backgrounds 
+ */
 
 .background-lighter {
   background-color: var(--color-neutral-100);
@@ -301,65 +313,8 @@ strong {
 }
 
 /**
-* #1.3 Buttons
-*/
-
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: normal;
-}
-
-.button--primary {
-  background-color: var(--color-primary-600);
-  color: white;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-.button--primary:hover {
-  background-color: var(--color-primary-700);
-  color: var(--color-primary-50);
-}
-.button--outline-light {
-  padding: 10px 22px;
-  background-color: transparent;
-  border: 2px solid white;
-  color: white;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-.button--outline-light:hover {
-  background-color: var(--color-primary-400);
-  color: white;
-}
-.button--secondary {
-  background-color: var(--color-secondary-600);
-  color: white;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-.button--secondary:hover {
-  background-color: var(--color-secondary-600);
-  color: white;
-}
-.button--secondary-outline {
-  padding: 10px 22px;
-  background-color: transparent;
-  border: 2px solid var(--color-secondary-500);
-  color: var(--color-secondary-500);
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-.button--secondary-outline:hover {
-  background-color: var(--color-secondary-500);
-  color: white;
-}
-.button--margin {
-  margin-bottom: 32px;
-}
-
-/**
-* #1.4 Forms
-*/
+ * #1.4 Forms
+ */
 
 input,
 textarea,
@@ -400,8 +355,8 @@ textarea {
 }
 
 /**
-* 2.0 - Layout 
-*/
+ * 2.0 - Layout 
+ */
 
 main {
   margin-bottom: auto;
@@ -420,64 +375,18 @@ main {
   max-width: 768px;
 }
 
-.home-hero,
-.webinar-hero,
-.about-hero,
-.contact-hero,
 .page-hero,
-.home-future,
-.home-change,
-.home-ready,
-.webinar-agenda,
-.webinar-host,
-.webinar-faq,
-.webinar-testimonials,
-.webinar-form,
-.about-alex,
-.about-vision,
-.about-transformation,
-.contact-form,
-.newsletter,
 .page-section {
   padding: 36px 24px;
-}
-
-.home-about {
-  padding: 96px 24px 36px 24px;
-}
-
-.home-ready {
-  padding: 36px 24px 124px 24px;
-}
-
-.home-change-cta,
-.home-change-actions {
-  padding: 0 24px 36px 24px;
-}
-
-.home-change-cta {
-  display: flex;
-  justify-content: center;
-}
-
-.home-hero,
-.home-change {
-  display: flex;
-  flex-direction: column-reverse;
 }
 
 .footer__content {
   padding: 32px 24px;
 }
 
-.newsletter-header,
-.home-ready__content {
-  text-align: center;
-}
-
 /**
-* #3.0 Header
-*/
+ * #3.0 Header
+ */
 
 .header {
   position: fixed;
@@ -549,28 +458,45 @@ main {
 }
 
 /* Link hover animation */
-.menu li a:after {
+
+.menu li a::after {
   content: "";
   display: block;
   position: absolute;
   left: 0;
-  bottom: 8px;
+  bottom: 14px;
   background: var(--color-primary-200);
   width: 0;
-  height: 10px;
+  height: 16px;
   z-index: -1;
 }
-.menu li a:hover:after {
+.menu li a:hover::after {
   width: 100%;
   transition: width 0.2s;
 }
 
 /**
-* #4.0 Footer
-*/
+ * #4.0 Footer
+ */
 
 .footer {
   /* padding-top: 40px; */
+}
+
+/* Newsletter */
+
+.newsletter {
+  padding: 36px 24px;
+}
+
+.newsletter label,
+.newsletter__header h3,
+.newsletter__header {
+  color: white;
+}
+
+.newsletter__header {
+  text-align: center;
 }
 
 /* Social Links */
@@ -607,13 +533,13 @@ main {
   list-style-type: none;
 }
 
-.secondary-links li:after {
+.secondary-links li::after {
   content: "\00B7";
   margin: 0 8px;
   color: var(--color-link-light);
 }
 
-.secondary-links li:last-child:after {
+.secondary-links li:last-child::after {
   content: none;
 }
 
@@ -635,41 +561,163 @@ main {
 }
 
 /**
-* #5.0 Pages
-*/
+ * #5.0 Pages
+ */
+
+/* #5.1 Home */
+
+.home-hero {
+  padding: 64px 24px 36px 24px;
+}
+
+.home-webinar {
+  padding: 96px 24px;
+}
+.home-webinar__future {
+  padding-bottom: 36px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.home-webinar__change {
+}
+.home-webinar__icons {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.home-webinar__cta {
+  display: flex;
+  justify-content: center;
+}
+
+.home-hero__image,
+.home-about__image,
+.home-webinar__future__image,
+.home-webinar__change__image {
+  margin-bottom: 32px;
+}
+
+.home-about {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 96px 24px;
+}
+
+.home-ready {
+  padding: 64px 24px;
+}
+
+.home-ready__content {
+  text-align: center;
+}
+
+/* #5.2 Webinar */
+
+.webinar-hero,
+.webinar-agenda,
+.webinar-host,
+.webinar-faq,
+.webinar-testimonials,
+.webinar-form {
+  padding: 36px 24px;
+}
+
+/* #5.3 About */
+
+.about-hero,
+.about-alex,
+.about-vision,
+.about-transformation {
+  padding: 36px 24px;
+}
+
+/* #5.4 Contact */
+
+.contact-hero,
+.contact-form {
+  padding: 36px 24px;
+}
 
 /**
-* #6.0 Components
-*/
+ * #6.0 Components
+ */
 
-/* Newsletter */
+/**
+ * #6.1 Buttons
+ */
 
-.newsletter-header h3,
-.newsletter label,
-.newsletter-header {
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.button--primary {
+  background-color: var(--color-primary-600);
   color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.button--primary:hover {
+  background-color: var(--color-primary-800);
+  color: var(--color-primary-50);
+}
+.button--outline-light {
+  padding: 10px 22px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.button--outline-light:hover {
+  background-color: var(--color-primary-600);
+  color: white;
+}
+.button--secondary {
+  background-color: var(--color-secondary-600);
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.button--secondary:hover {
+  background-color: var(--color-secondary-800);
+  color: white;
+}
+.button--margin {
+  margin-bottom: 32px;
 }
 
 /* Custom Icons */
-.icon {
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 14px;
+}
+.icon-text__icon {
   display: block;
   width: 140px;
   height: 140px;
   background: var(--color-primary-400);
 }
-.icon--negative {
+.icon-text--negative {
   -webkit-mask: url("../images/mindset-negative-icon.svg") no-repeat center;
   mask: url("../images/mindset-negative-icon.svg") no-repeat center;
 }
-.icon--positive {
+.icon-text--positive {
   -webkit-mask: url("../images/mindset-positive-icon.svg") no-repeat center;
   mask: url("../images/mindset-positive-icon.svg") no-repeat center;
 }
-.icon--goals {
+.icon-text--goals {
   -webkit-mask: url("../images/mindset-goals-icon.svg") no-repeat center;
   mask: url("../images/mindset-goals-icon.svg") no-repeat center;
 }
-.icon--responsibility {
+.icon-text--responsibility {
   -webkit-mask: url("../images/mindset-responsibility-icon.svg") no-repeat
     center;
   mask: url("../images/mindset-responsibility-icon.svg") no-repeat center;
@@ -731,19 +779,27 @@ main {
   fill: var(--color-neutral-100);
 }
 
+/** 
+ * #10.0 - Media min 576px 
+ */
+
 @media all and (min-width: 576px) {
   /**
-  * #12.0 Layout
+  * #15.0 Pages
   */
 
-  .home-change-actions {
+  /* #15.1 Home */
+
+  .home-webinar__icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--grid-gap);
   }
 }
 
-/* #20.0 - Media Tablet Up min 768px */
+/**
+ * #20.0 - Media min 768px 
+ */
 
 @media all and (min-width: 768px) {
   /**
@@ -770,35 +826,8 @@ main {
   }
 
   /**
-  * #21.3 Buttons
-  */
-
-  .button--margin {
-    margin-bottom: 0;
-  }
-
-  /**
-  * #22.0 Layout
-  */
-
-  .home-hero,
-  .home-future,
-  .home-change,
-  .home-about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--grid-gap);
-  }
-
-  .home-change-actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: var(--grid-gap);
-  }
-
-  /**
-  * #23.0 Header
-  */
+   * #23.0 Header
+   */
 
   .header-content {
     align-items: center;
@@ -827,9 +856,16 @@ main {
     text-decoration: none;
   }
 
+  /* Link hover animation */
+
+  .menu li a::after {
+    bottom: 6px;
+    height: 12px;
+  }
+
   /**
-  * #24.0 Footer
-  */
+   * #24.0 Footer
+   */
 
   .footer__content {
     display: flex;
@@ -838,6 +874,42 @@ main {
   }
 
   .social-links {
+    margin-bottom: 0;
+  }
+
+  /**
+  * #25.0 Pages
+  */
+
+  /* #25.1 Home */
+
+  .home-hero,
+  .home-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
+  .home-webinar__future,
+  .home-webinar__change {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
+  .home-webinar__icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
+  /**
+   * #26.0 Components
+   */
+
+  /* #26.1 Buttons */
+
+  .button--margin {
     margin-bottom: 0;
   }
 }
