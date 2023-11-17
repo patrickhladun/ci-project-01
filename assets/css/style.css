@@ -579,10 +579,6 @@ main {
   justify-content: center;
 }
 
-.home-ready {
-  padding: 36px 24px;
-}
-
 .home-hero__image,
 .home-about__image,
 .home-webinar__future__image,
@@ -597,7 +593,7 @@ main {
 }
 
 .home-ready {
-  padding: 36px 24px 124px 24px;
+  padding: 64px 24px;
 }
 
 .home-ready__content {
