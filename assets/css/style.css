@@ -734,21 +734,21 @@ main {
   background: var(--color-primary-400);
 }
 .icon-text--negative {
-  -webkit-mask: url("../images/icon-mindset-negative.svg") no-repeat center;
   mask: url("../images/icon-mindset-negative.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-mindset-negative.svg") no-repeat center;
 }
 .icon-text--positive {
-  -webkit-mask: url("../images/icon-mindset-positive.svg") no-repeat center;
   mask: url("../images/icon-mindset-positive.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-mindset-positive.svg") no-repeat center;
 }
 .icon-text--goals {
-  -webkit-mask: url("../images/icon-mindset-goals.svg") no-repeat center;
   mask: url("../images/icon-mindset-goals.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-mindset-goals.svg") no-repeat center;
 }
 .icon-text--responsibility {
+  mask: url("../images/icon-mindset-responsibility.svg") no-repeat center;
   -webkit-mask: url("../images/icon-mindset-responsibility.svg") no-repeat
     center;
-  mask: url("../images/icon-mindset-responsibility.svg") no-repeat center;
 }
 
 /* Image Masks */
