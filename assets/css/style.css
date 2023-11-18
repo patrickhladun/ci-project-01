@@ -281,7 +281,12 @@ a.light:hover::after {
 a:not(.logo, .button, .social-link, .menu li a)::after {
   content: "";
 }
-
+svg .st0 {
+  fill: #ee455b;
+}
+.st1 {
+  fill: #355c7d;
+}
 strong {
   color: var(--color-secondary-700);
 }
@@ -367,7 +372,7 @@ main {
 .container {
   margin: auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
 }
 
 .container-small {
