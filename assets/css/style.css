@@ -673,7 +673,7 @@ main {
 
 .buttons {
   display: flex;
-  gap: 16px;
+  flex-direction: column;
 }
 .button {
   display: inline-block;
@@ -682,6 +682,7 @@ main {
   border-radius: 8px;
   font-size: 16px;
   font-weight: normal;
+  text-align: center;
 }
 .button--primary {
   background-color: var(--color-primary-600);
@@ -712,8 +713,9 @@ main {
   background-color: var(--color-secondary-800);
   color: white;
 }
+
 .button--margin {
-  margin-bottom: 32px;
+  margin-bottom: 8px;
 }
 
 /* Custom Icons */
@@ -810,6 +812,15 @@ main {
  */
 
 @media all and (min-width: 576px) {
+  /**
+  * #6.1 Buttons
+  */
+
+  .buttons {
+    flex-direction: row;
+    gap: 16px;
+  }
+
   /**
    * #14.0 Footer
    */
