@@ -530,18 +530,18 @@ main {
 }
 
 .social-link__twitter {
-  -webkit-mask: url("../images/icon-social-twitter.svg") no-repeat center;
   mask: url("../images/icon-social-twitter.svg.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-social-twitter.svg") no-repeat center;
 }
 
 .social-link__facebook {
-  -webkit-mask: url("../images/icon-social-facebook.svg") no-repeat center;
   mask: url("../images/icon-social-facebook.svg.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-social-facebook.svg") no-repeat center;
 }
 
 .social-link__instagram {
-  -webkit-mask: url("../images/icon-social-instagram.svg") no-repeat center;
   mask: url("../images/icon-social-instagram.svg.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-social-instagram.svg") no-repeat center;
 }
 
 /* Secondary Links */
