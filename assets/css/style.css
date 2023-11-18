@@ -577,6 +577,7 @@ main {
 
 .copyright {
   display: flex;
+  text-align: center;
   justify-content: center;
   padding: 16px 36px;
   color: var(--color-text-light);
