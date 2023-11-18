@@ -516,6 +516,7 @@ main {
 .social-link {
   background-color: var(--color-neutral-200);
   width: 32px;
+  height: 32px;
   margin-right: 24px;
   transition: background-color 0.3s ease-in-out;
 }
@@ -546,26 +547,30 @@ main {
 /* Secondary Links */
 
 .secondary-links {
+  position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  margin: 0;
+  margin: 32px 0 0 0;
   padding: 0;
   list-style-type: none;
+  font-size: 14px;
+}
+
+.secondary-links li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .secondary-links li::after {
+  display: block;
   content: "\00B7";
-  margin: 0 8px;
   color: var(--color-link-light);
 }
 
 .secondary-links li:last-child::after {
   content: none;
-}
-
-.secondary-links li a {
-  font-size: 14px;
 }
 
 /* Copyright */
@@ -668,7 +673,7 @@ main {
 
 .buttons {
   display: flex;
-  gap: 16px;
+  flex-direction: column;
 }
 .button {
   display: inline-block;
@@ -677,6 +682,7 @@ main {
   border-radius: 8px;
   font-size: 16px;
   font-weight: normal;
+  text-align: center;
 }
 .button--primary {
   background-color: var(--color-primary-600);
@@ -707,8 +713,9 @@ main {
   background-color: var(--color-secondary-800);
   color: white;
 }
+
 .button--margin {
-  margin-bottom: 32px;
+  margin-bottom: 8px;
 }
 
 /* Custom Icons */
@@ -805,6 +812,32 @@ main {
  */
 
 @media all and (min-width: 576px) {
+  /**
+  * #6.1 Buttons
+  */
+
+  .buttons {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  /**
+   * #14.0 Footer
+   */
+
+  .secondary-links {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .secondary-links li {
+    flex-direction: row;
+  }
+
+  .secondary-links li::after {
+    margin: 0 8px;
+  }
+
   /**
   * #15.0 Pages
   */
