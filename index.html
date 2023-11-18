@@ -14,14 +14,6 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="./assets/fonts/fontawesome/css/fontawesome.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="./assets/fonts/fontawesome/css/brands.min.css"
-      rel="stylesheet"
-    />
     <title>Mindset Makeover - Rewire Your Mind, Transform Your Life</title>
   </head>
   <body>
@@ -29,7 +21,11 @@
       <div class="header-content">
         <div class="branding">
           <a class="logo" href="./"
-            ><img src="./assets/images/logo.png" alt="Logo"
+            ><img
+              src="./assets/images/logo.svg"
+              width="116"
+              height="36"
+              alt="Logo"
           /></a>
         </div>
         <div class="mobile-menu-toggle">
@@ -53,9 +49,15 @@
         <div class="home-hero container">
           <div class="home-hero__image image-mask-1">
             <img
-              src="./assets/images/home-hero-large.jpg"
-              width="1536"
-              height="1024"
+              src="./assets/images/home-hero-768.webp"
+              width="768"
+              height="512"
+              srcset="
+                ./assets/images/home-hero-768.webp   768w,
+                ./assets/images/home-hero-1536.webp 1536w,
+                ./assets/images/home-hero-2304.webp 2304w
+              "
+              sizes="(min-width=768px) 50vw, 100vw"
               alt="Alex Richards"
             />
           </div>
@@ -127,9 +129,15 @@
           </div>
           <div class="home-webinar__future__image image-mask-2">
             <img
-              src="./assets/images/home-positive-thinking-large.webp"
-              width="1536"
-              height="1024"
+              src="./assets/images/home-positive-768.webp"
+              width="768"
+              height="512"
+              srcset="
+                ./assets/images/home-positive-768.webp   768w,
+                ./assets/images/home-positive-1536.webp 1536w,
+                ./assets/images/home-positive-2304.webp 2304w
+              "
+              sizes="(min-width=768px) 50vw, 100vw"
               alt="Your Better Future"
             />
           </div>
@@ -138,9 +146,15 @@
         <div class="home-webinar__change container">
           <div class="home-webinar__change__image image-mask-3">
             <img
-              src="./assets/images/home-the-key-large.webp"
-              width="1536"
-              height="1024"
+              src="./assets/images/home-key-768.webp"
+              width="768"
+              height="512"
+              srcset="
+                ./assets/images/home-key-768.webp   768w,
+                ./assets/images/home-key-1536.webp 1536w,
+                ./assets/images/home-key-2304.webp 2304w
+              "
+              sizes="(min-width=768px) 50vw, 100vw"
               alt="Power of Positive Thinking"
             />
           </div>
@@ -194,7 +208,7 @@
         </div>
 
         <div class="home-webinar__cta container">
-          <a class="button button--primary" href="./webinar.html">Learn More</a>
+          <a class="button button--primary" href="./webinar.html">Mindset Makeover Webinar</a>
         </div>
       </section>
 
@@ -224,10 +238,16 @@
           </div>
           <div class="home-about__image image-mask-4">
             <img
-              src="./assets/images/alex-horizontal.jpg"
-              width="1536"
-              height="1024"
-              alt="Alex Richards"
+              src="./assets/images/home-about-768.webp"
+              width="768"
+              height="512"
+              srcset="
+                ./assets/images/home-about-768.webp   768w,
+                ./assets/images/home-about-1536.webp 1536w,
+                ./assets/images/home-about-2304.webp 2304w
+              "
+              sizes="(min-width=768px) 50vw, 100vw"
+              alt="Power of Positive Thinking"
             />
           </div>
         </div>
@@ -312,21 +332,18 @@
           <div class="social-links">
             <a
               aria-label="Twitter"
-              class="social-link"
+              class="social-link social-link__twitter"
               href="https://twitter.com/"
-              ><i class="fa-brands fa-twitter"></i
             ></a>
             <a
               aria-label="Facebook"
-              class="social-link"
+              class="social-link social-link__facebook"
               href="https://facebook.com/"
-              ><i class="fa-brands fa-facebook"></i
             ></a>
             <a
               aria-label="Instagram"
-              class="social-link"
+              class="social-link social-link__instagram"
               href="https://instagram.com/"
-              ><i class="fa-brands fa-instagram"></i
             ></a>
           </div>
           <ul class="secondary-links">
