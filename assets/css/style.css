@@ -514,18 +514,33 @@ main {
 }
 
 .social-link {
+  background-color: var(--color-neutral-200);
+  width: 32px;
   margin-right: 24px;
-  color: var(--color-neutral-200);
-  font-size: 24px;
-  transition: color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .social-link:hover {
-  color: var(--color-primary-400);
+  background-color: var(--color-primary-400);
 }
 
 .social-link:last-child {
   margin-right: 0;
+}
+
+.social-link__twitter {
+  -webkit-mask: url("../images/icon-social-twitter.svg") no-repeat center;
+  mask: url("../images/icon-social-twitter.svg.svg") no-repeat center;
+}
+
+.social-link__facebook {
+  -webkit-mask: url("../images/icon-social-facebook.svg") no-repeat center;
+  mask: url("../images/icon-social-facebook.svg.svg") no-repeat center;
+}
+
+.social-link__instagram {
+  -webkit-mask: url("../images/icon-social-instagram.svg") no-repeat center;
+  mask: url("../images/icon-social-instagram.svg.svg") no-repeat center;
 }
 
 /* Secondary Links */
