@@ -516,6 +516,7 @@ main {
 .social-link {
   background-color: var(--color-neutral-200);
   width: 32px;
+  height: 32px;
   margin-right: 24px;
   transition: background-color 0.3s ease-in-out;
 }
