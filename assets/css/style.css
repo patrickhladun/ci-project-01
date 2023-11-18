@@ -546,26 +546,30 @@ main {
 /* Secondary Links */
 
 .secondary-links {
+  position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  margin: 0;
+  margin: 32px 0 0 0;
   padding: 0;
   list-style-type: none;
+  font-size: 14px;
+}
+
+.secondary-links li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .secondary-links li::after {
+  display: block;
   content: "\00B7";
-  margin: 0 8px;
   color: var(--color-link-light);
 }
 
 .secondary-links li:last-child::after {
   content: none;
-}
-
-.secondary-links li a {
-  font-size: 14px;
 }
 
 /* Copyright */
@@ -805,6 +809,23 @@ main {
  */
 
 @media all and (min-width: 576px) {
+  /**
+   * #14.0 Footer
+   */
+
+  .secondary-links {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .secondary-links li {
+    flex-direction: row;
+  }
+
+  .secondary-links li::after {
+    margin: 0 8px;
+  }
+
   /**
   * #15.0 Pages
   */
