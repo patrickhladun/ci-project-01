@@ -829,6 +829,7 @@ main {
   .secondary-links {
     justify-content: center;
     flex-direction: row;
+    margin: 0;
   }
 
   .secondary-links li {
