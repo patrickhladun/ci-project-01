@@ -719,7 +719,7 @@ main {
   align-items: center;
   text-align: center;
   background-color: white;
-  padding: var(--spacing-sm);
+  padding: var(--spacing-md);
   border-radius: 8px;
 }
 
@@ -784,7 +784,7 @@ main {
 }
 
 .testimonial--accent {
-  background-color: var(--color-primary-500);
+  background-color: var(--color-primary-600);
 }
 .testimonial--accent .testimonial__body,
 .testimonial--accent .testimonial__footer {
