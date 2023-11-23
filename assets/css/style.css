@@ -961,6 +961,10 @@ main {
   .webinar-icon-text {
     margin-bottom: 0;
   }
+
+  .webinar-agenda {
+    max-width: 768px;
+  }
 }
 
 /**
