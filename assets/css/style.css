@@ -693,6 +693,26 @@ main {
   padding: 36px 24px;
 }
 
+.webinar-details {
+  margin-bottom: var(--spacing-md);
+}
+
+.webinar-icon-text {
+  margin-bottom: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: var(--spacing-sm);
+  border-radius: 8px;
+}
+
+.webinar-icon-text p {
+  font-size: 14px;
+  margin: 0;
+}
+
 /* #5.3 About */
 
 .about-hero,
@@ -927,6 +947,19 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--grid-gap);
+  }
+
+  /* #15.2 Webinar */
+
+  .webinar-details {
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
+  .webinar-icon-text {
+    margin-bottom: 0;
   }
 }
 
