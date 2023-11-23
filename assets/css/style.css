@@ -122,6 +122,7 @@
   --spacing-sm: 8px;
   --spacing-md: 16px;
   --spacing-lg: 32px;
+  --spacing-xl: 64px;
   --grid-gap: 32px;
 }
 
@@ -293,6 +294,9 @@ strong {
 
 .text-large {
   font-size: var(--text-size-lg);
+}
+.text-center {
+  text-align: center;
 }
 
 /**
@@ -694,6 +698,15 @@ main {
   padding: 36px 24px;
 }
 
+.webinar-agenda__heading {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.webinar-testimonials {
+  padding: 64px 24px;
+}
+
 .webinar-details {
   max-width: 768px;
   margin-bottom: var(--spacing-md);
@@ -720,11 +733,63 @@ main {
   max-width: 768px;
 }
 
+.webinar-faq__heading {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
 .faq__item {
-  background: var(--color-secondary-100);
+  background: var(--color-neutral-100);
   border-radius: 8px;
   padding: var(--spacing-md);
   margin-bottom: 16px;
+}
+
+.faq__item dd {
+  margin: 0;
+}
+
+.testimonial {
+  position: relative;
+  background-color: var(--color-neutral-100);
+  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.04);
+  padding: 32px;
+  margin: 56px 0 0 0;
+}
+
+.webinar-testimonials__heading {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.testimonial::before {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  line-height: 1.2;
+  border-radius: 100%;
+  width: 68px;
+  height: 68px;
+  background: var(--color-neutral-100);
+  position: absolute;
+  top: -44px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '"';
+  font-size: 140px;
+  color: var(--color-secondary-400);
+}
+.testimonial__body {
+  padding: 0;
+  margin: 0;
+}
+
+.testimonial--accent {
+  background-color: var(--color-primary-500);
+}
+.testimonial--accent .testimonial__body,
+.testimonial--accent .testimonial__footer {
+  color: white;
 }
 
 /* #5.3 About */
@@ -1117,6 +1182,12 @@ main {
 
   .faq__item {
     margin-bottom: 0;
+  }
+
+  .testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--grid-gap);
   }
 
   /**

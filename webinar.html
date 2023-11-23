@@ -113,7 +113,7 @@
 
     <!-- Webinar Agenda Section -->
     <section class="webinar-agenda container">
-      <h2>Agenda</h2>
+      <h2 class="webinar-agenda__heading">Agenda</h2>
       <div>
         <h3>Introduction (5 minutes)</h3>
         <ul>
@@ -234,7 +234,7 @@
     <!-- Webinar FAQ Section -->
     <section class="webinar-faq container">
       <div>
-        <h2>FAQ</h2>
+        <h2 class="webinar-faq__heading">FAQ</h2>
         <dl class="faq">
           <div class="faq__item">
             <dt class="h3">How do I register for the webinar?</dt>
@@ -285,99 +285,93 @@
         </dl>
       </div>
     </section>
+
+    <!-- Webinar Testimonial Section -->
     <section class="webinar-testimonials container" aria-label="Testimonials">
-      <h2>Testimonials</h2>
-      <div>
-        <figure>
-          <blockquote>
+      <h2 class="webinar-testimonials__heading">Testimonials</h2>
+      <div class="testimonials">
+
+        <figure class="testimonial">
+          <blockquote class="testimonial__body">
             I was stuck in a rut before this webinar. The session on taking
             100% responsibility was eye-opening. Since then, my work output
             has doubled!
           </blockquote>
-          <figcaption>
-            — <cite class="author">John, 36</cite>,
-            <cite class="company">Business Analyst</cite>
+          <figcaption class="testimonial__footer">
+            — <cite class="testimonial__author">John, 36</cite>,
+            <cite class="testimonial__company">Business Analyst</cite>
           </figcaption>
         </figure>
-        <figure>
-          <blockquote>
+
+        <figure class="testimonial testimonial--accent">
+          <blockquote class="testimonial__body">
             Alex's personal story resonated with me. I've started applying his
             tips and already see a positive shift in my mindset, improving my
             mental well-being.
           </blockquote>
-          <figcaption>
-            — <cite class="author">Emily, 41</cite>,
-            <cite class="company">Homemaker</cite>
+          <figcaption class="testimonial__footer">
+            — <cite class="testimonial__author">Emily, 41</cite>,
+            <cite class="testimonial__company">Homemaker</cite>
           </figcaption>
         </figure>
-        <figure>
-          <blockquote>
+
+        <figure class="testimonial">
+          <blockquote class="testimonial__body">
             The science behind a fixed mindset was fascinating. I wish I knew
             this 30 years ago; it’s helped me adopt new hobbies in my
             retirement.
           </blockquote>
-          <figcaption>
-            — <cite class="author">Mark, 55</cite>,
-            <cite class="company">Retiree</cite>
+          <figcaption class="testimonial__footer">
+            — <cite class="testimonial__author">Mark, 55</cite>,
+            <cite class="testimonial__company">Retiree</cite>
           </figcaption>
         </figure>
 
-        <figure>
-          <blockquote>
-            Taking 100% responsibility has made me more proactive at work.
-            Even my boss noticed and rewarded me with a performance bonus.
-          </blockquote>
-          <figcaption>
-            — <cite class="author">Nancy, 31</cite>,
-            <cite class="company">Nurse</cite>
-          </figcaption>
-        </figure>
-        <figure>
-          <blockquote>
-            I've eliminated so much negative thinking, and my startup is
-            benefiting as a result with a 15% increase in business revenue.
-          </blockquote>
-          <figcaption>
-            — <cite class="author">Carlos, 29</cite>,
-            <cite class="company">Entrepreneur</cite>
-          </figcaption>
-        </figure>
       </div>
     </section>
-    <section class="webinar-form container-small">
-      <h2>Ready to Unlock Your Potential?</h2>
-      <p>
-        Embark on a transformative journey with Alex and discover strategies
-        that can redefine the way you think. This is your chance to step into
-        a brighter, more empowered future. Don't miss out!
-      </p>
-      <form>
-        <div class="field field__text">
-          <label for="firstName">First Name:</label>
-          <input id="firstName" name="firstName" placeholder="First name" required>
-        </div>
 
-        <div class="field field__text">
-          <label for="lastName">Last Name:</label>
-          <input id="lastName" name="lastName" placeholder="Last name" required>
-        </div>
+    <div class="divider divider--lighter-to-base divider--invert">
+      <svg viewBox="0 0 650 40">
+        <path d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z" />
+      </svg>
+    </div>
 
-        <div class="field field__text">
-          <label for="email">Email:</label>
-          <input id="email" name="email" placeholder="Your best email" required>
-        </div>
+    <section class="background-lighter">
+      <div class="webinar-form container-small">
+        <h2>Ready to Unlock Your Potential?</h2>
+        <p>
+          Embark on a transformative journey with Alex and discover strategies
+          that can redefine the way you think. This is your chance to step into
+          a brighter, more empowered future. Don't miss out!
+        </p>
+        <form>
+          <div class="field field__text">
+            <label for="firstName">First Name:</label>
+            <input id="firstName" name="firstName" placeholder="First name" required>
+          </div>
 
-        <div class="field field__text">
-          <label for="how">How did you hear about us?:</label>
-          <select id="how" name="how" required>
-            <option value="">-- Select an option --</option>
-            <option value="plain">On a plain</option>
-            <option value="radio">On radio</option>
-          </select>
-        </div>
+          <div class="field field__text">
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" name="lastName" placeholder="Last name" required>
+          </div>
 
-        <button class="button" type="submit">Reserve Your Seat!</button>
-      </form>
+          <div class="field field__text">
+            <label for="email">Email:</label>
+            <input id="email" name="email" placeholder="Your best email" required>
+          </div>
+
+          <div class="field field__text">
+            <label for="how">How did you hear about us?:</label>
+            <select id="how" name="how" required>
+              <option value="">-- Select an option --</option>
+              <option value="plain">On a plain</option>
+              <option value="radio">On radio</option>
+            </select>
+          </div>
+
+          <button class="button" type="submit">Reserve Your Seat!</button>
+        </form>
+      </div>
     </section>
   </main>
 
