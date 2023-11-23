@@ -808,6 +808,15 @@ main {
   padding: 36px 24px;
 }
 
+.contact-hero {
+  max-width: 768px;
+}
+
+.contact-form {
+  max-width: 768px;
+  align-items: center;
+}
+
 /**
  * #6.0 Components
  */
