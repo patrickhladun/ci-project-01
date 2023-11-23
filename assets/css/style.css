@@ -713,6 +713,17 @@ main {
   margin: 0;
 }
 
+.webinar-faq {
+  max-width: 768px;
+}
+
+.faq__item {
+  background: var(--color-secondary-100);
+  border-radius: 8px;
+  padding: var(--spacing-md);
+  margin-bottom: 16px;
+}
+
 /* #5.3 About */
 
 .about-hero,
@@ -1092,6 +1103,16 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: var(--grid-gap);
     align-items: center;
+  }
+
+  .faq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
+  .faq__item {
+    margin-bottom: 0;
   }
 
   /**
