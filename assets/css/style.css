@@ -317,6 +317,9 @@ strong {
 .background-darker {
   background-color: var(--color-neutral-800);
 }
+.background-primary-lightest {
+  background-color: var(--color-primary-100);
+}
 
 /**
  * #1.4 Forms
@@ -678,7 +681,10 @@ main {
 
 /* #5.2 Webinar */
 
-.webinar-hero,
+.webinar-hero {
+  padding: 96px 24px;
+}
+
 .webinar-agenda,
 .webinar-host,
 .webinar-faq,
@@ -767,28 +773,60 @@ main {
   text-align: center;
   padding: 14px;
 }
-.icon-text__icon {
+
+.icon {
   display: block;
+}
+
+.icon--sm {
+  width: 36px;
+  height: 36px;
+}
+
+.icon--lg {
   width: 140px;
   height: 140px;
+}
+
+.icon--color-primary {
   background: var(--color-primary-400);
 }
-.icon-text--negative {
+
+.icon--color-secondary {
+  background: var(--color-secondary-400);
+}
+
+.icon--negative {
   mask: url("../images/icon-mindset-negative.svg") no-repeat center;
   -webkit-mask: url("../images/icon-mindset-negative.svg") no-repeat center;
 }
-.icon-text--positive {
+.icon--positive {
   mask: url("../images/icon-mindset-positive.svg") no-repeat center;
   -webkit-mask: url("../images/icon-mindset-positive.svg") no-repeat center;
 }
-.icon-text--goals {
+.icon--goals {
   mask: url("../images/icon-mindset-goals.svg") no-repeat center;
   -webkit-mask: url("../images/icon-mindset-goals.svg") no-repeat center;
 }
-.icon-text--responsibility {
+.icon--responsibility {
   mask: url("../images/icon-mindset-responsibility.svg") no-repeat center;
   -webkit-mask: url("../images/icon-mindset-responsibility.svg") no-repeat
     center;
+}
+
+.icon--timezone {
+  mask: url("../images/icon-timezone.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-timezone.svg") no-repeat center;
+}
+
+.icon--time {
+  mask: url("../images/icon-time.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-time.svg") no-repeat center;
+}
+
+.icon--date {
+  mask: url("../images/icon-date.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-date.svg") no-repeat center;
 }
 
 /* Image Masks */
@@ -989,12 +1027,7 @@ main {
   /* #25.1 Home */
 
   .home-hero,
-  .home-about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--grid-gap);
-  }
-
+  .home-about,
   .home-webinar__future,
   .home-webinar__change {
     display: grid;
@@ -1006,6 +1039,15 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: var(--grid-gap);
+  }
+
+  /* #25.2 Webinar */
+
+  .webinar-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--grid-gap);
+    align-items: center;
   }
 
   /**
