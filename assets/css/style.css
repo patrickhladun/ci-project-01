@@ -1087,6 +1087,13 @@ main {
     align-items: center;
   }
 
+  .webinar-host {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--grid-gap);
+    align-items: center;
+  }
+
   /**
    * #26.0 Components
    */
