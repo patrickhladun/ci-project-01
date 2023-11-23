@@ -122,7 +122,6 @@
   --spacing-sm: 8px;
   --spacing-md: 16px;
   --spacing-lg: 32px;
-  --spacing-xl: 64px;
   --grid-gap: 32px;
 }
 
@@ -700,7 +699,7 @@ main {
 
 .webinar-agenda__heading {
   text-align: center;
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
 }
 
 .webinar-testimonials {
@@ -735,7 +734,7 @@ main {
 
 .webinar-faq__heading {
   text-align: center;
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
 }
 
 .faq__item {
@@ -759,7 +758,7 @@ main {
 
 .webinar-testimonials__heading {
   text-align: center;
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
 }
 
 .testimonial::before {
