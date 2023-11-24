@@ -1,150 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <title>Webinar | Mindset Makeover</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="./assets/fonts/fontawesome/css/fontawesome.min.css"
-      rel="stylesheet"
-    />
-    <link href="./assets/fonts/fontawesome/css/brands.min.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-content">
-        <div class="branding">
-          <a class="logo" href="./"
-            ><img src="./assets/images/logo.png" alt="Logo"
-          /></a>
-        </div>
-        <div class="mobile-menu-toggle">
-          <div class="menu-toggle-button">
-            <input id="mobile-menu-toggle" type="checkbox" />
-            <label class="hamburger" for="mobile-menu-toggle">X</label>
-          </div>
-        </div>
-        <nav class="navigation">
-          <ul class="menu">
-            <li><a href="./">Home</a></li>
-            <li><a href="./webinar.html">Webinar</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
-        </nav>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Reserve your spot for Mindset Makeover's transformative webinar. Gain insights into changing your mindset for personal and professional success.">
+  <meta name="keywords" content="mindset webinar, personal development, professional growth">
+  <meta name="author" content="Patrick Hladun">
+  <meta name="copyright" content="Patrick Hladun">
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="icon" sizes="16x16 32x32 64x64" href="./favicon.ico">
+  <link rel="icon" type="image/svg+xml" sizes="any" href="./assets/favicon/favicon.svg">
+  <link rel="icon" type="image/png" sizes="160x160" href="./assets/favicon/favicon-160x160.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="./assets/favicon/favicon-64x64.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/favicon-180x180.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/favicon-152x152.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/favicon-144x144.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/favicon-120x120.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/favicon-114x114.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/favicon-76x76.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/favicon-72x72.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/favicon-60x60.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/favicon-57x57.png">
+
+  <link rel="preload" href="./assets/images/mask-01.svg" as="image">
+
+  <title>Webinar - Mindset Makeover</title>
+</head>
+
+<body>
+  <!-- Page Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="branding">
+        <a class="logo" href="./"><img src="./assets/images/logo.svg" width="116" height="36" alt="Logo"></a>
       </div>
-    </header>
-    <main>
-      <section class="background">
-        <div class="webinar-hero container">
-          <div>
-            <h1>Unlock the Secrets to a Better Life: Join Our Free Webinar</h1>
-            <p>
-              Are you ready to break free from the barriers holding you back?
-              Our free webinar offers the steps you need to rewire your mindset
-              and take control of your future.
-            </p>
+      <div class="mobile-menu-toggle">
+        <div class="menu-toggle-button">
+          <input id="mobile-menu-toggle" type="checkbox">
+          <label class="hamburger" for="mobile-menu-toggle" aria-label="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+      </div>
+      <nav class="navigation">
+        <ul class="menu">
+          <li><a href="./">Home</a></li>
+          <li><a class="active" href="./webinar.html">Webinar</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="background-lighter">
+      <div class="webinar-hero container">
+        <div>
+          <h1>Unlock the Secrets to a Better Life: Join Our Free Webinar</h1>
+          <p>
+            Are you ready to break free from the barriers holding you back?
+            Our free webinar offers the steps you need to rewire your mindset
+            and take control of your future.
+          </p>
+        </div>
+        <div>
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+              src="https://player.vimeo.com/video/880553562?h=4686da0951&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+              allow="autoplay; fullscreen; picture-in-picture"
+              style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="mindset-teaser"
+              loading="lazy"></iframe>
           </div>
-          <div>
-            <p>Webinar Date: 01/02/2024</p>
-            <p>Webinar Time: 10:00 am</p>
-            <p>Time zone: Irish Standard Time (IST)</p>
-          </div>
-          <div>Webinar Teaser</div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
-      </section>
-      <section class="webinar-agenda container">
-        <h2>Agenda</h2>
-        <div>
-          <h3>Introduction (5 minutes)</h3>
-          <ul>
-            <li>Welcome note by Alex</li>
-            <li>Brief overview of the webinar's objective</li>
-          </ul>
-        </div>
-        <div>
-          <h3>The Foundation of Mindset (15 minutes)</h3>
-          <ul>
-            <li>The difference between fixed and growth mindsets</li>
-            <li>Real-world examples of how mindset impacts success</li>
-            <li>Activities: Quick poll on audience's perceived mindset</li>
-          </ul>
-        </div>
-        <div>
-          <h3>The Science Behind Changing Thought Patterns (20 minutes)</h3>
-          <ul>
-            <li>
-              A dive into the neuroscience of habits and thought processes
-            </li>
-            <li>The role of neuroplasticity in changing the way we think</li>
-            <li>
-              Activities: Short visualization exercise for brain flexibility
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3>Breaking Free from Negative Thoughts (20 minutes)</h3>
-          <ul>
-            <li>The cycle of negative thoughts and how they hold us back</li>
-            <li>Techniques to identify and interrupt these patterns</li>
-            <li>
-              Activities: Guided practice on challenging a negative thought
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3>Taking 100% Responsibility (15 minutes)</h3>
-          <ul>
-            <li>The importance of ownership in personal development</li>
-            <li>
-              Real-life examples of how taking responsibility can change
-              outcomes
-            </li>
-            <li>
-              Activities: Reflective moment on a past event where taking
-              responsibility could have changed the outcome
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3>Setting and Achieving Your Goals (20 minutes)</h3>
-          <ul>
-            <li>Introduction to the SMART framework</li>
-            <li>The role of clear goal setting in personal success</li>
-            <li>
-              Activities: Workshop-style segment where attendees draft a SMART
-              goal for themselves
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3>Q&A Session (15 minutes)</h3>
-          <ul>
-            <li>
-              Attendees can ask Alex specific questions related to the content
-              or their personal challenges
-            </li>
-            <li>Alex provides insights and actionable steps in response</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Conclusion & Call to Action (10 minutes)</h3>
-          <ul>
-            <li>Alex shares final thoughts and reflections</li>
-            <li>Encouragement for attendees to apply what they've learned</li>
-            <li>Offer for further resources or next steps</li>
-          </ul>
-        </div>
-      </section>
-      <section class="webinar-host container">
-        <div>
+      </div>
+    </section>
+
+    <div class="divider divider--lighter-to-base">
+      <svg viewBox="0 0 650 40">
+        <path d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z" />
+      </svg>
+    </div>
+
+    <section class="webinar-details container">
+      <div class="webinar-icon-text">
+        <i class="icon icon--date icon--color-primary icon--sm"></i>
+        <span class="h5">Webinar Date:</span>
+        <span>01/02/2024</span>
+      </div>
+      <div class="webinar-icon-text">
+        <i class="icon icon--time icon--color-primary icon--sm"></i>
+        <span class="h5">Webinar Time:</span>
+        <span>10:00 am</span>
+      </div>
+      <div class="webinar-icon-text">
+        <i class="icon icon--timezone icon--color-primary icon--sm"></i>
+        <span class="h3">Time zone:</span>
+        <span>Irish Standard Time (IST)</span>
+      </div>
+    </section>
+
+    <!-- Webinar Agenda Section -->
+    <section class="webinar-agenda container-small">
+      <h2 class="webinar-agenda__heading">Agenda</h2>
+      <div>
+        <h3>Introduction (5 minutes)</h3>
+        <ul>
+          <li>Welcome note by Alex</li>
+          <li>Brief overview of the webinar's objective</li>
+        </ul>
+      </div>
+      <div>
+        <h3>The Foundation of Mindset (15 minutes)</h3>
+        <ul>
+          <li>The difference between fixed and growth mindsets</li>
+          <li>Real-world examples of how mindset impacts success</li>
+          <li>Activities: Quick poll on audience's perceived mindset</li>
+        </ul>
+      </div>
+      <div>
+        <h3>The Science Behind Changing Thought Patterns (20 minutes)</h3>
+        <ul>
+          <li>
+            A dive into the neuroscience of habits and thought processes
+          </li>
+          <li>The role of neuroplasticity in changing the way we think</li>
+          <li>
+            Activities: Short visualization exercise for brain flexibility
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Breaking Free from Negative Thoughts (20 minutes)</h3>
+        <ul>
+          <li>The cycle of negative thoughts and how they hold us back</li>
+          <li>Techniques to identify and interrupt these patterns</li>
+          <li>
+            Activities: Guided practice on challenging a negative thought
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Taking 100% Responsibility (15 minutes)</h3>
+        <ul>
+          <li>The importance of ownership in personal development</li>
+          <li>
+            Real-life examples of how taking responsibility can change
+            outcomes
+          </li>
+          <li>
+            Activities: Reflective moment on a past event where taking
+            responsibility could have changed the outcome
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Setting and Achieving Your Goals (20 minutes)</h3>
+        <ul>
+          <li>Introduction to the SMART framework</li>
+          <li>The role of clear goal setting in personal success</li>
+          <li>
+            Activities: Workshop-style segment where attendees draft a SMART
+            goal for themselves
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Q&A Session (15 minutes)</h3>
+        <ul>
+          <li>
+            Attendees can ask Alex specific questions related to the content
+            or their personal challenges
+          </li>
+          <li>Alex provides insights and actionable steps in response</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Conclusion & Call to Action (10 minutes)</h3>
+        <ul>
+          <li>Alex shares final thoughts and reflections</li>
+          <li>Encouragement for attendees to apply what they've learned</li>
+          <li>Offer for further resources or next steps</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="divider divider--lighter-to-base divider--invert">
+      <svg viewBox="0 0 650 40">
+        <path d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z" />
+      </svg>
+    </div>
+
+    <!-- Webinar Host Section -->
+    <section class="background-lighter">
+      <div class="webinar-host container">
+        <div class="webinar-host__content">
           <h2>The Host</h2>
           <p>
             Alex Richards, a former blue-collar worker who transformed his life
@@ -154,148 +216,149 @@
             dreams.
           </p>
         </div>
-      </section>
-      <section class="webinar-faq container">
-        <div>
-          <h2>FAQ</h2>
-          <dl class="faq">
-            <dt>How do I register for the webinar?</dt>
+        <div class="webinar-host__image image-mask-4">
+          <img src="./assets/images/home-about-768.webp" width="768" height="512" srcset="
+              ./assets/images/home-about-768.webp   768w,
+              ./assets/images/home-about-1536.webp 1536w,
+              ./assets/images/home-about-2304.webp 2304w
+            " sizes="(min-width: 768px) 50vw, 100vw" alt="Power of Positive Thinking">
+        </div>
+      </div>
+    </section>
+
+    <div class="divider divider--lighter-to-base">
+      <svg viewBox="0 0 650 40">
+        <path d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z" />
+      </svg>
+    </div>
+
+    <!-- Webinar FAQ Section -->
+    <section class="webinar-faq container-small">
+      <div>
+        <h2 class="webinar-faq__heading">FAQ</h2>
+        <dl class="faq">
+          <div class="faq__item">
+            <dt class="h3">How do I register for the webinar?</dt>
             <dd>
               Click on the "Reserve Your Seat" button on the webinar page and
               fill out the registration form. Once completed, you'll receive a
               confirmation email with all the details.
             </dd>
-            <dt>Is there a fee to attend the webinar?</dt>
+          </div>
+          <div class="faq__item">
+            <dt class="h3">Is there a fee to attend the webinar?</dt>
             <dd>
               No, this webinar is completely free! Our goal is to share valuable
               insights to help you change the way you think and achieve success.
             </dd>
-            <dt>Will there be a recording available if I can't attend live?</dt>
+          </div>
+          <div class="faq__item">
+            <dt class="h3">Will there be a recording available if I can't attend live?</dt>
             <dd>
               Yes! All registered participants will receive a link to watch the
               webinar replay. Make sure to register even if you can't attend
               live to get access.
             </dd>
-            <dt>What platform is the webinar hosted on?</dt>
+          </div>
+          <div class="faq__item">
+            <dt class="h3">What platform is the webinar hosted on?</dt>
             <dd>
               The webinar will be hosted on [Platform Name, e.g., Zoom]. Prior
               to the webinar date, we recommend downloading and setting up the
               platform to ensure a smooth experience.
             </dd>
-            <dt>Can I ask questions during the webinar?</dt>
+          </div>
+          <div class="faq__item">
+            <dt class="h3">Can I ask questions during the webinar?</dt>
             <dd>
               Absolutely! There will be a dedicated Q&A session at the end, but
               you can also submit questions throughout the webinar.
             </dd>
-            <dt>How long is the webinar?</dt>
-            <dd>
-              The webinar will run for approximately 90 minutes, including the
-              Q&A session.
-            </dd>
-            <dt>I'm new to the topic; will I still benefit from attending?</dt>
+          </div>
+          <div class="faq__item">
+            <dt class="h3">I'm new to the topic; will I still benefit from attending?</dt>
             <dd>
               Definitely! The webinar is designed to cater to both beginners and
               those familiar with mindset growth. Everyone will take away
               actionable insights.
             </dd>
-          </dl>
-        </div>
-      </section>
-      <section class="webinar-testimonials container" aria-label="Testimonials">
-        <h2>Testimonials</h2>
-        <div>
-          <figure>
-            <blockquote>
-              I was stuck in a rut before this webinar. The session on taking
-              100% responsibility was eye-opening. Since then, my work output
-              has doubled!
-            </blockquote>
-            <figcaption>
-              — <cite class="author">John, 36</cite>,
-              <cite class="company">Business Analyst</cite>
-            </figcaption>
-          </figure>
-          <figure>
-            <blockquote>
-              Alex's personal story resonated with me. I've started applying his
-              tips and already see a positive shift in my mindset, improving my
-              mental well-being.
-            </blockquote>
-            <figcaption>
-              — <cite class="author">Emily, 41</cite>,
-              <cite class="company">Homemaker</cite>
-            </figcaption>
-          </figure>
-          <figure>
-            <blockquote>
-              The science behind a fixed mindset was fascinating. I wish I knew
-              this 30 years ago; it’s helped me adopt new hobbies in my
-              retirement.
-            </blockquote>
-            <figcaption>
-              — <cite class="author">Mark, 55</cite>,
-              <cite class="company">Retiree</cite>
-            </figcaption>
-          </figure>
+          </div>
+        </dl>
+      </div>
+    </section>
 
-          <figure>
-            <blockquote>
-              Taking 100% responsibility has made me more proactive at work.
-              Even my boss noticed and rewarded me with a performance bonus.
-            </blockquote>
-            <figcaption>
-              — <cite class="author">Nancy, 31</cite>,
-              <cite class="company">Nurse</cite>
-            </figcaption>
-          </figure>
-          <figure>
-            <blockquote>
-              I've eliminated so much negative thinking, and my startup is
-              benefiting as a result with a 15% increase in business revenue.
-            </blockquote>
-            <figcaption>
-              — <cite class="author">Carlos, 29</cite>,
-              <cite class="company">Entrepreneur</cite>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-      <section class="webinar-form container-small">
+    <!-- Webinar Testimonial Section -->
+    <section class="webinar-testimonials container" aria-label="Testimonials">
+      <h2 class="webinar-testimonials__heading">Testimonials</h2>
+      <div class="testimonials">
+
+        <figure class="testimonial">
+          <blockquote class="testimonial__body">
+            I was stuck in a rut before this webinar. The session on taking
+            100% responsibility was eye-opening. Since then, my work output
+            has doubled!
+          </blockquote>
+          <figcaption class="testimonial__footer">
+            — <cite class="testimonial__author">John, 36</cite>,
+            <cite class="testimonial__company">Business Analyst</cite>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial testimonial--accent">
+          <blockquote class="testimonial__body">
+            Alex's personal story resonated with me. I've started applying his
+            tips and already see a positive shift in my mindset, improving my
+            mental well-being.
+          </blockquote>
+          <figcaption class="testimonial__footer">
+            — <cite class="testimonial__author">Emily, 41</cite>,
+            <cite class="testimonial__company">Homemaker</cite>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial">
+          <blockquote class="testimonial__body">
+            The science behind a fixed mindset was fascinating. I wish I knew
+            this 30 years ago; it’s helped me adopt new hobbies in my
+            retirement.
+          </blockquote>
+          <figcaption class="testimonial__footer">
+            — <cite class="testimonial__author">Mark, 55</cite>,
+            <cite class="testimonial__company">Retiree</cite>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <div class="divider divider--lighter-to-base divider--invert">
+      <svg viewBox="0 0 650 40">
+        <path d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z" />
+      </svg>
+    </div>
+
+    <section class="background-lighter">
+      <div class="webinar-form container-small">
         <h2>Ready to Unlock Your Potential?</h2>
         <p>
           Embark on a transformative journey with Alex and discover strategies
           that can redefine the way you think. This is your chance to step into
           a brighter, more empowered future. Don't miss out!
         </p>
-        <form>
+        <form method="GET" action="./thank-you-webinar.html">
           <div class="field field__text">
             <label for="firstName">First Name:</label>
-            <input
-              id="firstName"
-              name="firstName"
-              placeholder="First name"
-              required
-            />
+            <input id="firstName" name="firstName" placeholder="First name" required>
           </div>
 
           <div class="field field__text">
             <label for="lastName">Last Name:</label>
-            <input
-              id="lastName"
-              name="lastName"
-              placeholder="Last name"
-              required
-            />
+            <input id="lastName" name="lastName" placeholder="Last name" required>
           </div>
 
           <div class="field field__text">
             <label for="email">Email:</label>
-            <input
-              id="email"
-              name="email"
-              placeholder="Your best email"
-              required
-            />
+            <input id="email" name="email" placeholder="Your best email" required>
           </div>
 
           <div class="field field__text">
@@ -307,35 +370,49 @@
             </select>
           </div>
 
-          <button class="button" type="submit">Reserve Your Seat!</button>
-        </form>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="background">
-        <div class="footer__content container">
-          <div class="social-links">
-            <a class="social-link" href="https://twitter.com/"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-            <a class="social-link" href="https://facebook.com/"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-            <a class="social-link" href="https://instagram.com/"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
+          <div class="field field__checkbox">
+            <input class="field__input-checkbox" id="gdpr" type="checkbox" required>
+            <label class="field__label" for="gdpr">I have read the
+              <a class="light" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer">privacy policy</a>
+              and I agree to the terms and data processing practices outlined in
+              it.</label>
           </div>
-          <ul class="secondary-links">
-            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
-            <li><a href="./terms.html">Terms and Conditions</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="copyright">
-        <p>© 2023 Mindset Makeover All rights reserved.</p>
+          <button class="button button--primary" type="submit">Reserve Your Seat!</button>
+        </form>
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+
+  <!-- Page Footer -->
+  <footer class="footer">
+    <!-- Secondary links and Social Media-->
+    <div class="background-color-dark">
+      <div class="footer__content container">
+        <div class="social-links">
+          <a aria-label="link to twitter profile page" class="social-link social-link__twitter"
+            href="https://twitter.com/"></a>
+          <a aria-label="link to facebook profile page" class="social-link social-link__facebook"
+            href="https://facebook.com/"></a>
+          <a aria-label="link to instagram profile page" class="social-link social-link__instagram"
+            href="https://instagram.com/"></a>
+        </div>
+        <ul class="secondary-links">
+          <li>
+            <a class="light" href="./privacy-policy.html">Privacy Policy</a>
+          </li>
+          <li>
+            <a class="light" href="./terms.html">Terms and Conditions</a>
+          </li>
+          <li><a class="light" href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="background-darker copyright">
+      <p>© 2023 Patrick Hladun All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
 </html>

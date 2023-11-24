@@ -1,366 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Change the way you think, and actively create the fulfilling life you truly deserve."
-    />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap"
-      rel="stylesheet"
-    />
-    <title>Mindset Makeover - Rewire Your Mind, Transform Your Life</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-content">
-        <div class="branding">
-          <a class="logo" href="./"
-            ><img
-              src="./assets/images/logo.svg"
-              width="116"
-              height="36"
-              alt="Logo"
-          /></a>
-        </div>
-        <div class="mobile-menu-toggle">
-          <div class="menu-toggle-button">
-            <input id="mobile-menu-toggle" type="checkbox" />
-            <label class="hamburger" for="mobile-menu-toggle">X</label>
-          </div>
-        </div>
-        <nav class="navigation">
-          <ul class="menu">
-            <li><a href="./">Home</a></li>
-            <li><a href="./webinar.html">Webinar</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
-        </nav>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Discover how to transform your mindset and achieve your dreams with Mindset Makeover. Join our free webinar to unlock your full potential today!">
+  <meta name="keywords" content="mindset transformation, personal development, life improvement">
+  <meta name="author" content="Patrick Hladun">
+  <meta name="copyright" content="Patrick Hladun">
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="icon" sizes="16x16 32x32 64x64" href="./favicon.ico">
+  <link rel="icon" type="image/svg+xml" sizes="any" href="./assets/favicon/favicon.svg">
+  <link rel="icon" type="image/png" sizes="160x160" href="./assets/favicon/favicon-160x160.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="./assets/favicon/favicon-64x64.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/favicon-180x180.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/favicon-152x152.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/favicon-144x144.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/favicon-120x120.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/favicon-114x114.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/favicon-76x76.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/favicon-72x72.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/favicon-60x60.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/favicon-57x57.png">
+
+  <link rel="preload" href="./assets/images/mask-01.svg" as="image">
+
+  <title>Mindset Makeover - Rewire Your Mind, Transform Your Life</title>
+</head>
+
+<body>
+  <!-- Page Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="branding">
+        <a class="logo" href="./"><img src="./assets/images/logo.svg" width="116" height="36" alt="Logo"></a>
       </div>
-    </header>
-    <main class="page">
-      <section class="background-lighter">
-        <div class="home-hero container">
-          <div class="home-hero__image image-mask-1">
-            <img
-              src="./assets/images/home-hero-768.webp"
-              width="768"
-              height="512"
-              srcset="
+      <div class="mobile-menu-toggle">
+        <div class="menu-toggle-button">
+          <input id="mobile-menu-toggle" type="checkbox">
+          <label class="hamburger" for="mobile-menu-toggle" aria-label="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+      </div>
+      <nav class="navigation">
+        <ul class="menu">
+          <li><a class="active" href="./">Home</a></li>
+          <li><a href="./webinar.html">Webinar</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Page Content -->
+  <main class="page">
+    <!-- Hero Section-->
+    <section class="background-lighter">
+      <div class="home-hero container">
+        <div class="home-hero__image image-mask-1">
+          <img src="./assets/images/home-hero-768.webp" width="768" height="512" srcset="
                 ./assets/images/home-hero-768.webp   768w,
                 ./assets/images/home-hero-1536.webp 1536w,
                 ./assets/images/home-hero-2304.webp 2304w
-              "
-              sizes="(min-width=768px) 50vw, 100vw"
-              alt="Alex Richards"
-            />
-          </div>
-          <div class="home-hero__content">
-            <h1 class="home-hero__heading">
-              Rewire your mind transform your life.
-            </h1>
-            <p class="text-large home-hero__heading">
-              Change the way you think, and actively create the fulfilling life
-              you truly deserve.
-            </p>
-            <p>
-              Feeling stuck? Overwhelmed? It's not your fault, but it is your
-              responsibility. Meet Alex, who turned his life around by changing
-              his mindset. Join our FREE webinar to start your own
-              transformation journey!
-            </p>
-            <div class="buttons">
-              <a
-                class="button button--primary button--margin"
-                href="./webinar.html"
-                >Join My Free Webinar</a
-              >
-              <a
-                class="button button--secondary button--margin"
-                href="./about.html"
-                >About Me</a
-              >
-            </div>
+              " sizes="(min-width: 768px) 50vw, 100vw" alt="Alex Richards">
+        </div>
+        <div class="home-hero__content">
+          <h1 class="home-hero__heading">
+            Rewire your mind transform your life.
+          </h1>
+          <p class="text-large home-hero__heading">
+            Change the way you think, and actively create the fulfilling life you truly deserve.
+          </p>
+          <p>
+            Feeling stuck? Overwhelmed? It's not your fault, but it is your responsibility. Meet Alex, who turned his
+            life around by changing his mindset. Join our FREE webinar to start your own transformation journey!
+          </p>
+          <div class="buttons">
+            <a class="button button--primary button--margin" href="./webinar.html">Join My Free Webinar</a>
+            <a class="button button--secondary button--margin" href="./about.html">About Me</a>
           </div>
         </div>
-      </section>
-
-      <div class="divider divider--lighter-to-base">
-        <svg viewBox="0 0 650 40">
-          <path
-            d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z"
-          />
-        </svg>
       </div>
+    </section>
 
-      <section class="home-webinar">
-        <div class="home-webinar__future container">
-          <div class="home-webinar__future__content">
-            <h2>The key to your better future starts here.</h2>
-            <p>
-              Did you know your mindset shapes your life? A negative mindset can
-              keep you from reaching your goals. A positive mindset can open
-              doors. That's where we come in. Led by Alex, who has lived this
-              transformation,
-              <a href="./webinar.html">Mindset Makeover</a> offers you a
-              lifeline to change.
-            </p>
-            <ul>
-              <li>
-                <strong>Evidence-Based Methods:</strong> Learn from strategies
-                backed by science and real-world success.
-              </li>
-              <li>
-                <strong>Free Webinar:</strong> Get started with our no-cost
-                webinar that gives you the tools to make a difference in your
-                life.
-              </li>
-              <li>
-                <strong>Personal Story:</strong> Hear from Alex, who changed his
-                own life through mindset work, and now helps others do the same.
-              </li>
-            </ul>
-          </div>
-          <div class="home-webinar__future__image image-mask-2">
-            <img
-              src="./assets/images/home-positive-768.webp"
-              width="768"
-              height="512"
-              srcset="
+    <div class="divider divider--lighter-to-base">
+      <svg viewBox="0 0 650 40">
+        <path d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z" />
+      </svg>
+    </div>
+
+    <!-- Webina Info Section-->
+    <section class="home-webinar">
+      <div class="home-webinar__future container">
+        <div class="home-webinar__future__content">
+          <h2>The key to your better future starts here.</h2>
+          <p>
+            Did you know your mindset shapes your life? A negative mindset can keep you from reaching your goals. A
+            positive mindset can open doors. That's where we come in. Led by Alex, who has lived this transformation, <a
+              href="./webinar.html" aria-label="learn more about mindset makeover webinar">Mindset Makeover</a> offers
+            you a lifeline to change.
+          </p>
+          <ul>
+            <li>
+              <strong>Evidence-Based Methods:</strong> Learn from strategies backed by science and real-world success.
+            </li>
+            <li>
+              <strong>Free Webinar:</strong> Get started with our no-cost webinar that gives you the tools to make a
+              difference in your
+              life.
+            </li>
+            <li>
+              <strong>Personal Story:</strong> Hear from Alex, who changed his own life through mindset work, and now
+              helps others do the same.
+            </li>
+          </ul>
+        </div>
+        <div class="home-webinar__future__image image-mask-2">
+          <img src="./assets/images/home-positive-768.webp" width="768" height="512" srcset="
                 ./assets/images/home-positive-768.webp   768w,
                 ./assets/images/home-positive-1536.webp 1536w,
                 ./assets/images/home-positive-2304.webp 2304w
-              "
-              sizes="(min-width=768px) 50vw, 100vw"
-              alt="Your Better Future"
-            />
-          </div>
+              " sizes="(min-width: 768px) 50vw, 100vw" alt="Your Better Future">
         </div>
+      </div>
 
-        <div class="home-webinar__change container">
-          <div class="home-webinar__change__image image-mask-3">
-            <img
-              src="./assets/images/home-key-768.webp"
-              width="768"
-              height="512"
-              srcset="
+      <div class="home-webinar__change container">
+        <div class="home-webinar__change__image image-mask-3">
+          <img src="./assets/images/home-key-768.webp" width="768" height="512" srcset="
                 ./assets/images/home-key-768.webp   768w,
                 ./assets/images/home-key-1536.webp 1536w,
                 ./assets/images/home-key-2304.webp 2304w
-              "
-              sizes="(min-width=768px) 50vw, 100vw"
-              alt="Power of Positive Thinking"
-            />
-          </div>
-          <div class="home-webinar__change__content">
-            <h2>Forge your path with the power of positive thinking.</h2>
-            <p class="text-large">
-              Seize control of your mental narrative and forge a path to success
-              with unyielding positivity and determination.
-            </p>
-            <p>
-              With these powerful insights at your fingertips, you're about to
-              embark on a journey to a revitalized mindset and a life brimming
-              with purpose. Begin your transformation today.
-            </p>
-          </div>
+              " sizes="(min-width: 768px) 50vw, 100vw" alt="Power of Positive Thinking">
         </div>
-
-        <div class="home-webinar__icons container">
-          <div class="icon-text">
-            <i class="icon-text__icon icon-text--negative"></i>
-            <h3 class="h5">Break free from negative thoughts.</h3>
-            <p>
-              Understand how your mindset traps you and learn strategies to
-              escape.
-            </p>
-          </div>
-          <div class="icon-text">
-            <i class="icon-text__icon icon-text--responsibility"></i>
-            <h3 class="h5">Take 100% responsibility.</h3>
-            <p>
-              Discover the power of owning every aspect of your life, both the
-              good and the bad.
-            </p>
-          </div>
-          <div class="icon-text">
-            <i class="icon-text__icon icon-text--goals"></i>
-            <h3 class="h5">Set achievable goals.</h3>
-            <p>
-              Master the art of setting goals that push you forward without
-              overwhelming you.
-            </p>
-          </div>
-          <div class="icon-text">
-            <i class="icon-text__icon icon-text--positive"></i>
-            <h3 class="h5">Harness positive thinking.</h3>
-            <p>
-              Learn how to replace toxic thoughts with positive ones that
-              elevate your life.
-            </p>
-          </div>
+        <div class="home-webinar__change__content">
+          <h2>Forge your path with the power of positive thinking.</h2>
+          <p class="text-large">
+            Seize control of your mental narrative and forge a path to success with unyielding positivity and
+            determination.
+          </p>
+          <p>
+            With these powerful insights at your fingertips, you're about to embark on a journey to a revitalized
+            mindset and a life brimming with purpose. Begin your transformation today.
+          </p>
         </div>
-
-        <div class="home-webinar__cta container">
-          <a class="button button--primary" href="./webinar.html">Mindset Makeover Webinar</a>
-        </div>
-      </section>
-
-      <div class="divider divider--lighter-to-base divider--invert">
-        <svg viewBox="0 0 650 40">
-          <path
-            d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z"
-          />
-        </svg>
       </div>
 
-      <section class="background-lighter">
-        <div class="home-about container">
-          <div class="home-about__content">
-            <h2>Meet Alex, the man behind your Mindset Makeover.</h2>
-            <p>
-              Alex wasn't always the positive, goal-driven person you see today.
-              He faced obstacles that seemed insurmountable. From financial
-              struggles to a life that felt stuck, Alex knew something had to
-              change. That's when he started his journey to rewire his mindset.
-              Today, he's not only transformed his own life, but he's also
-              committed to helping you do the same.
-            </p>
-            <a class="button button--primary button--margin" href="./about.html"
-              >My Story</a
-            >
-          </div>
-          <div class="home-about__image image-mask-4">
-            <img
-              src="./assets/images/home-about-768.webp"
-              width="768"
-              height="512"
-              srcset="
+      <div class="home-webinar__icons container">
+        <div class="icon-text">
+          <i class="icon icon--negative icon--color-primary icon--lg"></i>
+          <h3>Escape negative thinking.</h3>
+          <p>
+            Understand how your mindset traps you and learn strategies to escape.
+          </p>
+        </div>
+        <div class="icon-text">
+          <i class="icon icon--responsibility icon--color-primary icon--lg"></i>
+          <h3>Take 100% responsibility.</h3>
+          <p>
+            Discover the power of owning every aspect of your life, both the good and the bad.
+          </p>
+        </div>
+        <div class="icon-text">
+          <i class="icon icon--goals icon--color-primary icon--lg"></i>
+          <h3>Set achievable goals.</h3>
+          <p>
+            Master the art of setting goals that push you forward without overwhelming you.
+          </p>
+        </div>
+        <div class="icon-text">
+          <i class="icon icon--positive icon--color-primary icon--lg"></i>
+          <h3>Harness positive thinking.</h3>
+          <p>
+            Learn how to replace toxic thoughts with positive ones that elevate your life.
+          </p>
+        </div>
+      </div>
+
+      <div class=" home-webinar__cta container">
+        <a class="button button--primary" href="./webinar.html">Mindset Makeover Webinar</a>
+      </div>
+    </section>
+
+    <div class="divider divider--lighter-to-base divider--invert">
+      <svg viewBox="0 0 650 40">
+        <path d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z" />
+      </svg>
+    </div>
+
+    <!-- About Section-->
+    <section class="background-lighter">
+      <div class="home-about container">
+        <div class="home-about__content">
+          <h2>Meet Alex, the man behind your Mindset Makeover.</h2>
+          <p>
+            Alex wasn't always the positive, goal-driven person you see today. He faced obstacles that seemed
+            insurmountable. From financial struggles to a life that felt stuck, Alex knew something had to change.
+            That's when he started his journey to rewire his mindset. Today, he's not only transformed his own life, but
+            he's also committed to helping you do the same.
+          </p>
+          <a class="button button--primary button--margin" href="./about.html">My Story</a>
+        </div>
+        <div class="home-about__image image-mask-4">
+          <img src="./assets/images/home-about-768.webp" width="768" height="512" srcset="
                 ./assets/images/home-about-768.webp   768w,
                 ./assets/images/home-about-1536.webp 1536w,
                 ./assets/images/home-about-2304.webp 2304w
-              "
-              sizes="(min-width=768px) 50vw, 100vw"
-              alt="Power of Positive Thinking"
-            />
-          </div>
-        </div>
-      </section>
-
-      <div class="divider divider--lighter-to-base">
-        <svg viewBox="0 0 650 40">
-          <path
-            d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z"
-          />
-        </svg>
-      </div>
-
-      <section>
-        <div class="home-ready container-small">
-          <div class="home-ready__content">
-            <h2>Ready to change your life?</h2>
-            <p>
-              Learn the steps to take control of your mindset and your future.
-              Don't miss out on our free webinar that's already changed lives
-              for the better.
-            </p>
-            <a class="button button--primary" href="./webinar.html"
-              >Join the Webinar</a
-            >
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="background-color">
-        <div class="newsletter container-small">
-          <div class="newsletter__header">
-            <h3>Stay Ahead with Mindset Insights.</h3>
-            <p>
-              Unlock a world of transformation. Join our exclusive newsletter
-              and receive actionable tips, inspiring stories, and updates on
-              upcoming webinars. Start your journey to a better mindset today!
-            </p>
-          </div>
-          <form>
-            <div class="field field__text">
-              <label class="field__label" for="email">Email</label>
-              <input
-                id="email"
-                class="field__input"
-                type="email"
-                placeholder="Your best email"
-                required
-              />
-            </div>
-            <div class="field field__checkbox">
-              <input
-                class="field__input-checkbox"
-                id="gdpr"
-                type="checkbox"
-                required
-              />
-              <label class="field__label" for="gdpr"
-                >I have read the
-                <a
-                  class="light"
-                  href="./privacy-policy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >privacy policy</a
-                >
-                and I agree to the terms and data processing practices outlined
-                in it.</label
-              >
-            </div>
-            <button class="button button--outline-light" type="submit">
-              Subscribe!
-            </button>
-          </form>
+              " sizes="(min-width: 768px) 50vw, 100vw" alt="Power of Positive Thinking">
         </div>
       </div>
+    </section>
 
-      <div class="background-color-dark">
-        <div class="footer__content container">
-          <div class="social-links">
-            <a
-              aria-label="Twitter"
-              class="social-link social-link__twitter"
-              href="https://twitter.com/"
-            ></a>
-            <a
-              aria-label="Facebook"
-              class="social-link social-link__facebook"
-              href="https://facebook.com/"
-            ></a>
-            <a
-              aria-label="Instagram"
-              class="social-link social-link__instagram"
-              href="https://instagram.com/"
-            ></a>
-          </div>
-          <ul class="secondary-links">
-            <li>
-              <a class="light" href="./privacy-policy.html">Privacy Policy</a>
-            </li>
-            <li>
-              <a class="light" href="./terms.html">Terms and Conditions</a>
-            </li>
-            <li><a class="light" href="./contact.html">Contact</a></li>
-          </ul>
+    <div class="divider divider--lighter-to-base">
+      <svg viewBox="0 0 650 40">
+        <path d="M325,37.4C145.5,37.4,0,20.7,0,0v40h650V0C650,20.7,504.5,37.4,325,37.4z" />
+      </svg>
+    </div>
+
+    <!-- Webinar CTA -->
+    <section>
+      <div class="home-ready container-small">
+        <div class="home-ready__content">
+          <h2>Ready to change your life?</h2>
+          <p>
+            Learn the steps to take control of your mindset and your future. Don't miss out on our free webinar that's
+            already changed lives for the better.
+          </p>
+          <a class="button button--primary" href="./webinar.html">Join the Webinar</a>
         </div>
       </div>
+    </section>
+  </main>
 
-      <div class="background-darker copyright">
-        <p>© 2023 Mindset Makeover All rights reserved.</p>
+  <!-- Page Footer -->
+  <footer class="footer">
+    <!-- Newsletter Signup Form -->
+    <div class="background-color">
+      <div class="newsletter container-small">
+        <div class="newsletter__header">
+          <h3>Stay Ahead with Mindset Insights.</h3>
+          <p>
+            Unlock a world of transformation. Join our exclusive newsletter and receive actionable tips, inspiring
+            stories, and updates on upcoming webinars. Start your journey to a better mindset today!
+          </p>
+        </div>
+        <form method="GET" action="./thank-you-newsletter.html">
+          <div class="field field__text">
+            <label class="field__label" for="email">Email</label>
+            <input id="email" name="email" class="field__input" type="email" placeholder="Your best email"
+              aria-label="your email" required>
+          </div>
+          <div class="field field__checkbox">
+            <input class="field__input-checkbox" id="gdpr" name="consent" type="checkbox"
+              aria-label="privacy policy consent" required>
+            <label class="field__label" for="gdpr">I have read the
+              <a class="light" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer">privacy policy</a>
+              and I agree to the terms and data processing practices outlined
+              in it.</label>
+          </div>
+          <button class="button button--outline-light" type="submit" aria-label="subscribe">
+            Subscribe!
+          </button>
+        </form>
       </div>
-    </footer>
-  </body>
+    </div>
+
+    <!-- Secondary links and Social Media-->
+    <div class="background-color-dark">
+      <div class="footer__content container">
+        <div class="social-links">
+          <a aria-label="link to twitter profile page" class="social-link social-link__twitter"
+            href="https://twitter.com/"></a>
+          <a aria-label="link to facebook profile page" class="social-link social-link__facebook"
+            href="https://facebook.com/"></a>
+          <a aria-label="link to instagram profile page" class="social-link social-link__instagram"
+            href="https://instagram.com/"></a>
+        </div>
+        <ul class="secondary-links">
+          <li>
+            <a class="light" href="./privacy-policy.html">Privacy Policy</a>
+          </li>
+          <li>
+            <a class="light" href="./terms.html">Terms and Conditions</a>
+          </li>
+          <li><a class="light" href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="background-darker copyright">
+      <p>© 2023 Patrick Hladun All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
 </html>

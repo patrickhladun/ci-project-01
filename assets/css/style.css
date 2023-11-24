@@ -3,8 +3,6 @@
  * Index
  *
  * 0.0 - Variables
- *  0.1 - Colors
- *  0.2 - Sizes and Spacings
  * 1.0 - General
  *  1.1 - Typography
  *  1.2 - Backgrounds
@@ -17,8 +15,12 @@
  *  5.2 - Webinar
  *  5.3 - About
  *  5.4 - Contact
+ *  5.5 - Error
  * 6.0 - Components
  *  6.1 - Buttons
+ *  6.2 - Custom Icons
+ *  6.3 - Image Masks
+ *  6.4 - Dividers
  
  * 10.0 - Media min 576px
  *  12.0 - Layout
@@ -38,13 +40,9 @@
  *
  */
 
-/**
- * #0.0 - Variables 
- */
-
-/**
- * #0.1 - Colors 
- */
+/* ================================================== */
+/* #0.0 - Variables  ================================ */
+/* ================================================== */
 
 :root {
   --color-primary-50: #fff1f1;
@@ -93,10 +91,6 @@
   --color-link-light-hover: var(--color-primary-400);
 }
 
-/**
- * #0.2 - Sizes and Spacings 
- */
-
 :root {
   --text-size-sm: 14px;
   --text-size-md: 16px;
@@ -125,9 +119,10 @@
   --grid-gap: 32px;
 }
 
-/**
- * #1.0 - General
- */
+/* ================================================== */
+/* #1.0 - General =================================== */
+/* ================================================== */
+
 html {
   background-color: var(--color-neutral-50);
   color: var(--color-text-700);
@@ -157,9 +152,9 @@ img {
   height: auto;
 }
 
-/**
- * #1.1 Typography 
- */
+/* ================================================== */
+/* #1.1 Typography ================================== */
+/* ================================================== */
 
 h1,
 .h1 {
@@ -284,7 +279,7 @@ a:not(.logo, .button, .social-link, .menu li a)::after {
 svg .st0 {
   fill: #ee455b;
 }
-.st1 {
+svg .st1 {
   fill: #355c7d;
 }
 strong {
@@ -294,10 +289,13 @@ strong {
 .text-large {
   font-size: var(--text-size-lg);
 }
+.text-center {
+  text-align: center;
+}
 
-/**
- * #1.2 Backgrounds 
- */
+/* ================================================== */
+/* #1.2 Backgrounds ================================= */
+/* ================================================== */
 
 .background-lighter {
   background-color: var(--color-neutral-100);
@@ -317,10 +315,13 @@ strong {
 .background-darker {
   background-color: var(--color-neutral-800);
 }
+.background-primary-lightest {
+  background-color: var(--color-primary-100);
+}
 
-/**
- * #1.4 Forms
- */
+/* ================================================== */
+/* #1.4 Forms ======================================= */
+/* ================================================== */
 
 input,
 textarea,
@@ -360,9 +361,9 @@ textarea {
   margin-right: 8px;
 }
 
-/**
- * 2.0 - Layout 
- */
+/* ================================================== */
+/* #2.0 Layout ====================================== */
+/* ================================================== */
 
 main {
   margin-bottom: auto;
@@ -390,9 +391,9 @@ main {
   padding: 32px 24px;
 }
 
-/**
- * #3.0 Header
- */
+/* ================================================== */
+/* #3.0 Header ====================================== */
+/* ================================================== */
 
 .header {
   position: fixed;
@@ -406,7 +407,7 @@ main {
   flex-wrap: wrap;
   margin: auto;
   padding: 0 24px;
-  max-width: 1200px;
+  max-width: 1280px;
 }
 
 .branding {
@@ -463,6 +464,38 @@ main {
   text-decoration: none;
 }
 
+/* Mobile menu trigger button */
+
+.hamburger {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 36px;
+  height: 36px;
+}
+
+.hamburger span {
+  display: block;
+  background: var(--color-secondary-600);
+  width: 100%;
+  height: 5px;
+  transform-origin: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.header:has(.mobile-menu-toggle input:checked) .hamburger span:nth-child(1) {
+  transform: translateY(11px) rotate(-45deg);
+}
+
+.header:has(.mobile-menu-toggle input:checked) .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+
+.header:has(.mobile-menu-toggle input:checked) .hamburger span:nth-child(3) {
+  transform: translateY(-12px) rotate(45deg);
+}
+
 /* Link hover animation */
 
 .menu li a::after {
@@ -476,18 +509,21 @@ main {
   height: 16px;
   z-index: -1;
 }
+
+.menu li a.active::after {
+  width: 16px;
+  border-radius: 100%;
+}
+
 .menu li a:hover::after {
   width: 100%;
-  transition: width 0.2s;
+  border-radius: 0;
+  transition: width 0.3s ease-in-out, border-radius 0.1s ease-in-out;
 }
 
-/**
- * #4.0 Footer
- */
-
-.footer {
-  /* padding-top: 40px; */
-}
+/* ================================================== */
+/* #4.0 Footer ====================================== */
+/* ================================================== */
 
 /* Newsletter */
 
@@ -499,10 +535,6 @@ main {
 .newsletter__header h3,
 .newsletter__header {
   color: white;
-}
-
-.newsletter__header {
-  text-align: center;
 }
 
 /* Social Links */
@@ -587,14 +619,16 @@ main {
   margin: 0;
 }
 
-/**
- * #5.0 Pages
- */
+/* ================================================== */
+/* #5.0 Pages ======================================= */
+/* ================================================== */
 
-/* #5.1 Home */
+/* ================================================== */
+/* #5.1 Home ======================================== */
+/* ================================================== */
 
 .home-hero {
-  padding: 64px 24px 36px 24px;
+  padding: 64px 24px 0 24px;
 }
 
 .home-webinar {
@@ -633,14 +667,16 @@ main {
   padding: 64px 24px;
 }
 
-.home-ready__content {
-  text-align: center;
+/* ================================================== */
+/* #5.2 Webinar ===================================== */
+/* ================================================== */
+
+.webinar-hero {
+  padding: 36px 24px;
 }
 
-/* #5.2 Webinar */
-
-.webinar-hero,
 .webinar-agenda,
+.webinar-details,
 .webinar-host,
 .webinar-faq,
 .webinar-testimonials,
@@ -648,29 +684,164 @@ main {
   padding: 36px 24px;
 }
 
-/* #5.3 About */
+.webinar-agenda__heading {
+  margin-bottom: var(--spacing-lg);
+}
+
+.webinar-testimonials {
+  padding: 64px 24px;
+}
+
+.webinar-details {
+  max-width: 768px;
+  margin-bottom: var(--spacing-md);
+}
+
+.webinar-icon-text {
+  margin-bottom: var(--spacing-md);
+  box-shadow: 0 0px 8px 4px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: var(--spacing-md);
+  border-radius: 8px;
+}
+
+.webinar-icon-text p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.webinar-faq__heading {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.faq__item {
+  background: var(--color-neutral-100);
+  border-radius: 8px;
+  padding: var(--spacing-md);
+  margin-bottom: 16px;
+}
+
+.faq__item dd {
+  margin: 0;
+}
+
+.testimonial {
+  position: relative;
+  background-color: var(--color-neutral-100);
+  box-shadow: 0 0px 0 4px rgba(0, 0, 0, 0.04);
+  padding: 32px;
+  margin: 56px 0 0 0;
+}
+
+.webinar-testimonials__heading {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.testimonial::before {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  line-height: 1.2;
+  border-radius: 100%;
+  width: 68px;
+  height: 68px;
+  background: var(--color-neutral-100);
+  position: absolute;
+  top: -44px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '"';
+  font-size: 140px;
+  color: var(--color-secondary-400);
+}
+.testimonial__body {
+  padding: 0;
+  margin: 0;
+}
+
+.testimonial--accent {
+  background-color: var(--color-primary-600);
+}
+.testimonial--accent .testimonial__body,
+.testimonial--accent .testimonial__footer {
+  color: white;
+}
+
+/* ================================================== */
+/* #5.3 About ======================================= */
+/* ================================================== */
 
 .about-hero,
-.about-alex,
-.about-vision,
-.about-transformation {
+.about-vision {
   padding: 36px 24px;
 }
 
-/* #5.4 Contact */
+/* ================================================== */
+/* #5.4 Contact ===================================== */
+/* ================================================== */
 
 .contact-hero,
 .contact-form {
   padding: 36px 24px;
 }
 
-/**
- * #6.0 Components
- */
+.contact-hero {
+  max-width: 768px;
+}
 
-/**
- * #6.1 Buttons
- */
+.contact-form {
+  max-width: 768px;
+  align-items: center;
+}
+
+/* ================================================== */
+/* #5.5 Thank you =================================== */
+/* ================================================== */
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  padding: 8vh 24px 36px 24px;
+}
+.thank-you__image {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--color-neutral-200);
+}
+
+/* ================================================== */
+/* #5.5 Error ======================================= */
+/* ================================================== */
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  padding: 36px 24px;
+}
+
+.error-page__image {
+  order: 2;
+}
+
+/* ================================================== */
+/* #6.0 Components ================================== */
+/* ================================================== */
+
+/* ================================================== */
+/* #6.1 Buttons ===================================== */
+/* ================================================== */
 
 .buttons {
   display: flex;
@@ -719,40 +890,74 @@ main {
   margin-bottom: 8px;
 }
 
-/* Custom Icons */
+/* ================================================== */
+/* #6.2 Custom Icons ================================ */
+/* ================================================== */
 
 .icon-text {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
   padding: 14px;
 }
-.icon-text__icon {
+
+.icon {
   display: block;
+}
+
+.icon--sm {
+  width: 36px;
+  height: 36px;
+}
+
+.icon--lg {
   width: 140px;
   height: 140px;
+}
+
+.icon--color-primary {
   background: var(--color-primary-400);
 }
-.icon-text--negative {
+
+.icon--color-secondary {
+  background: var(--color-secondary-400);
+}
+
+.icon--negative {
   mask: url("../images/icon-mindset-negative.svg") no-repeat center;
   -webkit-mask: url("../images/icon-mindset-negative.svg") no-repeat center;
 }
-.icon-text--positive {
+.icon--positive {
   mask: url("../images/icon-mindset-positive.svg") no-repeat center;
   -webkit-mask: url("../images/icon-mindset-positive.svg") no-repeat center;
 }
-.icon-text--goals {
+.icon--goals {
   mask: url("../images/icon-mindset-goals.svg") no-repeat center;
   -webkit-mask: url("../images/icon-mindset-goals.svg") no-repeat center;
 }
-.icon-text--responsibility {
+.icon--responsibility {
   mask: url("../images/icon-mindset-responsibility.svg") no-repeat center;
   -webkit-mask: url("../images/icon-mindset-responsibility.svg") no-repeat
     center;
 }
 
-/* Image Masks */
+.icon--timezone {
+  mask: url("../images/icon-timezone.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-timezone.svg") no-repeat center;
+}
+
+.icon--time {
+  mask: url("../images/icon-time.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-time.svg") no-repeat center;
+}
+
+.icon--date {
+  mask: url("../images/icon-date.svg") no-repeat center;
+  -webkit-mask: url("../images/icon-date.svg") no-repeat center;
+}
+
+/* ================================================== */
+/* #6.3 Image Masks ================================= */
+/* ================================================== */
 
 .image-mask-1 img {
   object-fit: cover;
@@ -791,7 +996,9 @@ main {
   -webkit-mask-size: contain;
 }
 
-/* Dividers */
+/* ================================================== */
+/* #6.4 Dividers ==================================== */
+/* ================================================== */
 
 .divider {
   line-height: 0;
@@ -808,27 +1015,30 @@ main {
   fill: var(--color-neutral-100);
 }
 
-/** 
- * #10.0 - Media min 576px 
- */
+/* ========================================================================== */
+/* ========================================================================== */
+/* #10.0 Media min 576px ==================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
 
 @media all and (min-width: 576px) {
-  /**
-  * #6.1 Buttons
-  */
+  /* ================================================== */
+  /* #6.1 Buttons ===================================== */
+  /* ================================================== */
 
   .buttons {
     flex-direction: row;
     gap: 16px;
   }
 
-  /**
-   * #14.0 Footer
-   */
+  /* ================================================== */
+  /* #14.0 Footer ===================================== */
+  /* ================================================== */
 
   .secondary-links {
     justify-content: center;
     flex-direction: row;
+    margin: 0;
   }
 
   .secondary-links li {
@@ -839,27 +1049,59 @@ main {
     margin: 0 8px;
   }
 
-  /**
-  * #15.0 Pages
-  */
+  /* ================================================== */
+  /* #15.0 Pages ====================================== */
+  /* ================================================== */
 
-  /* #15.1 Home */
+  /* ================================================== */
+  /* #15.1 Home ======================================= */
+  /* ================================================== */
 
   .home-webinar__icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--grid-gap);
   }
+
+  /* ================================================== */
+  /* #15.5 Thank you ================================== */
+  /* ================================================== */
+
+  .error-page {
+    flex-direction: row;
+  }
+
+  .error-page__content {
+    order: 2;
+  }
+
+  /* ================================================== */
+  /* #15.2 Webinar ==================================== */
+  /* ================================================== */
+
+  .webinar-details {
+    margin-top: -100px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
+  .webinar-icon-text {
+    margin-bottom: 0;
+  }
 }
 
-/**
- * #20.0 - Media min 768px 
- */
+/* ======================================================================== */
+/* ======================================================================== */
+/* #20.0 Media min 768px ================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
 
 @media all and (min-width: 768px) {
-  /**
-  * #21.1 Typography
-  */
+  /* ================================================== */
+  /* #21.1 Typography ================================= */
+  /* ================================================== */
 
   h1 {
     font-size: var(--text-size-h1);
@@ -880,9 +1122,9 @@ main {
     font-size: var(--text-size-h6);
   }
 
-  /**
-   * #23.0 Header
-   */
+  /* ================================================== */
+  /* #23.0 Header ===================================== */
+  /* ================================================== */
 
   .header-content {
     align-items: center;
@@ -918,9 +1160,19 @@ main {
     height: 12px;
   }
 
-  /**
-   * #24.0 Footer
-   */
+  .menu li a.active::after {
+    width: 12px;
+    border-radius: 100%;
+  }
+
+  .menu li a.active:hover::after {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  /* ================================================== */
+  /* #24.0 Footer ===================================== */
+  /* ================================================== */
 
   .footer__content {
     display: flex;
@@ -932,25 +1184,26 @@ main {
     margin-bottom: 0;
   }
 
-  /**
-  * #25.0 Pages
-  */
-
-  /* #25.1 Home */
+  /* ================================================== */
+  /* #25.0 Pages ====================================== */
+  /* ================================================== */
 
   .home-hero,
-  .home-about {
+  .home-about,
+  .home-webinar__future,
+  .home-webinar__change,
+  .webinar-hero,
+  .webinar-host,
+  .faq,
+  .about-hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--grid-gap);
   }
 
-  .home-webinar__future,
-  .home-webinar__change {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--grid-gap);
-  }
+  /* ================================================== */
+  /* #25.1 Home ======================================= */
+  /* ================================================== */
 
   .home-webinar__icons {
     display: grid;
@@ -958,11 +1211,32 @@ main {
     gap: var(--grid-gap);
   }
 
-  /**
-   * #26.0 Components
-   */
+  /* ================================================== */
+  /* #25.2 Webinar ==================================== */
+  /* ================================================== */
 
-  /* #26.1 Buttons */
+  .webinar-hero,
+  .webinar-host {
+    align-items: center;
+  }
+
+  .faq__item {
+    margin-bottom: 0;
+  }
+
+  .testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--grid-gap);
+  }
+
+  /* ================================================== */
+  /* #26.0 Components ================================= */
+  /* ================================================== */
+
+  /* ================================================== */
+  /* #26.1 Buttons ==================================== */
+  /* ================================================== */
 
   .button--margin {
     margin-bottom: 0;
