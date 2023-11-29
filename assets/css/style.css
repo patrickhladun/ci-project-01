@@ -85,8 +85,8 @@
   --color-text-light: white;
   --color-headings: var(--color-secondary-700);
   --color-headings-light: var(--color-neutral-50);
-  --color-link: var(--color-primary-600);
-  --color-link-hover: var(--color-primary-400);
+  --color-link: var(--color-primary-700);
+  --color-link-hover: var(--color-primary-800);
   --color-link-light: var(--color-primary-300);
   --color-link-light-hover: var(--color-primary-400);
 }
