@@ -159,14 +159,15 @@
             stories, and updates on upcoming webinars. Start your journey to a better mindset today!
           </p>
         </div>
-        <form>
+        <form method="GET" action="./thank-you-newsletter.html">
           <div class="field field__text">
             <label class="field__label" for="email">Email</label>
-            <input id="email" class="field__input" type="email" placeholder="Your best email" aria-label="your email"
-              required>
+            <input id="email" name="email" class="field__input" type="email" placeholder="Your best email"
+              aria-label="your email" required>
           </div>
           <div class="field field__checkbox">
-            <input class="field__input-checkbox" id="gdpr" type="checkbox" aria-label="privacy policy consent" required>
+            <input class="field__input-checkbox" id="gdpr" name="consent" type="checkbox"
+              aria-label="privacy policy consent" required>
             <label class="field__label" for="gdpr">I have read the
               <a class="light" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer">privacy policy</a>
               and I agree to the terms and data processing practices outlined
