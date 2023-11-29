@@ -144,7 +144,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font: 400 16px/1.6 Poppins, Arial, Helvetica, sans-serif;
+  font: 300 16px/1.6 Poppins, Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -234,6 +234,7 @@ p:first-child {
 
 a,
 a.light {
+  font-weight: 500;
   position: relative;
   text-decoration: none;
   z-index: 0;
