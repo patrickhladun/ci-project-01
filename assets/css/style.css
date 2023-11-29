@@ -783,6 +783,18 @@ main {
   padding: 36px 24px;
 }
 
+.about-hero {
+  align-items: center;
+}
+
+.about-hero__image {
+  display: flex;
+  justify-content: center;
+}
+.about-hero__image img {
+  max-width: 400px;
+}
+
 /* ================================================== */
 /* #5.4 Contact ===================================== */
 /* ================================================== */
