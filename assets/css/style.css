@@ -18,9 +18,8 @@
  *  5.5 - Error
  * 6.0 - Components
  *  6.1 - Buttons
- *  6.2 - Custom Icons
- *  6.3 - Image Masks
- *  6.4 - Dividers
+ *  6.2 - Icons
+ *  6.3 - Dividers
  
  * 10.0 - Media min 576px
  *  12.0 - Layout
@@ -129,7 +128,6 @@ html {
   box-sizing: border-box;
   height: 100%;
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
 }
 
 *,
@@ -908,89 +906,15 @@ main {
 }
 
 .icon--color-primary {
-  background: var(--color-primary-400);
+  fill: var(--color-primary-400);
 }
 
 .icon--color-secondary {
-  background: var(--color-secondary-400);
-}
-
-.icon--negative {
-  mask: url("../images/icon-mindset-negative.svg") no-repeat center;
-  -webkit-mask: url("../images/icon-mindset-negative.svg") no-repeat center;
-}
-.icon--positive {
-  mask: url("../images/icon-mindset-positive.svg") no-repeat center;
-  -webkit-mask: url("../images/icon-mindset-positive.svg") no-repeat center;
-}
-.icon--goals {
-  mask: url("../images/icon-mindset-goals.svg") no-repeat center;
-  -webkit-mask: url("../images/icon-mindset-goals.svg") no-repeat center;
-}
-.icon--responsibility {
-  mask: url("../images/icon-mindset-responsibility.svg") no-repeat center;
-  -webkit-mask: url("../images/icon-mindset-responsibility.svg") no-repeat
-    center;
-}
-
-.icon--timezone {
-  mask: url("../images/icon-timezone.svg") no-repeat center;
-  -webkit-mask: url("../images/icon-timezone.svg") no-repeat center;
-}
-
-.icon--time {
-  mask: url("../images/icon-time.svg") no-repeat center;
-  -webkit-mask: url("../images/icon-time.svg") no-repeat center;
-}
-
-.icon--date {
-  mask: url("../images/icon-date.svg") no-repeat center;
-  -webkit-mask: url("../images/icon-date.svg") no-repeat center;
+  fill: var(--color-secondary-400);
 }
 
 /* ================================================== */
-/* #6.3 Image Masks ================================= */
-/* ================================================== */
-
-.image-mask-1 img {
-  object-fit: cover;
-  mask-image: url("../images/mask-01.svg");
-  -webkit-mask-image: url("../images/mask-01.svg");
-  mask-repeat: no-repeat round;
-  -webkit-mask-repeat: no-repeat round;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-}
-.image-mask-2 img {
-  object-fit: cover;
-  mask-image: url("../images/mask-02.svg");
-  -webkit-mask-image: url("../images/mask-02.svg");
-  mask-repeat: no-repeat round;
-  -webkit-mask-repeat: no-repeat round;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-}
-.image-mask-3 img {
-  object-fit: cover;
-  mask-image: url("../images/mask-03.svg");
-  -webkit-mask-image: url("../images/mask-03.svg");
-  mask-repeat: no-repeat round;
-  -webkit-mask-repeat: no-repeat round;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-}
-.image-mask-4 img {
-  object-fit: cover;
-  mask-image: url("../images/mask-04.svg");
-  -webkit-mask-image: url("../images/mask-04.svg");
-  mask-repeat: no-repeat round;
-  -webkit-mask-repeat: no-repeat round;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-}
-
-/* ================================================== */
-/* #6.4 Dividers ==================================== */
+/* #6.3 Dividers ==================================== */
 /* ================================================== */
 
 .divider {
