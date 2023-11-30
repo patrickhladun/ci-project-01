@@ -59,9 +59,13 @@
   </header>
   <main>
     <section class="background-lighter">
-      <div class="error-page container-small">
+      <div class="error-page container">
         <div class="error-page__image">
-          <img src="./assets/images/404.webp" width="768" height="768" alt="404 not found">
+          <img src="./assets/images/404-768.webp" width="768" height="512" srcset="
+                ./assets/images/404-768.webp   768w,
+                ./assets/images/404-1536.webp 1536w,
+                ./assets/images/404-2304.webp 2304w
+              " sizes="(min-width: 768px) 50vw, 100vw" alt="404 not found">
         </div>
         <div class="error-page__content">
           <h1>Oh Wire! Looks Like Our Thoughts Wandered Off...</h1>
