@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
 
   <link rel="shortcut icon" href="./favicon.ico">
   <link rel="icon" sizes="16x16 32x32 64x64" href="./favicon.ico">
@@ -45,16 +45,12 @@
       <div class="branding">
         <a class="logo" href="./"><img src="./assets/images/logo.svg" width="116" height="36" alt="Logo"></a>
       </div>
-      <div class="mobile-menu-toggle">
-        <div class="menu-toggle-button">
-          <input id="mobile-menu-toggle" type="checkbox">
-          <label class="hamburger" for="mobile-menu-toggle" aria-label="menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-        </div>
-      </div>
+      <input id="mobile-menu-toggle" type="checkbox">
+      <label class="hamburger" for="mobile-menu-toggle" aria-label="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
       <nav class="navigation">
         <ul class="menu">
           <li><a href="./">Home</a></li>
@@ -63,7 +59,7 @@
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
-    </div>
+    </input>
   </header>
   <main>
 
@@ -86,11 +82,11 @@
             compelled to share. Thus, Mindset Makeover was born.
           </p>
         </div>
-        <div class="about-hero__image image-mask-4">
-          <img src="./assets/images/home-about-768.webp" width="768" height="512" srcset="
-              ./assets/images/home-about-768.webp   768w,
-              ./assets/images/home-about-1536.webp 1536w,
-              ./assets/images/home-about-2304.webp 2304w
+        <div class="about-hero__image">
+          <img src="./assets/images/alex-standing-300.webp" width="300" height="411" srcset="
+              ./assets/images/alex-standing-300.webp 300w,
+              ./assets/images/alex-standing-600.webp 600w,
+              ./assets/images/alex-standing-900.webp 900w
             " sizes="(min-width: 768px) 50vw, 100vw" alt="Power of Positive Thinking">
         </div>
       </div>
@@ -159,14 +155,15 @@
             stories, and updates on upcoming webinars. Start your journey to a better mindset today!
           </p>
         </div>
-        <form>
+        <form method="GET" action="./thank-you-newsletter.html">
           <div class="field field__text">
             <label class="field__label" for="email">Email</label>
-            <input id="email" class="field__input" type="email" placeholder="Your best email" aria-label="your email"
-              required>
+            <input id="email" name="email" class="field__input" type="email" placeholder="Your best email"
+              aria-label="your email" required>
           </div>
           <div class="field field__checkbox">
-            <input class="field__input-checkbox" id="gdpr" type="checkbox" aria-label="privacy policy consent" required>
+            <input class="field__input-checkbox" id="gdpr" name="consent" type="checkbox"
+              aria-label="privacy policy consent" required>
             <label class="field__label" for="gdpr">I have read the
               <a class="light" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer">privacy policy</a>
               and I agree to the terms and data processing practices outlined
@@ -183,12 +180,26 @@
     <div class="background-color-dark">
       <div class="footer__content container">
         <div class="social-links">
-          <a aria-label="link to twitter profile page" class="social-link social-link__twitter"
-            href="https://twitter.com/"></a>
-          <a aria-label="link to facebook profile page" class="social-link social-link__facebook"
-            href="https://facebook.com/"></a>
-          <a aria-label="link to instagram profile page" class="social-link social-link__instagram"
-            href="https://instagram.com/"></a>
+          <a href="https://twitter.com/" target="_blank" class="social-link" aria-label="link to twitter profile page">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+              <path
+                d="m61.43,13.74c-2.17.96-4.49,1.61-6.94,1.9,2.49-1.49,4.41-3.86,5.31-6.68-2.33,1.38-4.92,2.39-7.67,2.93-2.2-2.35-5.34-3.81-8.82-3.81-6.67,0-12.08,5.41-12.08,12.08,0,.95.11,1.87.31,2.75-10.04-.5-18.94-5.31-24.89-12.62-1.04,1.78-1.64,3.86-1.64,6.07,0,4.19,2.13,7.89,5.37,10.05-1.98-.06-3.84-.61-5.47-1.51,0,.05,0,.1,0,.15,0,5.85,4.16,10.73,9.69,11.84-1.01.28-2.08.42-3.18.42-.78,0-1.53-.08-2.27-.22,1.54,4.8,6,8.29,11.28,8.39-4.13,3.24-9.34,5.17-15,5.17-.97,0-1.94-.06-2.88-.17,5.34,3.43,11.69,5.43,18.51,5.43,22.22,0,34.36-18.4,34.36-34.36,0-.52-.01-1.04-.03-1.56,2.36-1.7,4.41-3.83,6.03-6.25Z" />
+            </svg>
+          </a>
+          <a href="https://facebook.com/" target="_blank" class="social-link"
+            aria-label="link to facebook profile page"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+              <path
+                d="m61.54,32.18c0-16.41-13.23-29.72-29.54-29.72S2.46,15.77,2.46,32.18c0,14.83,10.8,27.13,24.92,29.36v-20.77h-7.5v-8.59h7.5v-6.55c0-7.45,4.41-11.56,11.16-11.56,3.23,0,6.61.58,6.61.58v7.31h-3.73c-3.67,0-4.81,2.29-4.81,4.64v5.58h8.19l-1.31,8.59h-6.88v20.77c14.12-2.23,24.92-14.53,24.92-29.36Z" />
+            </svg></a>
+          <a href="https://instagram.com/" target="_blank" class="social-link"
+            aria-label="link to instagram profile page">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+              <path
+                d="m32,7.83c7.87,0,8.81.03,11.91.17,2.87.13,4.44.61,5.48,1.02,1.38.53,2.36,1.17,3.39,2.21,1.03,1.03,1.67,2.01,2.21,3.39.4,1.04.88,2.6,1.02,5.48.14,3.11.17,4.04.17,11.91s-.03,8.81-.17,11.91c-.13,2.87-.61,4.44-1.02,5.48-.53,1.38-1.17,2.36-2.21,3.39-1.03,1.03-2.01,1.67-3.39,2.21-1.04.4-2.6.88-5.48,1.02-3.11.14-4.04.17-11.91.17s-8.81-.03-11.91-.17c-2.87-.13-4.44-.61-5.48-1.02-1.38-.53-2.36-1.17-3.39-2.21-1.03-1.03-1.67-2.01-2.21-3.39-.4-1.04-.88-2.6-1.02-5.48-.14-3.11-.17-4.04-.17-11.91s.03-8.81.17-11.91c.13-2.87.61-4.44,1.02-5.48.53-1.38,1.17-2.36,2.21-3.39,1.03-1.03,2.01-1.67,3.39-2.21,1.04-.4,2.6-.88,5.48-1.02,3.11-.14,4.04-.17,11.91-.17m0-5.31c-8.01,0-9.01.03-12.16.18-3.14.14-5.28.64-7.16,1.37-1.94.75-3.58,1.76-5.22,3.4-1.64,1.64-2.65,3.28-3.4,5.22-.73,1.88-1.23,4.02-1.37,7.16-.14,3.14-.18,4.15-.18,12.16s.03,9.01.18,12.16c.14,3.14.64,5.28,1.37,7.16.75,1.94,1.76,3.58,3.4,5.22,1.64,1.64,3.28,2.65,5.22,3.4,1.88.73,4.02,1.23,7.16,1.37,3.14.14,4.15.18,12.16.18s9.01-.03,12.16-.18c3.14-.14,5.28-.64,7.16-1.37,1.94-.75,3.58-1.76,5.22-3.4,1.64-1.64,2.65-3.28,3.4-5.22.73-1.88,1.23-4.02,1.37-7.16.14-3.14.18-4.15.18-12.16s-.03-9.01-.18-12.16c-.14-3.14-.64-5.28-1.37-7.16-.75-1.94-1.76-3.58-3.4-5.22-1.64-1.64-3.28-2.65-5.22-3.4-1.88-.73-4.02-1.23-7.16-1.37-3.14-.14-4.15-.18-12.16-.18h0Z" />
+              <path
+                d="m32,16.86c-8.36,0-15.14,6.78-15.14,15.14s6.78,15.14,15.14,15.14,15.14-6.78,15.14-15.14-6.78-15.14-15.14-15.14Zm0,24.97c-5.43,0-9.83-4.4-9.83-9.83s4.4-9.83,9.83-9.83,9.83,4.4,9.83,9.83-4.4,9.83-9.83,9.83Z" />
+              <circle cx="47.74" cy="16.26" r="3.54" />
+            </svg></a>
         </div>
         <ul class="secondary-links">
           <li>
