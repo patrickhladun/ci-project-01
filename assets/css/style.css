@@ -547,34 +547,19 @@ main {
 }
 
 .social-link {
-  background-color: var(--color-neutral-200);
   width: 32px;
   height: 32px;
   margin-right: 24px;
-  transition: background-color 0.3s ease-in-out;
+  fill: var(--color-neutral-200);
+  transition: fill 0.3s ease-in-out;
 }
 
 .social-link:hover {
-  background-color: var(--color-primary-400);
+  fill: var(--color-primary-400);
 }
 
 .social-link:last-child {
   margin-right: 0;
-}
-
-.social-link__twitter {
-  mask: url("../images/icon-social-twitter.svg.svg") no-repeat center;
-  -webkit-mask: url("../images/icon-social-twitter.svg") no-repeat center;
-}
-
-.social-link__facebook {
-  mask: url("../images/icon-social-facebook.svg.svg") no-repeat center;
-  -webkit-mask: url("../images/icon-social-facebook.svg") no-repeat center;
-}
-
-.social-link__instagram {
-  mask: url("../images/icon-social-instagram.svg.svg") no-repeat center;
-  -webkit-mask: url("../images/icon-social-instagram.svg") no-repeat center;
 }
 
 /* Secondary Links */
