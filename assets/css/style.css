@@ -894,6 +894,7 @@ input:checked ~ .hamburger span:nth-child(3) {
 }
 
 .icon {
+  fill: var(--color-primary-500);
   display: block;
 }
 
@@ -905,14 +906,6 @@ input:checked ~ .hamburger span:nth-child(3) {
 .icon--lg {
   width: 140px;
   height: 140px;
-}
-
-.icon--color-primary {
-  fill: var(--color-primary-400);
-}
-
-.icon--color-secondary {
-  fill: var(--color-secondary-400);
 }
 
 /* ================================================== */
