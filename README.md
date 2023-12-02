@@ -57,7 +57,21 @@ The ultimate purpose of the website is to not only deliver information but also 
 #### How Mindset Makeover Meets Emily's Needs:
 - Mindset Makeover's webinars offer Emily practical and actionable advice to improve her leadership skills and manage stress, aligning with her goal to balance her professional and personal life.
 - The newsletters provide ongoing support and insights, helping her navigate daily challenges with a positive mindset.
-
+### User Goals
+1. **Personal Growth and Development**: Users come to the site seeking resources and advice for personal and professional growth. They are looking to improve their mindset and life strategies.
+2. **Implementing Practical Strategies**: Visitors are interested in finding actionable techniques that they can apply in their everyday lives. They value practical advice that leads to tangible changes.
+3. **Overcoming Personal Challenges**: Many users are dealing with specific personal issues such as stress management, work-life balance, or confidence building. They are looking for support and strategies to overcome these challenges.
+4. **Staying Informed with Regular Updates**: Visitors may want to subscribe to newsletters or updates to stay informed about new content, events, or learning resources.
+### User Stories
+1. **As a busy professional**, I want to find quick, actionable strategies for stress management, so I can improve my work-life balance.
+2. **As a recent graduate**, I want to learn how to set and achieve my career goals, so I can navigate my path to success more effectively.
+3. **As a team leader**, I want to learn techniques for positive leadership, so I can create a better work environment for my team.
+4. **As someone struggling with self-confidence**, I want to find resources for boosting self-esteem, so I can feel more empowered in my personal and professional life.
+5. **As a regular webinar attendee**, I want to easily sign up for online events, so I can learn directly from experts like Alex Richards.
+6. **As a lifelong learner**, I want to subscribe to a newsletter that provides regular insights and tips on personal growth, so I can continuously improve myself.
+7. **As a newcomer to personal development**, I want to understand the basics of mindset change, so I can start making positive changes in my life.
+8. **As a tech-savvy user**, I want a website that is easy to navigate on my phone or tablet, so I can access content on-the-go.
+9. **As a person looking for professional advice**, I want to contact the Mindset Makeover team easily, so I can get answers to my specific questions.
 ### Wireframes
 Creating wireframes was crucial for developing Mindset Makeover. I chose Figma for this task because it's user-friendly and practical. I used real text instead of placeholders in the wireframes, making them more detailed and reflective of the final site.
 
