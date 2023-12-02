@@ -62,6 +62,15 @@ Together, these colours create a balanced and engaging visual experience. The co
 
 ![Mindset  Makeover Colors](./docs/mindset-makeover-colors.jpg "Mindset  Makeover Colors")
 
+
+## Testing and Validation
+
+### CSS Validation
+
+The CSS was validated on validator.w3.org and passed successfully, with the exception of one warning. This warning was generated due to the use of CSS variables, accompanied by the message: "Due to their dynamic nature, CSS variables are not subject to static checking."
+
+[CSS Validation PDF](./docs/css-validation.png "CSS Validation PDF")
+
 ## Content
 ## Wireframes
 ## Features
