@@ -127,7 +127,6 @@ I brainstormed the initial design ideas for the logo using Midjourney, which hel
 For the specific images needed in the project, like the headshots of Alex Richards, I turned to Midjourney to create the initial versions. These AI-generated images provided a solid starting point. I then used Adobe Photoshop to refine these images further, enhancing their quality to ensure they seamlessly fit the website's overall aesthetic.
 #### Icons
 I sketched the website's icons by hand on a tablet. I wanted them to have an organic, hand-drawn look to add a unique and personal touch to the site. After completing the sketches, I digitized and vectorized them using Adobe Illustrator. This approach ensured the icons maintained their organic aesthetic and remained visually sharp and effective.
-
 ### Colors Scheme
 In the design of the Mindset Makeover website, I carefully selected a colour palette of red, blue, and neutral grey to enhance the user experience and visual appeal.
 
@@ -141,21 +140,86 @@ Additionally, **neutral grey** plays a subtle but crucial role. It is used for v
 Together, these colours create a balanced and engaging visual experience. The combination of red and blue aligns with the website's core themes, while the grey adds a necessary balance, ensuring the design remains accessible and pleasing to the eye.
 
 ![Mindset  Makeover Colors](./docs/mindset-makeover-colors.jpg "Mindset  Makeover Colors")
+## Pages and Features
+### Website Header Design
+I designed the header to blend a classic layout with interactive elements, creating an experience that's both user-friendly and visually appealing.
 
+I designed the header following a standard pattern, with the logo on the left for brand recognition and the navigation menu on the right for a balanced and intuitive layout.
 
+For each menu item, I included an active page indicator, shown as a light red dot, to give a clear visual cue of the user's current location on the site.
+
+I added a hover effect where the underline beneath the menu items expands from left to right. This animation provides lively feedback as users interact with the menu, enhancing their overall experience.
+
+On mobile devices, I replaced the standard menu with a hamburger icon to better suit smaller screens and improve user interaction.
+### Website Footer Design
+In my design for the website's footer, I aimed for simplicity and clarity to enhance the user experience.
+
+**Footer Content and Layout**:
+
+- I split the footer into two sections: on the left are secondary links like Terms and Conditions, Privacy Policy, and Contact; on the right are links to our social media profiles.
+- For mobile users, I made these links stack in a centered column format, making them easy to navigate.
+- I chose a dark blue background for this section to subtly contrast with the main content, with the links in light red for a splash of color and better visibility.
+
+**Color Scheme**:
+
+- The dark blue background of the footer contrasts with the light red links, ensuring they are easy to read and visually appealing.
+- The copyright section is in a dark gray, almost black, offering a clear distinction from the main footer section, with light text for a sharp contrast.
+
+**Newsletter Signup Form**:
+
+- In the footer of the Home and About pages, I added a newsletter signup form, an important feature for engaging users.
+- The form has a slightly lighter blue background than the rest of the footer, with white text, making it stand out and inviting users to subscribe.
+- I left this form off other pages like Webinar and Contact to keep the user's focus on specific actions, like signing up for the webinar.
+### Home Page
+In the Mindset Makeover website project, each section of the home page was designed for optimal engagement and clarity.
+
+The hero section begins with a compelling statement, "Rewire your mind, transform your life," introducing visitors to the concept of personal transformation through Alex's story. This area is set against a light grey background, complemented by a smooth SVG divider that seamlessly transitions to the next part.
+
+The webinar details section emphasizes the role of mindset in achieving life goals, presenting this through visually engaging icon-text elements that cover themes like positive thinking and goal-setting.
+
+In the 'About Alex' section, the narrative focuses on his journey of overcoming life's hurdles, structured for readability and emotional connection with the audience.
+
+Following this, a standout call-to-action for the webinar sign-up is strategically placed to attract attention, leading visitors towards participation. The page concludes with a newsletter signup section, distinct in design yet cohesive with the page's overall aesthetic.
+### Webinar Page
+In the Mindset Makeover website project, the Webinar Page is structured to provide comprehensive information about the webinar in an engaging manner.
+
+Hero section features an inviting heading and introductory text, setting the stage for what the webinar offers. I've included a custom video teaser that adheres to the site's color scheme, providing a visual and engaging preview of the webinar.
+
+Between the hero and the next sections, I have added three boxes with details about the webinar, each accompanied by custom icons. 
+
+The agenda is laid out in a straightforward manner, with simple text. This section breaks down the webinar's content, making it easy for visitors to understand what topics will be covered.
+
+A brief section about Alex, the webinar host, includes a photo. This part is concise, offering a quick introduction to Alex and his credentials.
+
+The FAQs are presented in a two-column list, addressing common questions and concerns about the webinar. This format makes it easy for visitors to find answers quickly.
+
+Three testimonials are included to provide insights from previous participants, adding credibility and a personal touch to the webinar.
+
+The page concludes with a webinar signup section, placed before the footer. This final call-to-action is designed to encourage visitors to register for the webinar.
+
+Overall, the Webinar Page of this project is crafted to inform and motivate visitors, guiding them through the details and leading them towards signing up for the webinar.
+### About Page
+In the Mindset Makeover website project, the About page is created with simplicity and clarity in mind, focusing on introducing Alex and the webinar.
+
+The hero section features a brief introduction about Alex, accompanied by his photo. This instantly gives visitors a personal insight into the coach behind the Mindset Makeover.
+
+Following the hero section is a text-based area dedicated to detailing the webinar. This section methodically explains what the webinar entails, its benefits, and how it aligns with Alex's approach to personal development.
+
+The page concludes with a "Learn More about Webinar" button. This direct call-to-action is strategically placed to encourage visitors to explore further and potentially sign up for the webinar. The section ends with a "Learn More about Webinar" button, inviting visitors to discover more about the webinar offering.
+### Contact Page
+In the Mindset Makeover project, the Contact page is straightforward, featuring a brief intro and a simple contact form for easy communication.
+### Thank you pages
+I created three different thank you pages tailored to specific actions: contact form submission, newsletter signup, and webinar signup. Each page provides a customized thank you message relevant to the action taken, ensuring a personalized and appreciative response for every form submission.
+### 404 Page
+In the Mindset Makeover project, I created a custom 404 page with a fun twist. Using a brain illustration generated by DALL-E and edited in Photoshop, the page features a playful error message and a link to return to the home page, ensuring visitors can easily navigate back.
+### Legal Pages
+I also included Privacy Policy and Terms and Conditions pages with example content. This ensures legal compliance for the site, especially as it collects user data, and allows linking to privacy details directly from forms' consent checkboxes.
 ## Testing and Validation
-
 ### CSS Validation
 
 The CSS was validated on validator.w3.org and passed successfully, with the exception of one warning. This warning was generated due to the use of CSS variables, accompanied by the message: "Due to their dynamic nature, CSS variables are not subject to static checking."
 
 [CSS Validation PDF](./docs/css-validation.png "CSS Validation PDF")
-
-## Content
-## Wireframes
-## Features
-## Technology
-## Performance
 
 ## Credits
 
