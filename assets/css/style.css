@@ -233,7 +233,6 @@ p:first-child {
 a,
 a.light {
   position: relative;
-  font-weight: 500;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
   z-index: 0;
