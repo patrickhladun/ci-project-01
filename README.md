@@ -305,7 +305,8 @@ Website was tested manually using chrome developer tools breakpoints but also wi
 
 I have checked all links correctly in the main navigation, secondary links and other links in text and forms.
 
-[Home Page Google Page Insights](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover/82uwgaj6h6?form_factor=mobile)
+Page Speed Tests goes here:
+
 
 ### HTML Validation
 
@@ -316,9 +317,9 @@ About Page
 [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fcontact.html)
 [Privacy Policy Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fprivacy-policy.html)
 [Terms and Conditions Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fterms.html)
-[Contact Submittion Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fthank-you-contact.html)
-[Webinar Submittion Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fthank-you-webinar.html)
-[Newsletter Submittion Thank You Page](https://patrickhladun.github.io/mindset-makeover/thank-you-newsletter.html)
+[Contact Submission Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fthank-you-contact.html)
+[Webinar Submission Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fthank-you-webinar.html)
+[Newsletter Submission Thank You Page](https://patrickhladun.github.io/mindset-makeover/thank-you-newsletter.html)
 [404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F404.html)
 
 ### CSS Validation
@@ -326,6 +327,15 @@ About Page
 The CSS was validated on validator.w3.org and passed successfully, with the exception of one warning. This warning was generated due to the use of CSS variables, accompanied by the message: "Due to their dynamic nature, CSS variables are not subject to static checking."
 
 [CSS Validation PDF](./docs/css-validation.png "CSS Validation PDF")
+
+## Further Improvements
+
+For further enhancements to the Mindset Makeover project, considering Alex's role as a coach, there are several potential features and services that could significantly enrich the website:
+
+- Alex could offer personalized 1-to-1 coaching sessions, focusing on various aspects of personal and professional development. Specific services could include job interview preparation, confidence-building workshops, and career advancement coaching.
+- A blog section would be a valuable addition, providing articles on self-improvement, success stories, and book recommendations.
+- Launching a podcast could attract a wider audience. This platform could feature interviews with inspiring personalities, discussions on personal growth strategies, and insights from Alex himself.
+- If Alex is a book author, a section dedicated to his publications would be an excellent addition. This could showcase his books, provide summaries, and link to purchase options.
 
 ## Credits
 
