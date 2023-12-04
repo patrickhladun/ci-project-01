@@ -226,6 +226,16 @@ I also included Privacy Policy and Terms and Conditions pages with example conte
 - **Adobe Photoshop**: This was my go-to tool for editing and optimizing the generated graphics, and for exporting image files in the appropriate formats for web use.
 
 ChatGPT was not used to generate a single line of code
+## Issues
+1. **Navigation Functionality**
+- **Problem:** Initially, I used the `has()` CSS selector to trigger the opening of the mobile navigation when the menu button was clicked. However, this approach presented an issue when it came to CSS validation. The `has()` selector did not comply with CSS validation standards, and finding a suitable solution proved challenging at the time.
+- **Solution:** To resolve this issue, I undertook a refactor of the header, using the solution implemented in the Love Running project. This new approach ensured proper navigation functionality while passing the CSS validation.      
+1. **Image Masking**
+- **Problem:** Originally, I used CSS masking techniques to apply SVG blob shapes to images. However, this approach led to validation warnings, primarily due to the usage of -webkit prefixes.
+- **Solution:** To fix these issues, I decided to abandon the use of -webkit prefixes. I used the blob shapes in Photoshop to mask images and exported them as webp files with transparent backgrounds. This alternative approach achieved the same visual results while reducing the complexity of the code and clearing the warnings.
+2. **Icon Handling**
+- **Issue:** Using CSS masks with SVG images for icon color switching led to warnings due to -webkit prefixes similar to the issues encountered with the image blobs.
+- **Solution:** I replaced CSS masks with inline SVGs. This change cleared the warnings and simplified the CSS, resulting in a cleaner and more compliant codebase.
 ## Testing and Validation
 ### CSS Validation
 
