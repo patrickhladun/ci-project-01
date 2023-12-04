@@ -7,7 +7,9 @@
 ![Mindset Makeover Presentaion](./docs/mindset-makeover-presentation.png "Mindset  Makeover Presentation")
 
 ## Planning
+
 ### Project Scope and Objectives
+
 Mindset Makeover is a personal coaching website. I have designed it to be simple and user-friendly. This project includes a home page, a place for signing up for newsletters, information about webinars, and a form to register for these webinars. There's also a contact page for questions or support.
 
 #### Mindset Makeover Website Objectives
@@ -16,6 +18,7 @@ Mindset Makeover is a personal coaching website. I have designed it to be simple
 2. **User Interaction**: I aim to engage users by offering newsletter sign-ups and webinar registrations, providing practical advice and inspiring stories.
 3. **Brand Awareness**: I'm focusing on establishing Mindset Makeover as a known resource for personal development. Community building is beyond this project's scope, but I might add this later.
 4. **User Conversion**: I want to encourage visitors to participate actively, especially in the free webinars Alex Richards hosts, where they can learn about positive thinking and self-empowerment.
+
 #### Key components of the website include:
 
 - **Home page**: Introduces the mission of Mindset Makeover.
@@ -26,8 +29,11 @@ Mindset Makeover is a personal coaching website. I have designed it to be simple
 In the future, I might add a blog, a podcast, and other elements to the website. For now, my focus is on offering a streamlined and valuable experience.
 
 The ultimate purpose of the website is to not only deliver information but also to inspire users to take steps towards enhancing their lives. The project will focus on delivering a seamless user experience with high-quality content, thereby fostering a positive community and brand loyalty.
+
 ## User Experience
+
 ### Audience Persona: Emily O'Sullivan
+
 - **Age**: 35
 - **Gender**: Female
 - **Location**: Suburban area near Dublin, Ireland
@@ -36,29 +42,37 @@ The ultimate purpose of the website is to not only deliver information but also 
 - **Marital Status**: Married with two children
 
 #### Psychographics:
+
 - **Interests**: Personal development, engaging in local community workshops, mindfulness retreats, reading self-help books, and exploring outdoor activities in Ireland.
 - **Goals**: Striving to balance a demanding career with family life, aspiring to lead her team more effectively while nurturing a healthy home environment.
 - **Challenges**: Facing stress from juggling professional responsibilities and parenting, combating self-doubt, and seeking ways to remain positive amidst work-life pressures.
 
 #### Behavioral Traits:
+
 - Actively seeks out resources for self-improvement and professional growth.
 - Spends evenings browsing websites for articles and videos on leadership, personal development, and stress management.
 - Participates in local community groups and online forums discussing career advancement and work-life balance.
 
 #### Online Habits:
+
 - Regularly uses social media platforms like LinkedIn for professional growth and Facebook for connecting with local community groups.
 - Enjoys subscribing to newsletters focused on personal development and leadership skills.
 - Prefers engaging with interactive online content, such as live webinars and virtual workshops, that offer real-time learning and interaction.
 
 #### How Mindset Makeover Meets Emily's Needs:
+
 - Mindset Makeover's webinars offer Emily practical and actionable advice to improve her leadership skills and manage stress, aligning with her goal to balance her professional and personal life.
 - The newsletters provide ongoing support and insights, helping her navigate daily challenges with a positive mindset.
+- 
 ### User Goals
+
 1. **Personal Growth and Development**: Users come to the site seeking resources and advice for personal and professional growth. They are looking to improve their mindset and life strategies.
 2. **Implementing Practical Strategies**: Visitors are interested in finding actionable techniques that they can apply in their everyday lives. They value practical advice that leads to tangible changes.
 3. **Overcoming Personal Challenges**: Many users are dealing with specific personal issues such as stress management, work-life balance, or confidence building. They are looking for support and strategies to overcome these challenges.
 4. **Staying Informed with Regular Updates**: Visitors may want to subscribe to newsletters or updates to stay informed about new content, events, or learning resources.
+
 ### User Stories
+
 1. **As a busy professional**, I want to find quick, actionable strategies for stress management, so I can improve my work-life balance.
 2. **As a recent graduate**, I want to learn how to set and achieve my career goals, so I can navigate my path to success more effectively.
 3. **As a team leader**, I want to learn techniques for positive leadership, so I can create a better work environment for my team.
@@ -68,17 +82,26 @@ The ultimate purpose of the website is to not only deliver information but also 
 7. **As a newcomer to personal development**, I want to understand the basics of mindset change, so I can start making positive changes in my life.
 8. **As a tech-savvy user**, I want a website that is easy to navigate on my phone or tablet, so I can access content on-the-go.
 9. **As a person looking for professional advice**, I want to contact the Mindset Makeover team easily, so I can get answers to my specific questions.
+
 ### Five Planes of UX
+
 #### Strategy
+
 - **User Needs**: The website aims to cater to individuals seeking personal growth and mindset change. Users typically look for inspiration, practical advice, and strategies to overcome personal and professional challenges.
 - **Business Objectives**: The primary goal is to establish Mindset Makeover as a leading resource in personal development and coaching. This includes building brand recognition, engaging users through webinars and newsletters, and ultimately creating a platform where users can find valuable, life-changing content.
+  
 #### Scope
+
 - **Content Requirements**: The website will feature information about Alex and webinar details.
 - **Functionality Requirements**: Key functionalities include a newsletter subscription, webinar registration, a contact form, and responsive navigation.
+
 #### Structure
+
 - **Interaction Design**: The site will be structured to facilitate easy navigation to essential sections like About, Webinar, Blog, and Contact. Interactivity will be smooth and intuitive, ensuring users can easily sign up for newsletters and webinars.
 - **Information Architecture**: Content will be organized logically with clear headings and categories. A straightforward menu and clear CTAs (Call to Actions) will guide users through their journey on the site.
+
 #### Skeleton
+
 - **Navigation Design**: A clear and consistent navigation menu will be present on all pages. Key sections will be accessible from the homepage.
 - **Interface Design**: The user interface will be clean and uncluttered, with a focus on readability and easy access to information. Important elements like subscription forms and contact details will be prominently displayed.
 - **Information Design**: Content will be laid out in an easily digestible format, using headings, bullet points, and images where appropriate.
@@ -226,17 +249,43 @@ I also included Privacy Policy and Terms and Conditions pages with example conte
 - **Adobe Photoshop**: This was my go-to tool for editing and optimizing the generated graphics, and for exporting image files in the appropriate formats for web use.
 
 ChatGPT was not used to generate a single line of code
+
 ## Issues
+
 1. **Navigation Functionality**
 - **Problem:** Initially, I used the `has()` CSS selector to trigger the opening of the mobile navigation when the menu button was clicked. However, this approach presented an issue when it came to CSS validation. The `has()` selector did not comply with CSS validation standards, and finding a suitable solution proved challenging at the time.
 - **Solution:** To resolve this issue, I undertook a refactor of the header, using the solution implemented in the Love Running project. This new approach ensured proper navigation functionality while passing the CSS validation.      
-1. **Image Masking**
+
+2. **Image Masking**
 - **Problem:** Originally, I used CSS masking techniques to apply SVG blob shapes to images. However, this approach led to validation warnings, primarily due to the usage of -webkit prefixes.
 - **Solution:** To fix these issues, I decided to abandon the use of -webkit prefixes. I used the blob shapes in Photoshop to mask images and exported them as webp files with transparent backgrounds. This alternative approach achieved the same visual results while reducing the complexity of the code and clearing the warnings.
-2. **Icon Handling**
+
+3. **Icon Handling**
 - **Issue:** Using CSS masks with SVG images for icon color switching led to warnings due to -webkit prefixes similar to the issues encountered with the image blobs.
 - **Solution:** I replaced CSS masks with inline SVGs. This change cleared the warnings and simplified the CSS, resulting in a cleaner and more compliant codebase.
+
 ## Testing and Validation
+
+Website was tested manually using chrome developer tools breakpoints but also with physical devicaes like laptop tablet and a smartphone.
+
+I have checked all links correctly in the main navigation, secondary links and other links in text and forms.
+
+[Home Page Google Page Insights](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover/82uwgaj6h6?form_factor=mobile)
+
+### HTML Validation
+
+Page Validation Links:
+[Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F)
+[Webinar Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fwebinar.html)
+About Page
+[Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fcontact.html)
+[Privacy Policy Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fprivacy-policy.html)
+[Terms and Conditions Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fterms.html)
+[Contact Submittion Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fthank-you-contact.html)
+[Webinar Submittion Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fthank-you-webinar.html)
+[Newsletter Submittion Thank You Page](https://patrickhladun.github.io/mindset-makeover/thank-you-newsletter.html)
+[404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F404.html)
+
 ### CSS Validation
 
 The CSS was validated on validator.w3.org and passed successfully, with the exception of one warning. This warning was generated due to the use of CSS variables, accompanied by the message: "Due to their dynamic nature, CSS variables are not subject to static checking."
