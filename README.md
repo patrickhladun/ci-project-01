@@ -126,17 +126,19 @@ Figma was a great help in streamlining my design process, allowing me to focus o
 
 ## Design
 
-### Colors Scheme
+### Colours Scheme
 
 In the design of the Mindset Makeover website, I carefully selected a colour palette of red, blue, and neutral grey to enhance the user experience and visual appeal.
 
-**Red**, as the primary color, is strategically used for main call-to-action buttons, links, and icons. It also serves as a background for testimonials, breaking the visual monotony and drawing attention. This vibrant colour symbolizes energy and action, aligning with the site's objective of motivating personal growth.
+**Red**, as the primary colour, is strategically used for main call-to-action buttons, links, and icons. It also serves as a background for testimonials, breaking the visual monotony and drawing attention. This vibrant colour symbolizes energy and action, aligning with the site's objective of motivating personal growth.
 
-**Blue** is utilized for headings, darker background elements, and secondary buttons. Its calm and stable nature complements the red, providing a sense of tranquillity and trust, essential for a personal development website.
+**Blue** is utilized for headings, darker background elements, and secondary buttons. Its calm and stable nature complements the red, providing a sense of tranquillity and trust, essential for a personal development website.
 
-Additionally, **neutral grey** plays a subtle but crucial role. It is used for very light backgrounds, offering a clean, modern look that enhances readability. For the copyright section, a darker shade of grey provides a sophisticated contrast, grounding the site's design.
+Additionally, **neutral grey** plays a subtle but crucial role. It is used for very light backgrounds, offering a clean, modern look that enhances readability. For the copyright section, a darker shade of grey provides a sophisticated contrast, grounding the site's design.
 
 Together, these colours create a balanced and engaging visual experience. The combination of red and blue aligns with the website's core themes, while the grey adds a necessary balance, ensuring the design remains accessible and pleasing to the eye.
+
+![Mindset  Makeover Colours](./docs/mindset-makeover-colours.jpg "Mindset  Makeover Colours")
 
 ### Fonts
 
@@ -165,20 +167,6 @@ For the specific images needed in the project, like the headshots of Alex Richar
 
 I sketched the website's icons by hand on a tablet. I wanted them to have an organic, hand-drawn look to add a unique and personal touch to the site. After completing the sketches, I digitized and vectorized them using Adobe Illustrator. This approach ensured the icons maintained their organic aesthetic and remained visually sharp and effective.
 
-### Colors Scheme
-
-In the design of the Mindset Makeover website, I carefully selected a colour palette of red, blue, and neutral grey to enhance the user experience and visual appeal.
-
-**Red**, as the primary color, is strategically used for main call-to-action buttons, links, and icons. It also serves as a background for testimonials, breaking the visual monotony and drawing attention. This vibrant colour symbolizes energy and action, aligning with the site's objective of motivating personal growth.
-
-**Blue** is utilized for headings, darker background elements, and secondary buttons. Its calm and stable nature complements the red, providing a sense of tranquillity and trust, essential for a personal development website.
-
-Additionally, **neutral grey** plays a subtle but crucial role. It is used for very light backgrounds, offering a clean, modern look that enhances readability. For the copyright section, a darker shade of grey provides a sophisticated contrast, grounding the site's design.
-
-Together, these colours create a balanced and engaging visual experience. The combination of red and blue aligns with the website's core themes, while the grey adds a necessary balance, ensuring the design remains accessible and pleasing to the eye.
-
-![Mindset  Makeover Colors](./docs/mindset-makeover-colors.jpg "Mindset  Makeover Colors")
-
 ## Pages and Features
 
 ### Website Header Design
@@ -201,9 +189,9 @@ In my design for the website's footer, I aimed for simplicity and clarity to enh
 
 - I split the footer into two sections: on the left are secondary links like Terms and Conditions, Privacy Policy, and Contact; on the right are links to our social media profiles.
 - For mobile users, I made these links stack in a centered column format, making them easy to navigate.
-- I chose a dark blue background for this section to subtly contrast with the main content, with the links in light red for a splash of color and better visibility.
+- I chose a dark blue background for this section to subtly contrast with the main content, with the links in light red for a splash of colour and better visibility.
 
-**Color Scheme**:
+**Colour Scheme**:
 
 - The dark blue background of the footer contrasts with the light red links, ensuring they are easy to read and visually appealing.
 - The copyright section is in a dark gray, almost black, offering a clear distinction from the main footer section, with light text for a sharp contrast.
@@ -230,7 +218,7 @@ Following this, a standout call-to-action for the webinar sign-up is strategical
 
 In the Mindset Makeover website project, the Webinar Page is structured to provide comprehensive information about the webinar in an engaging manner.
 
-Hero section features an inviting heading and introductory text, setting the stage for what the webinar offers. I've included a custom video teaser that adheres to the site's color scheme, providing a visual and engaging preview of the webinar.
+Hero section features an inviting heading and introductory text, setting the stage for what the webinar offers. I've included a custom video teaser that adheres to the site's colour scheme, providing a visual and engaging preview of the webinar.
 
 Between the hero and the next sections, I have added three boxes with details about the webinar, each accompanied by custom icons. 
 
@@ -296,7 +284,7 @@ ChatGPT was not used to generate a single line of code
 - **Solution:** To fix these issues, I decided to abandon the use of -webkit prefixes. I used the blob shapes in Photoshop to mask images and exported them as webp files with transparent backgrounds. This alternative approach achieved the same visual results while reducing the complexity of the code and clearing the warnings.
 
 3. **Icon Handling**
-- **Issue:** Using CSS masks with SVG images for icon color switching led to warnings due to -webkit prefixes similar to the issues encountered with the image blobs.
+- **Issue:** Using CSS masks with SVG images for icon colour switching led to warnings due to -webkit prefixes similar to the issues encountered with the image blobs.
 - **Solution:** I replaced CSS masks with inline SVGs. This change cleared the warnings and simplified the CSS, resulting in a cleaner and more compliant codebase.
 
 ## Testing and Validation
@@ -305,7 +293,27 @@ Website was tested manually using chrome developer tools breakpoints but also wi
 
 I have checked all links correctly in the main navigation, secondary links and other links in text and forms.
 
-Page Speed Tests goes here:
+Google Page Insights:
+
+[Home Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover/mgltjqe8is?form_factor=mobile)
+
+Webinar Page
+
+[About Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-about-html/ds102hszm5?form_factor=mobile)
+
+[Contact Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-contact-html/69423su0iq?form_factor=mobile)
+
+[Privacy Policy Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-privacy-policy-html/txveq8h09s?form_factor=mobile)
+
+[Terms and Conditions Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-terms-html/og2lnt2167?form_factor=mobile)
+
+[Contact Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-contact-html/1127kffl74?form_factor=mobile)
+
+Webinar Submission Thank You Page
+
+[Newsletter Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-newsletter-html/5v71nvx3so?form_factor=mobile)
+
+[404 Error Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-404-html/sb5nbb9x5a?form_factor=mobile)
 
 
 ### HTML Validation
@@ -344,4 +352,4 @@ Thanks to my CI Mentor Luke for giving me valuable feedback, tips and help findi
 [Safari browser mockup by sashalazar](https://sashalazar.gumroad.com/l/mqxFJ)
 [Mobile Phone Mockup by Antony Boyd](https://www.anthonyboyd.graphics/mockups/iphone-14-pro-max-mockup/)
 
-[uicolors.app](https://uicolors.app/) was used to generate shades of chosen color and export the colors as css variables.
+[uicolors.app](https://uicolors.app/) was used to generate shades of chosen colour and export the colours as css variables.
