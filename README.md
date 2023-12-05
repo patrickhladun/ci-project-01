@@ -293,6 +293,94 @@ Website was tested manually using chrome developer tools breakpoints but also wi
 
 I have checked all links correctly in the main navigation, secondary links and other links in text and forms.
 
+### Functional testing
+
+#### Website Header on Desktop
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Navigation links|Click on the menu links: home, webinar, about, contact.|Navigation links should lead to their respective pages.|All links correctly navigate to their designated pages.|
+|Navigation links hover state|Hover over the menu links.|While hovering, the menu item underline should animate from left to right.|The hover state is working correctly.|
+|Navigation active state|Click on the menu links: home, webinar, about, contact.|When a menu link is clicked and the page is opened, a red dot should appear in the bottom left of the link, indicating that the page is active.|Active state is working correctly.|
+
+#### Website Header on Mobile
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Navigation toggle button|Click mobile menu toggle.|When clicked, the hamburger menu should change to a close button.|Toggle button works as expected.|
+|Mobile menu|Click mobile menu toggle.|Mobile menu should open and reveal website links.|Mobile menu opens as expected.|
+
+#### Website Footer
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Social media links|Click on social links: twitter, facebook, instagram.|Social links should lead to their respective pages and open in a new tab.|All social links open in new browser tabs, and the correct social page is opened.|
+|Social media links hover state|Hover over the social links.|Icons should change color on hover.|Icons correctly change color on hover.|
+|Secondary links|Click on the menu links: Privacy Policy, Terms and Conditions, and Contact.|Secondary links should lead to their respective pages.|All links correctly navigate to their designated pages.|
+|Secondary links hover state|Hover over the menu links.|While hovering, the menu item underline should animate from left to right.|The hover state is working correctly.|
+
+#### Home Page
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Page buttons|Click on buttons: "Join my free webinar," "About me," "My story," and "Join the webinar."|Buttons should lead to their respective pages.|All buttons correctly navigate to their designated pages.|
+|Newsletter form|Fill in the email field, check consent checkbox, and submit the form.|Form should be submitted, and the user should be redirected to the thank you page.|Form is submitted correctly, and the user is redirected to the thank you page.|
+|Newsletter consent Privacy Policy link|Click on Privacy Policy link.|Clicked link should open the Privacy Policy page in a new tab so the user does not lose filled fields.|Privacy Policy link opens Privacy Policy page in a new tab.|
+|Newsletter form error handling|Submit the form with an incorrect email.|Validation error should appear on the email field.|Error is displayed, and the form cannot be submitted.|
+|Newsletter form error handling|Submit the form without checking the consent checkbox.|Validation error should appear on the consent field.|"Please tick this box ..." error is shown, and the form cannot be submitted.|
+
+#### Webinar Page
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Teaser video|Video navigation: Play the video, pause the video, mute the video.|All video player navigation and options should work without an issue.|All video player buttons work as expected.|
+|Mindset registration form submission|1. Fill in the form fields: First Name, Last Name, Email, How did you hear about us? And consent.<br/> 2. Submit the form.|Form should be submitted, and the user should be redirected to the relevant thank you page.|Form is submitted correctly, and the user is redirected to the thank you page.|
+|Mindset registration form consent Privacy Policy link|Click on Privacy Policy link.|Clicked link should open the Privacy Policy page in a new tab so the user does not lose filled fields.|Privacy Policy link opens Privacy Policy page in a new tab.|
+|Mindset registration form error handling|Submit the form with an incorrect email address.|Validation error should appear on the email field.|Error is displayed, and the form cannot be submitted.|
+|Mindset registration form error handling|Submit the form omitting any of the text field or select field.|All fields are mandatory. Validation error should appear on the omitted field.|Error is displayed on the omitted field, and the form cannot be submitted.|
+|Mindset registration form error handling|Submit the form without checking the consent checkbox.|Validation error should appear on the consent field.|"Please tick this box ..." error is shown, and the form cannot be submitted.|
+
+#### About Page
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Page buttons|Click on buttons: "Learn more about webinar."|Clicked button should lead to the webinar page.|
+
+#### Contact Page
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|----------------|-------------------|------------|--------|
+|||||
+|Contact form submission|1.Fill in the form fields: First Name, Last Name, Email, Message And consent.<br/>2.Submit the form|Form should be submitted, and the user should be redirected to the relevant thank you page|Form is submitted correctly, and the user is redirected to the thank you page.|
+|Contact form consent Privacy Policy link|Click on Privacy Policy link|Clicked link should open the Privacy Policy page in a new tab so the user does not lose filled fields|Privacy Policy link opens Privacy Policy page in a new tab.|
+|Contact form error handling|Submit the form with not correct email address|Validation error should appear on the email field|Error is displayed and form cannot be submitted|
+|Contact form error handling|Submit the form omitting any of the text or textarea fields|All fields are mandatory. Validation error should appear on the omitted field|Error is displayed on omitted field and form cannot be submitted|
+|Contact form error handling|Submit the form without checking consent checkbox|Validation error should appear on the consent field|"Please tick this box ..." error is showing and form cannot be submitted|
+
+#### Contact Page
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|----------------|-------------------|------------|--------|
+|||||
+|Content anchor links|Click on the table of contents link|User should be taken to the relevant section after clicking the link|All Table of Contents links scroll to the correct sections|
+
+#### Thank You and 404 Error Pages
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Contact Thank You Page|Click on the "Learn More about the Webinar" button.|The user should be redirected to the webinar page.|All buttons correctly navigate to their designated pages.|
+|Newsletter Thank You Page|Click on the "Learn More about the Webinar" button.|The user should be redirected to the webinar page.|The button works as expected.|
+|Webinar Thank You Page|Click on the "Back to Home Page" button.|The user should be redirected to the homepage.|The button works as expected.|
+|404 Error Page|Click on the "Return to Home Page" link.|The user should be redirected to the homepage.|The link works as expected.|
+
+
 Google Page Insights:
 
 [Home Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover/mgltjqe8is?form_factor=mobile)
