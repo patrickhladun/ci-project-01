@@ -64,6 +64,7 @@ The ultimate purpose of the website is to not only deliver information but also 
 - Mindset Makeover's webinars offer Emily practical and actionable advice to improve her leadership skills and manage stress, aligning with her goal to balance her professional and personal life.
 - The newsletters provide ongoing support and insights, helping her navigate daily challenges with a positive mindset.
 - 
+
 ### User Goals
 
 1. **Personal Growth and Development**: Users come to the site seeking resources and advice for personal and professional growth. They are looking to improve their mindset and life strategies.
@@ -126,17 +127,19 @@ Figma was a great help in streamlining my design process, allowing me to focus o
 
 ## Design
 
-### Colors Scheme
+### Colours Scheme
 
 In the design of the Mindset Makeover website, I carefully selected a colour palette of red, blue, and neutral grey to enhance the user experience and visual appeal.
 
-**Red**, as the primary color, is strategically used for main call-to-action buttons, links, and icons. It also serves as a background for testimonials, breaking the visual monotony and drawing attention. This vibrant colour symbolizes energy and action, aligning with the site's objective of motivating personal growth.
+**Red**, as the primary colour, is strategically used for main call-to-action buttons, links, and icons. It also serves as a background for testimonials, breaking the visual monotony and drawing attention. This vibrant colour symbolizes energy and action, aligning with the site's objective of motivating personal growth.
 
-**Blue** is utilized for headings, darker background elements, and secondary buttons. Its calm and stable nature complements the red, providing a sense of tranquillity and trust, essential for a personal development website.
+**Blue** is utilized for headings, darker background elements, and secondary buttons. Its calm and stable nature complements the red, providing a sense of tranquillity and trust, essential for a personal development website.
 
-Additionally, **neutral grey** plays a subtle but crucial role. It is used for very light backgrounds, offering a clean, modern look that enhances readability. For the copyright section, a darker shade of grey provides a sophisticated contrast, grounding the site's design.
+Additionally, **neutral grey** plays a subtle but crucial role. It is used for very light backgrounds, offering a clean, modern look that enhances readability. For the copyright section, a darker shade of grey provides a sophisticated contrast, grounding the site's design.
 
 Together, these colours create a balanced and engaging visual experience. The combination of red and blue aligns with the website's core themes, while the grey adds a necessary balance, ensuring the design remains accessible and pleasing to the eye.
+
+![Mindset  Makeover Colours](./docs/mindset-makeover-colours.jpg "Mindset  Makeover Colours")
 
 ### Fonts
 
@@ -149,6 +152,9 @@ For this project, I chose the Poppins font. Poppins is a geometric sans-serif fo
 3. **Versatility**: Poppins works well in various contexts, from headings and menus to body text, providing a cohesive visual experience throughout the site.
 4. **Friendly Appearance**: Despite its clean geometry, Poppins has a friendly quality that makes the website feel approachable and engaging, aligning with the supportive and motivating nature of Mindset Makeover.
 
+![Poppins 300](./docs/poppins-300.jpg "Poppins 300")
+![Poppins 800](./docs/poppins-800.jpg "Poppins 800")
+
 In summary, Poppins not only enhances the website’s visual appeal but also supports its functional and emotional objectives, making it an ideal choice for this project.
 
 ### Visuals
@@ -156,6 +162,8 @@ In summary, Poppins not only enhances the website’s visual appeal but also sup
 #### Logo
 
 I brainstormed the initial design ideas for the logo using Midjourney, which helped generate a range of creative concepts. I then used Adobe Illustrator to refine my favourite concept into the final design. This process allowed me to create a logo that's clear and impactful and truly represents the ethos of the brand.
+
+![Logo](./docs/logo.png "Logo")
 
 #### Images
 
@@ -165,19 +173,7 @@ For the specific images needed in the project, like the headshots of Alex Richar
 
 I sketched the website's icons by hand on a tablet. I wanted them to have an organic, hand-drawn look to add a unique and personal touch to the site. After completing the sketches, I digitized and vectorized them using Adobe Illustrator. This approach ensured the icons maintained their organic aesthetic and remained visually sharp and effective.
 
-### Colors Scheme
-
-In the design of the Mindset Makeover website, I carefully selected a colour palette of red, blue, and neutral grey to enhance the user experience and visual appeal.
-
-**Red**, as the primary color, is strategically used for main call-to-action buttons, links, and icons. It also serves as a background for testimonials, breaking the visual monotony and drawing attention. This vibrant colour symbolizes energy and action, aligning with the site's objective of motivating personal growth.
-
-**Blue** is utilized for headings, darker background elements, and secondary buttons. Its calm and stable nature complements the red, providing a sense of tranquillity and trust, essential for a personal development website.
-
-Additionally, **neutral grey** plays a subtle but crucial role. It is used for very light backgrounds, offering a clean, modern look that enhances readability. For the copyright section, a darker shade of grey provides a sophisticated contrast, grounding the site's design.
-
-Together, these colours create a balanced and engaging visual experience. The combination of red and blue aligns with the website's core themes, while the grey adds a necessary balance, ensuring the design remains accessible and pleasing to the eye.
-
-![Mindset  Makeover Colors](./docs/mindset-makeover-colors.jpg "Mindset  Makeover Colors")
+![Icons](./docs/icons.png "Icons")
 
 ## Pages and Features
 
@@ -193,6 +189,8 @@ I added a hover effect where the underline beneath the menu items expands from l
 
 On mobile devices, I replaced the standard menu with a hamburger icon to better suit smaller screens and improve user interaction.
 
+![Header](./docs/header.png "Header")
+
 ### Website Footer Design
 
 In my design for the website's footer, I aimed for simplicity and clarity to enhance the user experience.
@@ -201,9 +199,9 @@ In my design for the website's footer, I aimed for simplicity and clarity to enh
 
 - I split the footer into two sections: on the left are secondary links like Terms and Conditions, Privacy Policy, and Contact; on the right are links to our social media profiles.
 - For mobile users, I made these links stack in a centered column format, making them easy to navigate.
-- I chose a dark blue background for this section to subtly contrast with the main content, with the links in light red for a splash of color and better visibility.
+- I chose a dark blue background for this section to subtly contrast with the main content, with the links in light red for a splash of colour and better visibility.
 
-**Color Scheme**:
+**Colour Scheme**:
 
 - The dark blue background of the footer contrasts with the light red links, ensuring they are easy to read and visually appealing.
 - The copyright section is in a dark gray, almost black, offering a clear distinction from the main footer section, with light text for a sharp contrast.
@@ -214,23 +212,37 @@ In my design for the website's footer, I aimed for simplicity and clarity to enh
 - The form has a slightly lighter blue background than the rest of the footer, with white text, making it stand out and inviting users to subscribe.
 - I left this form off other pages like Webinar and Contact to keep the user's focus on specific actions, like signing up for the webinar.
 
+![Footer](./docs/footer.png "Footer")
+
 ### Home Page
 
 In the Mindset Makeover website project, each section of the home page was designed for optimal engagement and clarity.
 
 The hero section begins with a compelling statement, "Rewire your mind, transform your life," introducing visitors to the concept of personal transformation through Alex's story. This area is set against a light grey background, complemented by a smooth SVG divider that seamlessly transitions to the next part.
 
+![Home Hero](./docs/home-hero.png "Home Hero")
+
 The webinar details section emphasizes the role of mindset in achieving life goals, presenting this through visually engaging icon-text elements that cover themes like positive thinking and goal-setting.
+
+![Home Webinar](./docs/home-webinar.png "Home Webinar")
 
 In the 'About Alex' section, the narrative focuses on his journey of overcoming life's hurdles, structured for readability and emotional connection with the audience.
 
-Following this, a standout call-to-action for the webinar sign-up is strategically placed to attract attention, leading visitors towards participation. The page concludes with a newsletter signup section, distinct in design yet cohesive with the page's overall aesthetic.
+![Home Alex](./docs/home-alex.png "Home Alex")
+
+Following this, a standout call-to-action for the webinar sign-up is strategically placed to attract attention, leading visitors towards participation. 
+
+![Home CTA](./docs/home-cta.png "Home CTA")
+
+The page concludes with a newsletter signup section, distinct in design yet cohesive with the page's overall aesthetic.
+
+![Home Newsletter](./docs/home-newsletter.png "Home Newsletter")
 
 ### Webinar Page
 
 In the Mindset Makeover website project, the Webinar Page is structured to provide comprehensive information about the webinar in an engaging manner.
 
-Hero section features an inviting heading and introductory text, setting the stage for what the webinar offers. I've included a custom video teaser that adheres to the site's color scheme, providing a visual and engaging preview of the webinar.
+Hero section features an inviting heading and introductory text, setting the stage for what the webinar offers. I've included a custom video teaser that adheres to the site's colour scheme, providing a visual and engaging preview of the webinar.
 
 Between the hero and the next sections, I have added three boxes with details about the webinar, each accompanied by custom icons. 
 
@@ -296,7 +308,7 @@ ChatGPT was not used to generate a single line of code
 - **Solution:** To fix these issues, I decided to abandon the use of -webkit prefixes. I used the blob shapes in Photoshop to mask images and exported them as webp files with transparent backgrounds. This alternative approach achieved the same visual results while reducing the complexity of the code and clearing the warnings.
 
 3. **Icon Handling**
-- **Issue:** Using CSS masks with SVG images for icon color switching led to warnings due to -webkit prefixes similar to the issues encountered with the image blobs.
+- **Issue:** Using CSS masks with SVG images for icon colour switching led to warnings due to -webkit prefixes similar to the issues encountered with the image blobs.
 - **Solution:** I replaced CSS masks with inline SVGs. This change cleared the warnings and simplified the CSS, resulting in a cleaner and more compliant codebase.
 
 ## Testing and Validation
@@ -305,7 +317,115 @@ Website was tested manually using chrome developer tools breakpoints but also wi
 
 I have checked all links correctly in the main navigation, secondary links and other links in text and forms.
 
-Page Speed Tests goes here:
+### Functional testing
+
+#### Website Header on Desktop
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Navigation links|Click on the menu links: home, webinar, about, contact.|Navigation links should lead to their respective pages.|All links correctly navigate to their designated pages.|
+|Navigation links hover state|Hover over the menu links.|While hovering, the menu item underline should animate from left to right.|The hover state is working correctly.|
+|Navigation active state|Click on the menu links: home, webinar, about, contact.|When a menu link is clicked and the page is opened, a red dot should appear in the bottom left of the link, indicating that the page is active.|Active state is working correctly.|
+
+#### Website Header on Mobile
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Navigation toggle button|Click mobile menu toggle.|When clicked, the hamburger menu should change to a close button.|Toggle button works as expected.|
+|Mobile menu|Click mobile menu toggle.|Mobile menu should open and reveal website links.|Mobile menu opens as expected.|
+
+#### Website Footer
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Social media links|Click on social links: twitter, facebook, instagram.|Social links should lead to their respective pages and open in a new tab.|All social links open in new browser tabs, and the correct social page is opened.|
+|Social media links hover state|Hover over the social links.|Icons should change color on hover.|Icons correctly change color on hover.|
+|Secondary links|Click on the menu links: Privacy Policy, Terms and Conditions, and Contact.|Secondary links should lead to their respective pages.|All links correctly navigate to their designated pages.|
+|Secondary links hover state|Hover over the menu links.|While hovering, the menu item underline should animate from left to right.|The hover state is working correctly.|
+
+#### Home Page
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Page buttons|Click on buttons: "Join my free webinar," "About me," "My story," and "Join the webinar."|Buttons should lead to their respective pages.|All buttons correctly navigate to their designated pages.|
+|Newsletter form|Fill in the email field, check consent checkbox, and submit the form.|Form should be submitted, and the user should be redirected to the thank you page.|Form is submitted correctly, and the user is redirected to the thank you page.|
+|Newsletter consent Privacy Policy link|Click on Privacy Policy link.|Clicked link should open the Privacy Policy page in a new tab so the user does not lose filled fields.|Privacy Policy link opens Privacy Policy page in a new tab.|
+|Newsletter form error handling|Submit the form with an incorrect email.|Validation error should appear on the email field.|Error is displayed, and the form cannot be submitted.|
+|Newsletter form error handling|Submit the form without checking the consent checkbox.|Validation error should appear on the consent field.|"Please tick this box ..." error is shown, and the form cannot be submitted.|
+
+#### Webinar Page
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Teaser video|Video navigation: Play the video, pause the video, mute the video.|All video player navigation and options should work without an issue.|All video player buttons work as expected.|
+|Mindset registration form submission|1. Fill in the form fields: First Name, Last Name, Email, How did you hear about us? And consent.<br/> 2. Submit the form.|Form should be submitted, and the user should be redirected to the relevant thank you page.|Form is submitted correctly, and the user is redirected to the thank you page.|
+|Mindset registration form consent Privacy Policy link|Click on Privacy Policy link.|Clicked link should open the Privacy Policy page in a new tab so the user does not lose filled fields.|Privacy Policy link opens Privacy Policy page in a new tab.|
+|Mindset registration form error handling|Submit the form with an incorrect email address.|Validation error should appear on the email field.|Error is displayed, and the form cannot be submitted.|
+|Mindset registration form error handling|Submit the form omitting any of the text field or select field.|All fields are mandatory. Validation error should appear on the omitted field.|Error is displayed on the omitted field, and the form cannot be submitted.|
+|Mindset registration form error handling|Submit the form without checking the consent checkbox.|Validation error should appear on the consent field.|"Please tick this box ..." error is shown, and the form cannot be submitted.|
+
+#### About Page
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Page buttons|Click on buttons: "Learn more about webinar."|Clicked button should lead to the webinar page.|
+
+#### Contact Page
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|----------------|-------------------|------------|--------|
+|||||
+|Contact form submission|1.Fill in the form fields: First Name, Last Name, Email, Message And consent.<br/>2.Submit the form|Form should be submitted, and the user should be redirected to the relevant thank you page|Form is submitted correctly, and the user is redirected to the thank you page.|
+|Contact form consent Privacy Policy link|Click on Privacy Policy link|Clicked link should open the Privacy Policy page in a new tab so the user does not lose filled fields|Privacy Policy link opens Privacy Policy page in a new tab.|
+|Contact form error handling|Submit the form with not correct email address|Validation error should appear on the email field|Error is displayed and form cannot be submitted|
+|Contact form error handling|Submit the form omitting any of the text or textarea fields|All fields are mandatory. Validation error should appear on the omitted field|Error is displayed on omitted field and form cannot be submitted|
+|Contact form error handling|Submit the form without checking consent checkbox|Validation error should appear on the consent field|"Please tick this box ..." error is showing and form cannot be submitted|
+
+#### Contact Page
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|----------------|-------------------|------------|--------|
+|||||
+|Content anchor links|Click on the table of contents link|User should be taken to the relevant section after clicking the link|All Table of Contents links scroll to the correct sections|
+
+#### Thank You and 404 Error Pages
+
+|Test scenario|Steps to Reproduce|Observation|Outcome|
+|-------------|------------------|-----------|-------|
+|||||
+|Contact Thank You Page|Click on the "Learn More about the Webinar" button.|The user should be redirected to the webinar page.|All buttons correctly navigate to their designated pages.|
+|Newsletter Thank You Page|Click on the "Learn More about the Webinar" button.|The user should be redirected to the webinar page.|The button works as expected.|
+|Webinar Thank You Page|Click on the "Back to Home Page" button.|The user should be redirected to the homepage.|The button works as expected.|
+|404 Error Page|Click on the "Return to Home Page" link.|The user should be redirected to the homepage.|The link works as expected.|
+
+
+Google Page Insights:
+
+[Home Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover/mgltjqe8is?form_factor=mobile)
+
+Webinar Page
+
+[About Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-about-html/ds102hszm5?form_factor=mobile)
+
+[Contact Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-contact-html/69423su0iq?form_factor=mobile)
+
+[Privacy Policy Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-privacy-policy-html/txveq8h09s?form_factor=mobile)
+
+[Terms and Conditions Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-terms-html/og2lnt2167?form_factor=mobile)
+
+[Contact Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-contact-html/1127kffl74?form_factor=mobile)
+
+Webinar Submission Thank You Page
+
+[Newsletter Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-newsletter-html/5v71nvx3so?form_factor=mobile)
+
+[404 Error Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-404-html/sb5nbb9x5a?form_factor=mobile)
 
 
 ### HTML Validation
@@ -344,4 +464,4 @@ Thanks to my CI Mentor Luke for giving me valuable feedback, tips and help findi
 [Safari browser mockup by sashalazar](https://sashalazar.gumroad.com/l/mqxFJ)
 [Mobile Phone Mockup by Antony Boyd](https://www.anthonyboyd.graphics/mockups/iphone-14-pro-max-mockup/)
 
-[uicolors.app](https://uicolors.app/) was used to generate shades of chosen color and export the colors as css variables.
+[uicolors.app](https://uicolors.app/) was used to generate shades of chosen colour and export the colours as css variables.
