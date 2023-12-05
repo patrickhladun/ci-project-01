@@ -64,6 +64,7 @@ The ultimate purpose of the website is to not only deliver information but also 
 - Mindset Makeover's webinars offer Emily practical and actionable advice to improve her leadership skills and manage stress, aligning with her goal to balance her professional and personal life.
 - The newsletters provide ongoing support and insights, helping her navigate daily challenges with a positive mindset.
 - 
+
 ### User Goals
 
 1. **Personal Growth and Development**: Users come to the site seeking resources and advice for personal and professional growth. They are looking to improve their mindset and life strategies.
@@ -151,6 +152,9 @@ For this project, I chose the Poppins font. Poppins is a geometric sans-serif fo
 3. **Versatility**: Poppins works well in various contexts, from headings and menus to body text, providing a cohesive visual experience throughout the site.
 4. **Friendly Appearance**: Despite its clean geometry, Poppins has a friendly quality that makes the website feel approachable and engaging, aligning with the supportive and motivating nature of Mindset Makeover.
 
+![Poppins 300](./docs/poppins-300.jpg "Poppins 300")
+![Poppins 800](./docs/poppins-800.jpg "Poppins 800")
+
 In summary, Poppins not only enhances the website’s visual appeal but also supports its functional and emotional objectives, making it an ideal choice for this project.
 
 ### Visuals
@@ -159,6 +163,8 @@ In summary, Poppins not only enhances the website’s visual appeal but also sup
 
 I brainstormed the initial design ideas for the logo using Midjourney, which helped generate a range of creative concepts. I then used Adobe Illustrator to refine my favourite concept into the final design. This process allowed me to create a logo that's clear and impactful and truly represents the ethos of the brand.
 
+![Logo](./docs/logo.png "Logo")
+
 #### Images
 
 For the specific images needed in the project, like the headshots of Alex Richards, I turned to Midjourney to create the initial versions. These AI-generated images provided a solid starting point. I then used Adobe Photoshop to refine these images further, enhancing their quality to ensure they seamlessly fit the website's overall aesthetic.
@@ -166,6 +172,8 @@ For the specific images needed in the project, like the headshots of Alex Richar
 #### Icons
 
 I sketched the website's icons by hand on a tablet. I wanted them to have an organic, hand-drawn look to add a unique and personal touch to the site. After completing the sketches, I digitized and vectorized them using Adobe Illustrator. This approach ensured the icons maintained their organic aesthetic and remained visually sharp and effective.
+
+![Icons](./docs/icons.png "Icons")
 
 ## Pages and Features
 
@@ -180,6 +188,8 @@ For each menu item, I included an active page indicator, shown as a light red do
 I added a hover effect where the underline beneath the menu items expands from left to right. This animation provides lively feedback as users interact with the menu, enhancing their overall experience.
 
 On mobile devices, I replaced the standard menu with a hamburger icon to better suit smaller screens and improve user interaction.
+
+![Header](./docs/header.png "Header")
 
 ### Website Footer Design
 
@@ -202,17 +212,31 @@ In my design for the website's footer, I aimed for simplicity and clarity to enh
 - The form has a slightly lighter blue background than the rest of the footer, with white text, making it stand out and inviting users to subscribe.
 - I left this form off other pages like Webinar and Contact to keep the user's focus on specific actions, like signing up for the webinar.
 
+![Footer](./docs/footer.png "Footer")
+
 ### Home Page
 
 In the Mindset Makeover website project, each section of the home page was designed for optimal engagement and clarity.
 
 The hero section begins with a compelling statement, "Rewire your mind, transform your life," introducing visitors to the concept of personal transformation through Alex's story. This area is set against a light grey background, complemented by a smooth SVG divider that seamlessly transitions to the next part.
 
+![Home Hero](./docs/home-hero.png "Home Hero")
+
 The webinar details section emphasizes the role of mindset in achieving life goals, presenting this through visually engaging icon-text elements that cover themes like positive thinking and goal-setting.
+
+![Home Webinar](./docs/home-webinar.png "Home Webinar")
 
 In the 'About Alex' section, the narrative focuses on his journey of overcoming life's hurdles, structured for readability and emotional connection with the audience.
 
-Following this, a standout call-to-action for the webinar sign-up is strategically placed to attract attention, leading visitors towards participation. The page concludes with a newsletter signup section, distinct in design yet cohesive with the page's overall aesthetic.
+![Home Alex](./docs/home-alex.png "Home Alex")
+
+Following this, a standout call-to-action for the webinar sign-up is strategically placed to attract attention, leading visitors towards participation. 
+
+![Home CTA](./docs/home-cta.png "Home CTA")
+
+The page concludes with a newsletter signup section, distinct in design yet cohesive with the page's overall aesthetic.
+
+![Home Newsletter](./docs/home-newsletter.png "Home Newsletter")
 
 ### Webinar Page
 
