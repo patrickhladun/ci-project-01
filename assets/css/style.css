@@ -352,9 +352,6 @@ textarea {
   font-size: var(--text-size-sm);
 }
 
-.field__input {
-}
-
 .field__input-checkbox {
   margin-right: 8px;
 }
@@ -629,10 +626,6 @@ input:checked ~ .hamburger span:nth-child(3) {
 .home-webinar__icons {
   padding-bottom: 36px;
   padding-top: 36px;
-}
-.home-webinar__cta {
-  display: flex;
-  justify-content: center;
 }
 
 .home-hero__image,
