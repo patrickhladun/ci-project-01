@@ -330,6 +330,7 @@ ChatGPT was not used to generate a single line of code
 ### Unresolved Issues
 
 - [Issue #1 - Webinar Page: back/forward cache restoration](https://github.com/patrickhladun/mindset-makeover/issues/1)
+- [Issue #2 - Privacy Policy Page: Tap targets are not sized appropriately, 54% appropriately sized tap targets](https://github.com/patrickhladun/mindset-makeover/issues/2)
 
 ### Resolved Issues
 
@@ -408,7 +409,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 |Test scenario|Steps to Reproduce|Observation|Outcome|
 |-------------|------------------|-----------|-------|
 |||||
-|Page buttons|Click on buttons: "Learn more about webinar."|Clicked button should lead to the webinar page.|
+|Page button|Click on button: "Learn more about webinar."|Clicked button should lead to the webinar page.|Button correctly navigate to the webinar pages.|
 
 #### Contact Page
 
@@ -439,7 +440,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 |404 Error Page|Click on the "Return to Home Page" link.|The user should be redirected to the homepage.|The link works as expected.|
 
 
-### Google Page Insights Testing:
+### Google Page Insights Tests:
 
 - [Home Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover/mgltjqe8is?form_factor=mobile)
 - [Webinar Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-webinar-html/748a0ntli1?form_factor=mobile)
@@ -448,9 +449,41 @@ I have checked all links correctly in the main navigation, secondary links and o
 - [Privacy Policy Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-privacy-policy-html/txveq8h09s?form_factor=mobile)
 - [Terms and Conditions Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-terms-html/og2lnt2167?form_factor=mobile)
 - [Contact Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-contact-html/1127kffl74?form_factor=mobile)
-- Webinar Submission Thank You Page
+- [Webinar Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-webinar-html/6r25jchddy?form_factor=mobile)
 - [Newsletter Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-newsletter-html/5v71nvx3so?form_factor=mobile)
 - [404 Error Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-404-html/sb5nbb9x5a?form_factor=mobile)
+
+#### Home Page
+
+![PageSpeed Insights Home Page](./docs/pagespeed-insights-home.jpg "PageSpeed Insights Home Page")
+
+#### Webinar Page
+
+![PageSpeed Insights Webinar Page](./docs/pagespeed-insights-webinar.jpg "PageSpeed Insights Webinar Page")
+
+#### About Page
+
+![PageSpeed Insights About Page](./docs/pagespeed-insights-about.jpg "PageSpeed Insights About Page")
+
+#### Contact Page
+
+![PageSpeed Insights Contact Page](./docs/pagespeed-insights-contact.jpg "PageSpeed Insights Contact Page")
+
+#### Thank You Contact Page
+
+![PageSpeed Insights Thank You Contact Page](./docs/pagespeed-insights-thank-you-contact.jpg "PageSpeed Insights Thank You Contact Page")
+
+#### Thank You Webinar Page
+
+![PageSpeed Insights Thank You Webinar Page](./docs/pagespeed-insights-thank-you-webinar.jpg "PageSpeed Insights Thank You Webinar Page")
+
+#### Thank You Newsletter Page
+
+![PageSpeed Insights Thank You Newsletter Page](./docs/pagespeed-insights-thank-you-newsletter.jpg "PageSpeed Insights Thank You Newsletter Page")
+
+#### 404 Error Page
+
+![PageSpeed Insights 404 Error Page](./docs/pagespeed-insights-404.jpg "PageSpeed Insights 404 Error Page")
 
 ### HTML Validation
 
@@ -487,9 +520,9 @@ For further enhancements to the Mindset Makeover project, considering Alex's rol
 
 ## Credits
 
-[Safari browser mockup by sashalazar](https://sashalazar.gumroad.com/l/mqxFJ)
-[Mobile Phone Mockup by Antony Boyd](https://www.anthonyboyd.graphics/mockups/iphone-14-pro-max-mockup/)
+- [Safari browser mockup by sashalazar](https://sashalazar.gumroad.com/l/mqxFJ)
+- [Mobile Phone Mockup by Antony Boyd](https://www.anthonyboyd.graphics/mockups/iphone-14-pro-max-mockup/)
 
 ## Acknowledgments
 
-Thanks to my CI Mentor Luke for giving me valuable feedback, tips and help to find some areas of improvement.
+- Thanks to my CI Mentor Luke for giving me valuable feedback, tips and help to find some areas of improvement.
