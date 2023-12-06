@@ -1,5 +1,5 @@
 # Mindset Makeover Website - CI Project 1<!-- omit from toc --> 
-
+[Back to Top](#table-of-contents)
 **Mindset Makeover** is a made-up personal coaching website. It's part of a project for the Code Institute Diploma in Full-Stack Software Development. The main character of this project is Alex Richards. He's like a personal coach. His life story is full of challenges. But he chose to change his life. He did this by transforming how he thinks and deals with problems. This significant change helped him a lot. So, he started Mindset Makeover. This website is for assisting people to change their life stories like he did.
 
 ![GitHub contributors](https://img.shields.io/github/issues/patrickhladun/mindset-makeover?style=flat)
@@ -82,10 +82,12 @@
 
 
 ## Project Scope and Objectives
+[Back to Top](#table-of-contents)
 
 Mindset Makeover is a personal coaching website. I have designed it to be simple and user-friendly. This project includes a home page, a place for signing up for newsletters, information about webinars, and a form to register for these webinars. There's also a contact page for questions or support.
 
 ### Website Objectives
+[Back to Top](#table-of-contents)
 
 1. **Educational Engagement**: I aim to provide content that helps visitors understand the importance of a positive mindset in their personal and professional lives.
 2. **User Interaction**: I aim to engage users by offering newsletter sign-ups and webinar registrations, providing practical advice and inspiring stories.
@@ -93,6 +95,7 @@ Mindset Makeover is a personal coaching website. I have designed it to be simple
 4. **User Conversion**: I want to encourage visitors to participate actively, especially in the free webinars Alex Richards hosts, where they can learn about positive thinking and self-empowerment.
 
 ### Key components of the website include:
+[Back to Top](#table-of-contents)
 
 - **Home page**: Introduces the mission of Mindset Makeover.
 - **About page**: Detailing Alex Richards’ journey and the philosophy behind Mindset Makeover.
@@ -104,8 +107,10 @@ In the future, I might add a blog, a podcast, and other elements to the website.
 The ultimate purpose of the website is to not only deliver information but also to inspire users to take steps towards enhancing their lives. The project will focus on delivering a seamless user experience with high-quality content, thereby fostering a positive community and brand loyalty.
 
 ## User Experience
+[Back to Top](#table-of-contents)
 
 ### Audience Persona: Emily O'Sullivan
+[Back to Top](#table-of-contents)
 
 - **Age**: 35
 - **Gender**: Female
@@ -115,29 +120,34 @@ The ultimate purpose of the website is to not only deliver information but also 
 - **Marital Status**: Married with two children
 
 #### Psychographics:
+[Back to Top](#table-of-contents)
 
 - **Interests**: Personal development, engaging in local community workshops, mindfulness retreats, reading self-help books, and exploring outdoor activities in Ireland.
 - **Goals**: Striving to balance a demanding career with family life, aspiring to lead her team more effectively while nurturing a healthy home environment.
 - **Challenges**: Facing stress from juggling professional responsibilities and parenting, combating self-doubt, and seeking ways to remain positive amidst work-life pressures.
 
 #### Behavioral Traits:
+[Back to Top](#table-of-contents)
 
 - Actively seeks out resources for self-improvement and professional growth.
 - Spends evenings browsing websites for articles and videos on leadership, personal development, and stress management.
 - Participates in local community groups and online forums discussing career advancement and work-life balance.
 
 #### Online Habits:
+[Back to Top](#table-of-contents)
 
 - Regularly uses social media platforms like LinkedIn for professional growth and Facebook for connecting with local community groups.
 - Enjoys subscribing to newsletters focused on personal development and leadership skills.
 - Prefers engaging with interactive online content, such as live webinars and virtual workshops, that offer real-time learning and interaction.
 
 #### How Mindset Makeover Meets Emily's Needs:
+[Back to Top](#table-of-contents)
 
 - Mindset Makeover's webinars offer Emily practical and actionable advice to improve her leadership skills and manage stress, aligning with her goal to balance her professional and personal life.
 - The newsletters provide ongoing support and insights, helping her navigate daily challenges with a positive mindset.
 
 ### User Goals
+[Back to Top](#table-of-contents)
 
 1. **Personal Growth and Development**: Users come to the site seeking resources and advice for personal and professional growth. They are looking to improve their mindset and life strategies.
 2. **Implementing Practical Strategies**: Visitors are interested in finding actionable techniques that they can apply in their everyday lives. They value practical advice that leads to tangible changes.
@@ -145,6 +155,7 @@ The ultimate purpose of the website is to not only deliver information but also 
 4. **Staying Informed with Regular Updates**: Visitors may want to subscribe to newsletters or updates to stay informed about new content, events, or learning resources.
 
 ### User Stories
+[Back to Top](#table-of-contents)
 
 1. **As a busy professional**, I want to find quick, actionable strategies for stress management, so I can improve my work-life balance.
 2. **As a recent graduate**, I want to learn how to set and achieve my career goals, so I can navigate my path to success more effectively.
@@ -157,35 +168,42 @@ The ultimate purpose of the website is to not only deliver information but also 
 9. **As a person looking for professional advice**, I want to contact the Mindset Makeover team easily, so I can get answers to my specific questions.
 
 ### Five Planes of UX
+[Back to Top](#table-of-contents)
 
 #### Strategy
+[Back to Top](#table-of-contents)
 
 - **User Needs**: The website aims to cater to individuals seeking personal growth and mindset change. Users typically look for inspiration, practical advice, and strategies to overcome personal and professional challenges.
 - **Business Objectives**: The primary goal is to establish Mindset Makeover as a leading resource in personal development and coaching. This includes building brand recognition, engaging users through webinars and newsletters, and ultimately creating a platform where users can find valuable, life-changing content.
   
 #### Scope
+[Back to Top](#table-of-contents)
 
 - **Content Requirements**: The website will feature information about Alex and webinar details.
 - **Functionality Requirements**: Key functionalities include a newsletter subscription, webinar registration, a contact form, and responsive navigation.
 
 #### Structure
+[Back to Top](#table-of-contents)
 
 - **Interaction Design**: The site will be structured to facilitate easy navigation to essential sections like About, Webinar, Blog, and Contact. Interactivity will be smooth and intuitive, ensuring users can easily sign up for newsletters and webinars.
 - **Information Architecture**: Content will be organized logically with clear headings and categories. A straightforward menu and clear CTAs (Call to Actions) will guide users through their journey on the site.
 
 #### Skeleton
+[Back to Top](#table-of-contents)
 
 - **Navigation Design**: A clear and consistent navigation menu will be present on all pages. Key sections will be accessible from the homepage.
 - **Interface Design**: The user interface will be clean and uncluttered, with a focus on readability and easy access to information. Important elements like subscription forms and contact details will be prominently displayed.
 - **Information Design**: Content will be laid out in an easily digestible format, using headings, bullet points, and images where appropriate.
 
 #### Surface
+[Back to Top](#table-of-contents)
 
 - **Visual Design**: The website will use a colour palette that inspires positivity. The design will be modern and professional, with a friendly and approachable feel.
 - **Typography**: Readable, web-friendly fonts will be used for easy reading across devices.
 - **Imagery**: High-quality images that resonate with the theme of personal growth and positivity will be used to engage users visually.
 
 ### Wireframes
+[Back to Top](#table-of-contents)
 
 Creating wireframes was crucial for developing Mindset Makeover. I chose Figma for this task because it's user-friendly and practical. I used real text instead of placeholders in the wireframes, making them more detailed and reflective of the final site.
 
@@ -200,16 +218,20 @@ Figma was a great help in streamlining my design process, allowing me to focus o
 [Link to Desktop and Mobile Figma Wireframes](https://www.figma.com/file/PAUeo3vZSOHDkS8Vv4Trvj/Mindset-Makeover?type=design&node-id=79-1820&mode=design)
 
 #### Mobile Wireframes
+[Back to Top](#table-of-contents)
 
 ![Mobile Wireframes](./docs/wireframes-mobile.jpg "Mobile Wireframes")
 
 #### Desktop Wireframes
+[Back to Top](#table-of-contents)
 
 ![Desktop Wireframes](./docs/wireframes-desktop.jpg "Desktop Wireframes")
 
 ## Design
+[Back to Top](#table-of-contents)
 
 ### Colours Scheme
+[Back to Top](#table-of-contents)
 
 In the design of the Mindset Makeover website, I carefully selected a colour palette of red, blue, and neutral grey to enhance the user experience and visual appeal.
 
@@ -224,6 +246,7 @@ Together, these colours create a balanced and engaging visual experience. The co
 ![Mindset  Makeover Colours](./docs/mindset-makeover-colours.jpg "Mindset  Makeover Colours")
 
 ### Fonts
+[Back to Top](#table-of-contents)
 
 For this project, I chose the Poppins font. Poppins is a geometric sans-serif font known for its modern and clean appearance. Its sleek lines and readable characters make it a popular choice for digital platforms.
 
@@ -240,26 +263,32 @@ For this project, I chose the Poppins font. Poppins is a geometric sans-serif fo
 In summary, Poppins not only enhances the website’s visual appeal but also supports its functional and emotional objectives, making it an ideal choice for this project.
 
 ### Visuals
+[Back to Top](#table-of-contents)
 
 #### Logo
+[Back to Top](#table-of-contents)
 
 I brainstormed the initial design ideas for the logo using Midjourney, which helped generate a range of creative concepts. I then used Adobe Illustrator to refine my favourite concept into the final design. This process allowed me to create a logo that's clear and impactful and truly represents the ethos of the brand.
 
 ![Logo](./docs/logo.png "Logo")
 
 #### Images
+[Back to Top](#table-of-contents)
 
 For the specific images needed in the project, like the headshots of Alex Richards, I turned to Midjourney to create the initial versions. These AI-generated images provided a solid starting point. I then used Adobe Photoshop to refine these images further, enhancing their quality to ensure they seamlessly fit the website's overall aesthetic.
 
 #### Icons
+[Back to Top](#table-of-contents)
 
 I sketched the website's icons by hand on a tablet. I wanted them to have an organic, hand-drawn look to add a unique and personal touch to the site. After completing the sketches, I digitized and vectorized them using Adobe Illustrator. This approach ensured the icons maintained their organic aesthetic and remained visually sharp and effective.
 
 ![Icons](./docs/icons.png "Icons")
 
 ## Pages and Features
+[Back to Top](#table-of-contents)
 
 ### Website Header Design
+[Back to Top](#table-of-contents)
 
 I designed the header to blend a classic layout with interactive elements, creating an experience that's both user-friendly and visually appealing.
 
@@ -274,6 +303,7 @@ On mobile devices, I replaced the standard menu with a hamburger icon to better 
 ![Header](./docs/header.png "Header")
 
 ### Website Footer Design
+[Back to Top](#table-of-contents)
 
 In my design for the website's footer, I aimed for simplicity and clarity to enhance the user experience.
 
@@ -297,6 +327,7 @@ In my design for the website's footer, I aimed for simplicity and clarity to enh
 ![Footer](./docs/footer.png "Footer")
 
 ### Home Page
+[Back to Top](#table-of-contents)
 
 In the Mindset Makeover website project, each section of the home page was designed for optimal engagement and clarity.
 
@@ -325,6 +356,7 @@ Home page desktop and mobile screenshot
 ![Home Page](./docs/page-home.jpg "Home Page")
 
 ### Webinar Page
+[Back to Top](#table-of-contents)
 
 In the Mindset Makeover website project, the Webinar Page is structured to provide comprehensive information about the webinar in an engaging manner.
 
@@ -347,6 +379,7 @@ Overall, the Webinar Page of this project is crafted to inform and motivate visi
 ![Webinar Page](./docs/page-webinar.jpg "Webinar Page")
 
 ### About Page
+[Back to Top](#table-of-contents)
 
 In the Mindset Makeover website project, the About page is created with simplicity and clarity in mind, focusing on introducing Alex and the webinar.
 
@@ -359,30 +392,35 @@ The page concludes with a "Learn More about Webinar" button. This direct call-to
 ![About Page](./docs/page-about.jpg "about Page")
 
 ### Contact Page
+[Back to Top](#table-of-contents)
 
 In the Mindset Makeover project, the Contact page is straightforward, featuring a brief intro and a simple contact form for easy communication.
 
 ![Contact Page](./docs/page-contact.jpg "Contact Page")
 
 ### Thank you pages
+[Back to Top](#table-of-contents)
 
 I created three different thank you pages tailored to specific actions: contact form submission, newsletter signup, and webinar signup. Each page provides a customized thank you message relevant to the action taken, ensuring a personalized and appreciative response for every form submission.
 
 ![Thank You Pages](./docs/page-thank-you.jpg "Thank You Pages")
 
 ### 404 Page
+[Back to Top](#table-of-contents)
 
 In the Mindset Makeover project, I created a custom 404 page with a fun twist. Using a brain illustration generated by DALL-E and edited in Photoshop, the page features a playful error message and a link to return to the home page, ensuring visitors can easily navigate back.
 
 ![404 Page](./docs/page-404.jpg "404 Page")
 
 ### Legal Pages
+[Back to Top](#table-of-contents)
 
 I also included Privacy Policy and Terms and Conditions pages with example content. This ensures legal compliance for the site, especially as it collects user data, and allows linking to privacy details directly from forms' consent checkboxes.
 
 ![Legal Pages](./docs/page-legal.jpg "Legal Pages")
 
 ## Technology used
+[Back to Top](#table-of-contents)
 
 - **HTML and CSS**: The core of the project, these languages were used to structure and style the website.
 - **VSCode**: I chose VSCode as my (IDE) for its efficiency and ease of use.
@@ -393,16 +431,19 @@ I also included Privacy Policy and Terms and Conditions pages with example conte
 - **Procreate and Adobe Illustrator**: The icons for the site were initially drawn in Procreate and then vectorized in Illustrator, ensuring high-quality and scalable graphics.
 - **Adobe Photoshop**: This was my go-to tool for editing and optimizing the generated graphics, and for exporting image files in the appropriate formats for web use.
 
-ChatGPT was not used to generate a single line of code
+:speech_balloon: ChatGPT was not used to generate a single line of code
 
 ## Issues
+[Back to Top](#table-of-contents)
 
 ### Unresolved Issues
+[Back to Top](#table-of-contents)
 
 - [Issue #1 - Webinar Page: back/forward cache restoration](https://github.com/patrickhladun/mindset-makeover/issues/1)
 - [Issue #2 - Privacy Policy Page: Tap targets are not sized appropriately, 54% appropriately sized tap targets](https://github.com/patrickhladun/mindset-makeover/issues/2)
 
 ### Resolved Issues
+[Back to Top](#table-of-contents)
 
 1. **Navigation Functionality**
 - **Problem:** Initially, I used the `has()` CSS selector to trigger the opening of the mobile navigation when the menu button was clicked. However, this approach presented an issue when it came to CSS validation. The `has()` selector did not comply with CSS validation standards, and finding a suitable solution proved challenging at the time.
@@ -417,14 +458,17 @@ ChatGPT was not used to generate a single line of code
 - **Solution:** I replaced CSS masks with inline SVGs. This change cleared the warnings and simplified the CSS, resulting in a cleaner and more compliant codebase.
 
 ## Testing and Validation
+[Back to Top](#table-of-contents)
 
 Website was tested manually using chrome developer tools breakpoints but also with physical devicaes like laptop tablet and a smartphone.
 
 I have checked all links correctly in the main navigation, secondary links and other links in text and forms.
 
 ### Functional testing
+[Back to Top](#table-of-contents)
 
 #### Website Header on Desktop
+[Back to Top](#table-of-contents)
 
 |Test scenario|Steps to Reproduce|Observation|Outcome|
 |-------------|------------------|-----------|-------|
@@ -434,6 +478,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 |Navigation active state|Click on the menu links: home, webinar, about, contact.|When a menu link is clicked and the page is opened, a red dot should appear in the bottom left of the link, indicating that the page is active.|Active state is working correctly.|
 
 #### Website Header on Mobile
+[Back to Top](#table-of-contents)
 
 |Test scenario|Steps to Reproduce|Observation|Outcome|
 |-------------|------------------|-----------|-------|
@@ -442,6 +487,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 |Mobile menu|Click mobile menu toggle.|Mobile menu should open and reveal website links.|Mobile menu opens as expected.|
 
 #### Website Footer
+[Back to Top](#table-of-contents)
 
 |Test scenario|Steps to Reproduce|Observation|Outcome|
 |-------------|------------------|-----------|-------|
@@ -452,6 +498,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 |Secondary links hover state|Hover over the menu links.|While hovering, the menu item underline should animate from left to right.|The hover state is working correctly.|
 
 #### Home Page
+[Back to Top](#table-of-contents)
 
 |Test scenario|Steps to Reproduce|Observation|Outcome|
 |-------------|------------------|-----------|-------|
@@ -463,6 +510,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 |Newsletter form error handling|Submit the form without checking the consent checkbox.|Validation error should appear on the consent field.|"Please tick this box ..." error is shown, and the form cannot be submitted.|
 
 #### Webinar Page
+[Back to Top](#table-of-contents)
 
 |Test scenario|Steps to Reproduce|Observation|Outcome|
 |-------------|------------------|-----------|-------|
@@ -475,6 +523,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 |Mindset registration form error handling|Submit the form without checking the consent checkbox.|Validation error should appear on the consent field.|"Please tick this box ..." error is shown, and the form cannot be submitted.|
 
 #### About Page
+[Back to Top](#table-of-contents)
 
 |Test scenario|Steps to Reproduce|Observation|Outcome|
 |-------------|------------------|-----------|-------|
@@ -482,6 +531,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 |Page button|Click on button: "Learn more about webinar."|Clicked button should lead to the webinar page.|Button correctly navigate to the webinar pages.|
 
 #### Contact Page
+[Back to Top](#table-of-contents)
 
 |Test scenario|Steps to Reproduce|Observation|Outcome|
 |----------------|-------------------|------------|--------|
@@ -493,6 +543,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 |Contact form error handling|Submit the form without checking consent checkbox|Validation error should appear on the consent field|"Please tick this box ..." error is showing and form cannot be submitted|
 
 #### Contact Page
+[Back to Top](#table-of-contents)
 
 |Test scenario|Steps to Reproduce|Observation|Outcome|
 |----------------|-------------------|------------|--------|
@@ -500,6 +551,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 |Content anchor links|Click on the table of contents link|User should be taken to the relevant section after clicking the link|All Table of Contents links scroll to the correct sections|
 
 #### Thank You and 404 Error Pages
+[Back to Top](#table-of-contents)
 
 |Test scenario|Steps to Reproduce|Observation|Outcome|
 |-------------|------------------|-----------|-------|
@@ -511,6 +563,7 @@ I have checked all links correctly in the main navigation, secondary links and o
 
 
 ### Google Page Insights Tests:
+[Back to Top](#table-of-contents)
 
 - [Home Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover/mgltjqe8is?form_factor=mobile)
 - [Webinar Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-webinar-html/748a0ntli1?form_factor=mobile)
@@ -524,38 +577,47 @@ I have checked all links correctly in the main navigation, secondary links and o
 - [404 Error Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-404-html/sb5nbb9x5a?form_factor=mobile)
 
 #### Home Page
+[Back to Top](#table-of-contents)
 
 ![PageSpeed Insights Home Page](./docs/pagespeed-insights-home.jpg "PageSpeed Insights Home Page")
 
 #### Webinar Page
+[Back to Top](#table-of-contents)
 
 ![PageSpeed Insights Webinar Page](./docs/pagespeed-insights-webinar.jpg "PageSpeed Insights Webinar Page")
 
 #### About Page
+[Back to Top](#table-of-contents)
 
 ![PageSpeed Insights About Page](./docs/pagespeed-insights-about.jpg "PageSpeed Insights About Page")
 
 #### Contact Page
+[Back to Top](#table-of-contents)
 
 ![PageSpeed Insights Contact Page](./docs/pagespeed-insights-contact.jpg "PageSpeed Insights Contact Page")
 
 #### Thank You Contact Page
+[Back to Top](#table-of-contents)
 
 ![PageSpeed Insights Thank You Contact Page](./docs/pagespeed-insights-thank-you-contact.jpg "PageSpeed Insights Thank You Contact Page")
 
 #### Thank You Webinar Page
+[Back to Top](#table-of-contents)
 
 ![PageSpeed Insights Thank You Webinar Page](./docs/pagespeed-insights-thank-you-webinar.jpg "PageSpeed Insights Thank You Webinar Page")
 
 #### Thank You Newsletter Page
+[Back to Top](#table-of-contents)
 
 ![PageSpeed Insights Thank You Newsletter Page](./docs/pagespeed-insights-thank-you-newsletter.jpg "PageSpeed Insights Thank You Newsletter Page")
 
 #### 404 Error Page
+[Back to Top](#table-of-contents)
 
 ![PageSpeed Insights 404 Error Page](./docs/pagespeed-insights-404.jpg "PageSpeed Insights 404 Error Page")
 
 ### HTML Validation
+[Back to Top](#table-of-contents)
 
 I conducted HTML validation using the W3C Markup Validation Service for all the pages of the website. There were no errors or warnings found on any of the pages.
 
@@ -572,6 +634,7 @@ Page Validation Links:
 - [404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F404.html)
 
 ### CSS Validation
+[Back to Top](#table-of-contents)
 
 I also validated the CSS on validator.w3.org, and it passed successfully, except for one warning. This warning was triggered by the use of CSS variables and included the message: 'Due to their dynamic nature, CSS variables are not subject to static checking.
 
@@ -580,6 +643,7 @@ I also validated the CSS on validator.w3.org, and it passed successfully, except
 [![CSS Validation](https://jigsaw.w3.org/css-validator/images/vcss-blue "CSS Validation")](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Further Improvements
+[Back to Top](#table-of-contents)
 
 For further enhancements to the Mindset Makeover project, considering Alex's role as a coach, there are several potential features and services that could significantly enrich the website:
 
@@ -589,10 +653,12 @@ For further enhancements to the Mindset Makeover project, considering Alex's rol
 - If Alex is a book author, a section dedicated to his publications would be an excellent addition. This could showcase his books, provide summaries, and link to purchase options.
 
 ## Credits
+[Back to Top](#table-of-contents)
 
 - [Safari browser mockup by sashalazar](https://sashalazar.gumroad.com/l/mqxFJ)
 - [Mobile Phone Mockup by Antony Boyd](https://www.anthonyboyd.graphics/mockups/iphone-14-pro-max-mockup/)
 
 ## Acknowledgments
+[Back to Top](#table-of-contents)
 
 - Thanks to my CI Mentor Luke for giving me valuable feedback, tips and help to find some areas of improvement.
