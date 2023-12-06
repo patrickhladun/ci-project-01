@@ -9,7 +9,7 @@
 
 [Mindset Makeover Deployed Website](https://patrickhladun.github.io/mindset-makeover/)
 
-![Mindset Makeover Presentaion](./docs/mindset-makeover-presentation.png "Mindset  Makeover Presentation")
+![Mindset Makeover Presentation](./docs/mindset-makeover-presentation.png "Mindset  Makeover Presentation")
 
 ## Table of Contents<!-- omit from toc --> 
 
@@ -51,7 +51,7 @@
   - [404 Page](#404-page)
   - [Legal Pages](#legal-pages)
 - [Technology used](#technology-used)
-- [Deployment](#deployment)
+- [Development and Deployment](#development-and-deployment)
 - [Issues](#issues)
   - [Unresolved Issues](#unresolved-issues)
   - [Resolved Issues](#resolved-issues)
@@ -434,7 +434,20 @@ I also included Privacy Policy and Terms and Conditions pages with example conte
 
 :speech_balloon: ChatGPT was not used to generate a single line of code
 
-## Deployment
+## Development and Deployment
+
+To code the project, I used VSCode locally and Git to push commits to the GitHub repository.
+
+The live website was deployed to GitHub Pages. You can access the deployed Mindset Makeover website ['Mindset Makeover website here'](https://patrickhladun.github.io/mindset-makeover/).
+
+Here are the steps taken to deploy Mindset Makeover:
+
+1. Select the repository from the repository list.
+2. Go to the 'Settings' tab.
+3. In the sidebar menu, navigate to 'Pages.'
+4. Select 'Deploy from a branch' and choose the desired branch.
+5. Click 'Save.'
+6. The link to access the deployed page will be displayed at the top of the page.
 
 ## Issues
 [Back to Top](#table-of-contents)
