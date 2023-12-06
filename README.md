@@ -664,5 +664,5 @@ For further enhancements to the Mindset Makeover project, considering Alex's rol
 ## Acknowledgments
 [Back to Top](#table-of-contents)
 
-:point_right: Thanks to my CI Mentor [Luke Buchanan](https://www.linkedin.com/in/lukebuchanan67/) for giving me valuable feedback, tips and help to find some areas of improvement.
-:point_right: [Kera Cudmore](https://www.linkedin.com/in/keracudmore/) for great repo about README.md file where I learned about shields.io badges
+- :point_right: Thanks to my CI Mentor [Luke Buchanan](https://www.linkedin.com/in/lukebuchanan67/) for giving me valuable feedback, tips and help to find some areas of improvement.
+- :point_right: [Kera Cudmore](https://www.linkedin.com/in/keracudmore/) for great repo about README.md file where I learned about shields.io badges
