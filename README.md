@@ -6,20 +6,18 @@
 
 ![Mindset Makeover Presentaion](./docs/mindset-makeover-presentation.png "Mindset  Makeover Presentation")
 
-## Planning
-
-### Project Scope and Objectives
+## Project Scope and Objectives
 
 Mindset Makeover is a personal coaching website. I have designed it to be simple and user-friendly. This project includes a home page, a place for signing up for newsletters, information about webinars, and a form to register for these webinars. There's also a contact page for questions or support.
 
-#### Mindset Makeover Website Objectives
+### Mindset Makeover Website Objectives
 
 1. **Educational Engagement**: I aim to provide content that helps visitors understand the importance of a positive mindset in their personal and professional lives.
 2. **User Interaction**: I aim to engage users by offering newsletter sign-ups and webinar registrations, providing practical advice and inspiring stories.
 3. **Brand Awareness**: I'm focusing on establishing Mindset Makeover as a known resource for personal development. Community building is beyond this project's scope, but I might add this later.
 4. **User Conversion**: I want to encourage visitors to participate actively, especially in the free webinars Alex Richards hosts, where they can learn about positive thinking and self-empowerment.
 
-#### Key components of the website include:
+### Key components of the website include:
 
 - **Home page**: Introduces the mission of Mindset Makeover.
 - **About page**: Detailing Alex Richards’ journey and the philosophy behind Mindset Makeover.
@@ -106,7 +104,9 @@ The ultimate purpose of the website is to not only deliver information but also 
 - **Navigation Design**: A clear and consistent navigation menu will be present on all pages. Key sections will be accessible from the homepage.
 - **Interface Design**: The user interface will be clean and uncluttered, with a focus on readability and easy access to information. Important elements like subscription forms and contact details will be prominently displayed.
 - **Information Design**: Content will be laid out in an easily digestible format, using headings, bullet points, and images where appropriate.
+
 #### Surface
+
 - **Visual Design**: The website will use a colour palette that inspires positivity. The design will be modern and professional, with a friendly and approachable feel.
 - **Typography**: Readable, web-friendly fonts will be used for easy reading across devices.
 - **Imagery**: High-quality images that resonate with the theme of personal growth and positivity will be used to engage users visually.
@@ -123,7 +123,15 @@ Creating wireframes was crucial for developing Mindset Makeover. I chose Figma f
 
 Figma was a great help in streamlining my design process, allowing me to focus on the user experience right from the start.
 
-[Desktop and Mobile Figma Wireframes](https://www.figma.com/file/PAUeo3vZSOHDkS8Vv4Trvj/Mindset-Makeover?type=design&node-id=79-1820&mode=design)
+[Link to Desktop and Mobile Figma Wireframes](https://www.figma.com/file/PAUeo3vZSOHDkS8Vv4Trvj/Mindset-Makeover?type=design&node-id=79-1820&mode=design)
+
+#### Mobile Wireframes
+
+![Mobile Wireframes](./docs/wireframes-mobile.jpg "Mobile Wireframes")
+
+#### Desktop Wireframes
+
+![Desktop Wireframes](./docs/wireframes-desktop.jpg "Desktop Wireframes")
 
 ## Design
 
@@ -428,48 +436,43 @@ I have checked all links correctly in the main navigation, secondary links and o
 |404 Error Page|Click on the "Return to Home Page" link.|The user should be redirected to the homepage.|The link works as expected.|
 
 
-Google Page Insights:
+### Google Page Insights Testing:
 
-[Home Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover/mgltjqe8is?form_factor=mobile)
-
-Webinar Page
-
-[About Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-about-html/ds102hszm5?form_factor=mobile)
-
-[Contact Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-contact-html/69423su0iq?form_factor=mobile)
-
-[Privacy Policy Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-privacy-policy-html/txveq8h09s?form_factor=mobile)
-
-[Terms and Conditions Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-terms-html/og2lnt2167?form_factor=mobile)
-
-[Contact Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-contact-html/1127kffl74?form_factor=mobile)
-
-Webinar Submission Thank You Page
-
-[Newsletter Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-newsletter-html/5v71nvx3so?form_factor=mobile)
-
-[404 Error Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-404-html/sb5nbb9x5a?form_factor=mobile)
+- [Home Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover/mgltjqe8is?form_factor=mobile)
+- [Webinar Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-webinar-html/748a0ntli1?form_factor=mobile)
+- [About Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-about-html/ds102hszm5?form_factor=mobile)
+- [Contact Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-contact-html/69423su0iq?form_factor=mobile)
+- [Privacy Policy Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-privacy-policy-html/txveq8h09s?form_factor=mobile)
+- [Terms and Conditions Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-terms-html/og2lnt2167?form_factor=mobile)
+- [Contact Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-contact-html/1127kffl74?form_factor=mobile)
+- Webinar Submission Thank You Page
+- [Newsletter Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-newsletter-html/5v71nvx3so?form_factor=mobile)
+- [404 Error Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-404-html/sb5nbb9x5a?form_factor=mobile)
 
 
 ### HTML Validation
 
+I conducted HTML validation using the W3C Markup Validation Service for all the pages of the website. There were no errors or warnings found on any of the pages.
+
 Page Validation Links:
-[Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F)
-[Webinar Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fwebinar.html)
-About Page
-[Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fcontact.html)
-[Privacy Policy Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fprivacy-policy.html)
-[Terms and Conditions Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fterms.html)
-[Contact Submission Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fthank-you-contact.html)
-[Webinar Submission Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fthank-you-webinar.html)
-[Newsletter Submission Thank You Page](https://patrickhladun.github.io/mindset-makeover/thank-you-newsletter.html)
-[404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F404.html)
+- [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F)
+- [Webinar Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fwebinar.html)
+- [About Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fabout.html)
+- [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fcontact.html)
+- [Privacy Policy Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fprivacy-policy.html)
+- [Terms and Conditions Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fterms.html)
+- [Contact Submission Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fthank-you-contact.html)
+- [Webinar Submission Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2Fthank-you-webinar.html)
+- [Newsletter Submission Thank You Page](https://patrickhladun.github.io/mindset-makeover/thank-you-newsletter.html)
+- [404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F404.html)
 
 ### CSS Validation
 
-The CSS was validated on validator.w3.org and passed successfully, with the exception of one warning. This warning was generated due to the use of CSS variables, accompanied by the message: "Due to their dynamic nature, CSS variables are not subject to static checking."
+I also validated the CSS on validator.w3.org, and it passed successfully, except for one warning. This warning was triggered by the use of CSS variables and included the message: 'Due to their dynamic nature, CSS variables are not subject to static checking.
 
-[CSS Validation PDF](./docs/css-validation.png "CSS Validation PDF")
+[W3C CSS Validation Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+[![CSS Validation](https://jigsaw.w3.org/css-validator/images/vcss-blue "CSS Validation")](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpatrickhladun.github.io%2Fmindset-makeover%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Further Improvements
 
