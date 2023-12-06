@@ -2,6 +2,11 @@
 
 **Mindset Makeover** is a made-up personal coaching website. It's part of a project for the Code Institute Diploma in Full-Stack Software Development. The main character of this project is Alex Richards. He's like a personal coach. His life story is full of challenges. But he chose to change his life. He did this by transforming how he thinks and deals with problems. This significant change helped him a lot. So, he started Mindset Makeover. This website is for assisting people to change their life stories like he did.
 
+![GitHub contributors](https://img.shields.io/github/issues/patrickhladun/mindset-makeover?style=flat)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/patrickhladun/mindset-makeover/main?style=flat)
+![GitHub language count](https://img.shields.io/github/languages/count/patrickhladun/mindset-makeover?style=flat)
+![GitHub top language](https://img.shields.io/github/languages/top/patrickhladun/mindset-makeover?style=flat)
+
 [Mindset Makeover Deployed Website](https://patrickhladun.github.io/mindset-makeover/)
 
 ![Mindset Makeover Presentaion](./docs/mindset-makeover-presentation.png "Mindset  Makeover Presentation")
