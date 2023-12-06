@@ -15,7 +15,7 @@
 
 Mindset Makeover is a personal coaching website. I have designed it to be simple and user-friendly. This project includes a home page, a place for signing up for newsletters, information about webinars, and a form to register for these webinars. There's also a contact page for questions or support.
 
-### Mindset Makeover Website Objectives
+### Website Objectives
 
 1. **Educational Engagement**: I aim to provide content that helps visitors understand the importance of a positive mindset in their personal and professional lives.
 2. **User Interaction**: I aim to engage users by offering newsletter sign-ups and webinar registrations, providing practical advice and inspiring stories.
@@ -66,7 +66,6 @@ The ultimate purpose of the website is to not only deliver information but also 
 
 - Mindset Makeover's webinars offer Emily practical and actionable advice to improve her leadership skills and manage stress, aligning with her goal to balance her professional and personal life.
 - The newsletters provide ongoing support and insights, helping her navigate daily challenges with a positive mindset.
-- 
 
 ### User Goals
 
@@ -346,7 +345,6 @@ ChatGPT was not used to generate a single line of code
 - **Issue:** Using CSS masks with SVG images for icon colour switching led to warnings due to -webkit prefixes similar to the issues encountered with the image blobs.
 - **Solution:** I replaced CSS masks with inline SVGs. This change cleared the warnings and simplified the CSS, resulting in a cleaner and more compliant codebase.
 
-
 ## Testing and Validation
 
 Website was tested manually using chrome developer tools breakpoints but also with physical devicaes like laptop tablet and a smartphone.
@@ -454,7 +452,6 @@ I have checked all links correctly in the main navigation, secondary links and o
 - [Newsletter Submission Thank You Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-thank-you-newsletter-html/5v71nvx3so?form_factor=mobile)
 - [404 Error Page](https://pagespeed.web.dev/analysis/https-patrickhladun-github-io-mindset-makeover-404-html/sb5nbb9x5a?form_factor=mobile)
 
-
 ### HTML Validation
 
 I conducted HTML validation using the W3C Markup Validation Service for all the pages of the website. There were no errors or warnings found on any of the pages.
@@ -490,9 +487,9 @@ For further enhancements to the Mindset Makeover project, considering Alex's rol
 
 ## Credits
 
-Thanks to my CI Mentor Luke for giving me valuable feedback, tips and help finding some areas of improvements.
-
 [Safari browser mockup by sashalazar](https://sashalazar.gumroad.com/l/mqxFJ)
 [Mobile Phone Mockup by Antony Boyd](https://www.anthonyboyd.graphics/mockups/iphone-14-pro-max-mockup/)
 
-[uicolors.app](https://uicolors.app/) was used to generate shades of chosen colour and export the colours as css variables.
+## Acknowledgments
+
+Thanks to my CI Mentor Luke for giving me valuable feedback, tips and help to find some areas of improvement.
