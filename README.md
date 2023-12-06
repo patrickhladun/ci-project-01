@@ -51,6 +51,7 @@
   - [404 Page](#404-page)
   - [Legal Pages](#legal-pages)
 - [Technology used](#technology-used)
+- [Deployment](#deployment)
 - [Issues](#issues)
   - [Unresolved Issues](#unresolved-issues)
   - [Resolved Issues](#resolved-issues)
@@ -433,6 +434,8 @@ I also included Privacy Policy and Terms and Conditions pages with example conte
 
 :speech_balloon: ChatGPT was not used to generate a single line of code
 
+## Deployment
+
 ## Issues
 [Back to Top](#table-of-contents)
 
@@ -661,4 +664,5 @@ For further enhancements to the Mindset Makeover project, considering Alex's rol
 ## Acknowledgments
 [Back to Top](#table-of-contents)
 
-- Thanks to my CI Mentor [Luke Buchanan](https://www.linkedin.com/in/lukebuchanan67/) for giving me valuable feedback, tips and help to find some areas of improvement.
+:point_right: Thanks to my CI Mentor [Luke Buchanan](https://www.linkedin.com/in/lukebuchanan67/) for giving me valuable feedback, tips and help to find some areas of improvement.
+:point_right: [Kera Cudmore](https://www.linkedin.com/in/keracudmore/) for great repo about README.md file where I learned about shields.io badges
