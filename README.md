@@ -315,6 +315,12 @@ ChatGPT was not used to generate a single line of code
 
 ## Issues
 
+### Unresolved Issues
+
+- [Issue #1 - Webinar Page: back/forward cache restoration](https://github.com/patrickhladun/mindset-makeover/issues/1)
+
+### Resolved Issues
+
 1. **Navigation Functionality**
 - **Problem:** Initially, I used the `has()` CSS selector to trigger the opening of the mobile navigation when the menu button was clicked. However, this approach presented an issue when it came to CSS validation. The `has()` selector did not comply with CSS validation standards, and finding a suitable solution proved challenging at the time.
 - **Solution:** To resolve this issue, I undertook a refactor of the header, using the solution implemented in the Love Running project. This new approach ensured proper navigation functionality while passing the CSS validation.      
@@ -326,6 +332,7 @@ ChatGPT was not used to generate a single line of code
 3. **Icon Handling**
 - **Issue:** Using CSS masks with SVG images for icon colour switching led to warnings due to -webkit prefixes similar to the issues encountered with the image blobs.
 - **Solution:** I replaced CSS masks with inline SVGs. This change cleared the warnings and simplified the CSS, resulting in a cleaner and more compliant codebase.
+
 
 ## Testing and Validation
 
