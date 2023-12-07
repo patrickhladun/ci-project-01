@@ -237,15 +237,19 @@ a.light {
   transition: color 0.3s ease-in-out;
   z-index: 0;
 }
+
 a {
   color: var(--color-link);
 }
+
 a:hover {
   color: var(--color-link-hover);
 }
+
 a.light {
   color: var(--color-link-light);
 }
+
 a.light:hover {
   color: var(--color-link-light-hover);
 }
@@ -259,27 +263,26 @@ a.light::after {
   height: 6px;
   z-index: -1;
 }
+
 a::after {
   background-color: var(--color-primary-200);
 }
+
 a.light::after {
   opacity: 0.4;
 }
+
 a:hover::after,
 a.light:hover::after {
   width: 100%;
   transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
+/* Select all a tags excluding .logo, .button, .social-link classes and .menu li a */
 a:not(.logo, .button, .social-link, .menu li a)::after {
   content: "";
 }
-svg .st0 {
-  fill: #ee455b;
-}
-svg .st1 {
-  fill: #355c7d;
-}
+
 strong {
   color: var(--color-secondary-700);
 }
@@ -287,6 +290,7 @@ strong {
 .text-large {
   font-size: var(--text-size-lg);
 }
+
 .text-center {
   text-align: center;
 }
@@ -298,21 +302,27 @@ strong {
 .background-lighter {
   background-color: var(--color-neutral-100);
 }
+
 .background-light {
   background-color: var(--color-neutral-200);
 }
+
 .background-color {
   background-color: var(--color-secondary-800);
 }
+
 .background-color-dark {
   background-color: var(--color-secondary-900);
 }
+
 .background-dark {
   background-color: var(--color-neutral-700);
 }
+
 .background-darker {
   background-color: var(--color-neutral-800);
 }
+
 .background-primary-lightest {
   background-color: var(--color-primary-100);
 }
@@ -446,6 +456,7 @@ main {
   display: none;
 }
 
+/* Toggle mobile menu when button is clicked */
 #mobile-menu-toggle:checked ~ .navigation {
   height: 100%;
   opacity: 1;
@@ -469,7 +480,6 @@ main {
 }
 
 /* Mobile menu trigger button */
-
 .hamburger {
   display: flex;
   flex-direction: column;
@@ -479,6 +489,7 @@ main {
   height: 36px;
 }
 
+/* Trigger bars */
 .hamburger span {
   display: block;
   background: var(--color-secondary-600);
@@ -488,20 +499,18 @@ main {
   transition: all 0.2s ease-in-out;
 }
 
+/* Animate button bars from hamburger to close button */
 input:checked ~ .hamburger span:nth-child(1) {
   transform: translateY(11px) rotate(-45deg);
 }
-
 input:checked ~ .hamburger span:nth-child(2) {
   opacity: 0;
 }
-
 input:checked ~ .hamburger span:nth-child(3) {
   transform: translateY(-12px) rotate(45deg);
 }
 
-/* Link hover animation */
-
+/* Add a bottom border to menu item with zero width */
 .menu li a::after {
   content: "";
   display: block;
@@ -514,11 +523,13 @@ input:checked ~ .hamburger span:nth-child(3) {
   z-index: -1;
 }
 
+/* Use the border to make a dot  for active link */
 .menu li a.active::after {
   border-radius: 100%;
   width: 16px;
 }
 
+/* Animate the border on hover */
 .menu li a:hover::after {
   border-radius: 0;
   width: 100%;
@@ -530,7 +541,6 @@ input:checked ~ .hamburger span:nth-child(3) {
 /* ================================================== */
 
 /* Newsletter */
-
 .newsletter {
   padding: 36px 24px;
 }
@@ -542,7 +552,6 @@ input:checked ~ .hamburger span:nth-child(3) {
 }
 
 /* Social Links */
-
 .social-links {
   display: flex;
   justify-content: center;
@@ -566,7 +575,6 @@ input:checked ~ .hamburger span:nth-child(3) {
 }
 
 /* Secondary Links */
-
 .secondary-links {
   display: flex;
   flex-direction: column;
@@ -584,17 +592,17 @@ input:checked ~ .hamburger span:nth-child(3) {
   align-items: center;
 }
 
+/* Add a dot between secondary links */
 .secondary-links li::after {
   content: "\00B7";
   display: block;
   color: var(--color-link-light);
 }
 
+/* Remove the dot for the last item */
 .secondary-links li:last-child::after {
   content: none;
 }
-
-/* Copyright */
 
 .copyright {
   display: flex;
@@ -623,13 +631,13 @@ input:checked ~ .hamburger span:nth-child(3) {
 .home-webinar {
   padding: 96px 24px;
 }
+
 .home-webinar__future {
   display: flex;
   flex-direction: column-reverse;
   padding-bottom: 36px;
 }
-.home-webinar__change {
-}
+
 .home-webinar__icons {
   padding-bottom: 36px;
   padding-top: 36px;
@@ -723,6 +731,7 @@ input:checked ~ .hamburger span:nth-child(3) {
   text-align: center;
 }
 
+/* Quotation mark for testimonial box */
 .testimonial::before {
   content: '"';
   display: flex;
@@ -740,6 +749,7 @@ input:checked ~ .hamburger span:nth-child(3) {
   line-height: 1.2;
   transform: translateX(-50%);
 }
+
 .testimonial__body {
   margin: 0;
   padding: 0;
@@ -748,6 +758,7 @@ input:checked ~ .hamburger span:nth-child(3) {
 .testimonial--accent {
   background-color: var(--color-primary-600);
 }
+
 .testimonial--accent .testimonial__body,
 .testimonial--accent .testimonial__footer {
   color: white;
@@ -770,6 +781,7 @@ input:checked ~ .hamburger span:nth-child(3) {
   display: flex;
   justify-content: center;
 }
+
 .about-hero__image img {
   max-width: 400px;
 }
@@ -804,6 +816,7 @@ input:checked ~ .hamburger span:nth-child(3) {
   padding: 8vh 24px 36px 24px;
   min-height: 80vh;
 }
+
 .thank-you__image {
   background: var(--color-neutral-200);
   margin-bottom: var(--spacing-lg);
@@ -834,6 +847,7 @@ input:checked ~ .hamburger span:nth-child(3) {
   display: flex;
   flex-direction: column;
 }
+
 .button {
   display: inline-block;
   padding: 12px 24px;
@@ -843,15 +857,18 @@ input:checked ~ .hamburger span:nth-child(3) {
   font-weight: normal;
   text-align: center;
 }
+
 .button--primary {
   background-color: var(--color-primary-600);
   color: white;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+
 .button--primary:hover {
   background-color: var(--color-primary-800);
   color: var(--color-primary-50);
 }
+
 .button--outline-light {
   background-color: transparent;
   padding: 10px 22px;
@@ -859,15 +876,18 @@ input:checked ~ .hamburger span:nth-child(3) {
   color: white;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+
 .button--outline-light:hover {
   background-color: var(--color-primary-600);
   color: white;
 }
+
 .button--secondary {
   background-color: var(--color-secondary-600);
   color: white;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+
 .button--secondary:hover {
   background-color: var(--color-secondary-800);
   color: white;
@@ -909,13 +929,16 @@ input:checked ~ .hamburger span:nth-child(3) {
 .divider {
   line-height: 0;
 }
+
 .divider--invert {
   transform: scaleY(-1);
 }
+
 .divider--lighter-to-base {
   background: var(--color-neutral-100);
   fill: var(--color-neutral-50);
 }
+
 .divider--light-to-lighter {
   background: var(--color-neutral-200);
   fill: var(--color-neutral-100);
@@ -928,6 +951,7 @@ input:checked ~ .hamburger span:nth-child(3) {
 /* ========================================================================== */
 
 @media all and (min-width: 576px) {
+
   /* ================================================== */
   /* #6.1 Buttons ===================================== */
   /* ================================================== */
@@ -1020,18 +1044,23 @@ input:checked ~ .hamburger span:nth-child(3) {
   h1 {
     font-size: var(--text-size-h1);
   }
+
   h2 {
     font-size: var(--text-size-h2);
   }
+  
   h3 {
     font-size: var(--text-size-h3);
   }
+  
   h4 {
     font-size: var(--text-size-h4);
   }
+  
   h5 {
     font-size: var(--text-size-h5);
   }
+  
   h6 {
     font-size: var(--text-size-h6);
   }
