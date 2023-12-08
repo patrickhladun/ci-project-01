@@ -16,12 +16,14 @@
       font-family: 'Poppins';
       src: url('./assets/fonts/Poppins-Light.ttf');
       font-weight: 300;
+      font-display: swap;
     }
 
     @font-face {
       font-family: 'Poppins';
       src: url('./assets/fonts/Poppins-ExtraBold.ttf');
       font-weight: 800;
+      font-display: swap;
     }
   </style>
 
@@ -114,7 +116,7 @@
           <textarea id="message" name="message" placeholder="Write something" required></textarea>
         </div>
         <div class="field field__checkbox">
-          <input class="field__input-checkbox" id="gdpr" type="checkbox" required>
+          <input id="gdpr" class="field__input-checkbox" type="checkbox" name="consent" required>
           <label class="field__label" for="gdpr">I have read the
             <a href="./privacy-policy.html" target="_blank" rel="noopener noreferrer">privacy policy</a>
             and I agree to the terms and data processing practices outlined in

@@ -16,12 +16,14 @@
       font-family: 'Poppins';
       src: url('./assets/fonts/Poppins-Light.ttf');
       font-weight: 300;
+      font-display: swap;
     }
 
     @font-face {
       font-family: 'Poppins';
       src: url('./assets/fonts/Poppins-ExtraBold.ttf');
       font-weight: 800;
+      font-display: swap;
     }
   </style>
 
@@ -415,12 +417,15 @@
             <label for="how">How did you hear about us?:</label>
             <select id="how" name="how" required>
               <option value="">-- Select an option --</option>
-              <option value="plain">On a plain</option>
-              <option value="radio">On radio</option>
+              <option value="online-search">Online Search (Google, Bing, etc.)</option>
+              <option value="word-of-mouth">Friend or Word of Mouth</option>
+              <option value="leprechaun">Leprechaun's Lucky Tip</option>
+              <option value="hiking">While Hiking with Sasquatch</option>
+              <option value="under-a-rock">Under a Rock, Literally</option>
             </select>
           </div>
           <div class="field field__checkbox">
-            <input type="checkbox" id="gdpr" class="field__input-checkbox" required>
+            <input id="gdpr" class="field__input-checkbox" type="checkbox" name="consent" required>
             <label class="field__label" for="gdpr">I have read the
               <a href="./privacy-policy.html" target="_blank" rel="noopener noreferrer">privacy policy</a>
               and I agree to the terms and data processing practices outlined in
