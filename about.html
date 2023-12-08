@@ -57,7 +57,8 @@
   <header class="header">
     <div class="header-content">
       <div class="branding">
-        <a class="logo" href="./"><img src="./assets/images/logo.svg" width="116" height="36" alt="Logo"></a>
+        <a class="logo" href="./" aria-label="link to Home Page"><img src="./assets/images/logo.svg" width="116"
+            height="36" alt="Logo"></a>
       </div>
       <input id="mobile-menu-toggle" type="checkbox">
       <label class="hamburger" for="mobile-menu-toggle" aria-label="menu">
@@ -67,10 +68,9 @@
       </label>
       <nav class="navigation">
         <ul class="menu">
-          <li><a href="./">Home</a></li>
-          <li><a href="./webinar.html">Webinar</a></li>
-          <li><a class="active" href="./about.html">About</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+          <li><a aria-label="link to Webinar Page" href="./webinar.html">Webinar</a></li>
+          <li><a class="active" aria-label="link to About Page" href="./about.html">About</a></li>
+          <li><a aria-label="link to Contact Page" href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -151,7 +151,8 @@
         journey to self-improvement. Dive into our resources, attend our
         webinars, and let's reshape our futures together.
       </p>
-      <a class="button button--primary" href="./webinar.html">Learn More about Webinar</a>
+      <a class="button button--primary" href="./webinar.html" aria-label="link to Webinar Page">Learn More about
+        Webinar</a>
     </section>
   </main>
   <!-- Page Footer -->
@@ -173,12 +174,8 @@
               aria-label="your email" required>
           </div>
           <div class="field field__checkbox">
-            <input class="field__input-checkbox" id="gdpr" name="consent" type="checkbox"
-              aria-label="privacy policy consent" required>
-            <label class="field__label" for="gdpr">I have read the
-              <a class="light" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer">privacy policy</a>
-              and I agree to the terms and data processing practices outlined
-              in it.</label>
+            <input class="field__input-checkbox" id="gdpr" name="consent" type="checkbox" aria-label="privacy policy consent checkbox" required>
+            <label class="field__label" for="gdpr">I have read the<a class="light" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer" aria-label="link to Privacy Policy Page">privacy policy</a> and I agree to the terms and data processing practices outlined in it.</label>
           </div>
           <button class="button button--outline-light" type="submit" aria-label="subscribe">
             Subscribe!
@@ -215,12 +212,12 @@
         <!-- Secondary Links -->
         <ul class="secondary-links">
           <li>
-            <a class="light" href="./privacy-policy.html">Privacy Policy</a>
+            <a class="light" href="./privacy-policy.html" aria-label="link to Privacy Policy">Privacy Policy</a>
           </li>
           <li>
-            <a class="light" href="./terms.html">Terms and Conditions</a>
+            <a class="light" href="./terms.html" aria-label="link to Terms and Conditions">Terms and Conditions</a>
           </li>
-          <li><a class="light" href="./contact.html">Contact</a></li>
+          <li><a class="light" href="./contact.html" aria-label="link to Contact">Contact</a></li>
         </ul>
       </div>
     </div>

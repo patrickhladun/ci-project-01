@@ -57,7 +57,8 @@
   <header class="header">
     <div class="header-content">
       <div class="branding">
-        <a class="logo" href="./"><img src="./assets/images/logo.svg" width="116" height="36" alt="Logo"></a>
+        <a class="logo" href="./" aria-label="link to Home Page"><img src="./assets/images/logo.svg" width="116"
+            height="36" alt="Logo"></a>
       </div>
       <input id="mobile-menu-toggle" type="checkbox">
       <label class="hamburger" for="mobile-menu-toggle" aria-label="menu">
@@ -67,10 +68,9 @@
       </label>
       <nav class="navigation">
         <ul class="menu">
-          <li><a class="active" href="./">Home</a></li>
-          <li><a href="./webinar.html">Webinar</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+          <li><a aria-label="link to Webinar Page" href="./webinar.html">Webinar</a></li>
+          <li><a aria-label="link to About Page" href="./about.html">About</a></li>
+          <li><a aria-label="link to Contact Page" href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -99,8 +99,10 @@
             life around by changing his mindset. Join our FREE webinar to start your own transformation journey!
           </p>
           <div class="buttons">
-            <a class="button button--primary button--margin" href="./webinar.html">Join My Free Webinar</a>
-            <a class="button button--secondary button--margin" href="./about.html">About Me</a>
+            <a class="button button--primary button--margin" href="./webinar.html"
+              aria-label="link to Webinar Page">Join My Free Webinar</a>
+            <a class="button button--secondary button--margin" href="./about.html" aria-label="link to About Page">About
+              Me</a>
           </div>
         </div>
       </div>
@@ -467,7 +469,8 @@
             That's when he started his journey to rewire his mindset. Today, he's not only transformed his own life, but
             he's also committed to helping you do the same.
           </p>
-          <a class="button button--primary button--margin" href="./about.html">My Story</a>
+          <a class="button button--primary button--margin" href="./about.html" aria-label="link to About Page">My
+            Story</a>
         </div>
         <div class="home-about__image image-mask-4">
           <img src="./assets/images/home-about-768.webp" width="768" height="512" srcset="
@@ -493,7 +496,7 @@
             Learn the steps to take control of your mindset and your future. Don't miss out on our free webinar that's
             already changed lives for the better.
           </p>
-          <a class="button button--primary" href="./webinar.html">Join the Webinar</a>
+          <a class="button button--primary" href="./webinar.html" aria-label="link to Webinar Page">Join the Webinar</a>
         </div>
       </div>
     </section>
@@ -518,11 +521,10 @@
           </div>
           <div class="field field__checkbox">
             <input class="field__input-checkbox" id="gdpr" name="consent" type="checkbox"
-              aria-label="privacy policy consent" required>
-            <label class="field__label" for="gdpr">I have read the
-              <a class="light" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer">privacy policy</a>
-              and I agree to the terms and data processing practices outlined
-              in it.</label>
+              aria-label="privacy policy consent checkbox" required>
+            <label class="field__label" for="gdpr">I have read the<a class="light" href="./privacy-policy.html"
+                target="_blank" rel="noopener noreferrer" aria-label="link to Privacy Policy Page">privacy policy</a>
+              and I agree to the terms and data processing practices outlined in it.</label>
           </div>
           <button class="button button--outline-light" type="submit" aria-label="subscribe">
             Subscribe!
@@ -559,12 +561,12 @@
         <!-- Secondary Links -->
         <ul class="secondary-links">
           <li>
-            <a class="light" href="./privacy-policy.html">Privacy Policy</a>
+            <a class="light" href="./privacy-policy.html" aria-label="link to Privacy Policy">Privacy Policy</a>
           </li>
           <li>
-            <a class="light" href="./terms.html">Terms and Conditions</a>
+            <a class="light" href="./terms.html" aria-label="link to Terms and Conditions">Terms and Conditions</a>
           </li>
-          <li><a class="light" href="./contact.html">Contact</a></li>
+          <li><a class="light" href="./contact.html" aria-label="link to Contact">Contact</a></li>
         </ul>
       </div>
     </div>
