@@ -99,13 +99,13 @@ Mindset Makeover is a personal coaching website. I have designed it to be simple
 [Back to Top](#table-of-contents)
 
 - **Home page**: Introduces the mission of Mindset Makeover.
-- **About page**: Detailing Alex Richards’ journey and the philosophy behind Mindset Makeover.
+- **About page**: Detailing Alex Richards' journey and the philosophy behind Mindset Makeover.
 - **Webinar registration page**: Details about the upcoming webinar and a place for users to sign up for webinars.
 - **Contact page**: For user inquiries and support.
 
 In the future, I might add a blog, a podcast, and other elements to the website. For now, my focus is on offering a streamlined and valuable experience.
 
-The ultimate purpose of the website is to not only deliver information but also to inspire users to take steps towards enhancing their lives. The project will focus on delivering a seamless user experience with high-quality content, thereby fostering a positive community and brand loyalty.
+The website's ultimate purpose is to not only deliver information but also inspire users to take steps towards enhancing their lives. The project will focus on delivering a seamless user experience with high-quality content, thereby fostering a positive community and brand loyalty.
 
 ## User Experience
 [Back to Top](#table-of-contents)
@@ -117,7 +117,7 @@ The ultimate purpose of the website is to not only deliver information but also 
 - **Gender**: Female
 - **Location**: Suburban area near Dublin, Ireland
 - **Occupation**: Middle-level Manager in a Tech Company
-- **Education**: Bachelor’s Degree in Business Management
+- **Education**: Bachelor's Degree in Business Management
 - **Marital Status**: Married with two children
 
 #### Psychographics:
@@ -145,28 +145,28 @@ The ultimate purpose of the website is to not only deliver information but also 
 [Back to Top](#table-of-contents)
 
 - Mindset Makeover's webinars offer Emily practical and actionable advice to improve her leadership skills and manage stress, aligning with her goal to balance her professional and personal life.
-- The newsletters provide ongoing support and insights, helping her navigate daily challenges with a positive mindset.
+- The newsletters provide ongoing support and insights, positively helping her navigate daily challenges.
 
 ### User Goals
 [Back to Top](#table-of-contents)
 
-1. **Personal Growth and Development**: Users come to the site seeking resources and advice for personal and professional growth. They are looking to improve their mindset and life strategies.
+1. **Personal Growth and Development**: Users visit the site for personal and professional growth resources and advice. They are looking to improve their mindset and life strategies.
 2. **Implementing Practical Strategies**: Visitors are interested in finding actionable techniques that they can apply in their everyday lives. They value practical advice that leads to tangible changes.
-3. **Overcoming Personal Challenges**: Many users are dealing with specific personal issues such as stress management, work-life balance, or confidence building. They are looking for support and strategies to overcome these challenges.
+3. **Overcoming Personal Challenges**: Many users deal with personal issues such as stress management, work-life balance, or confidence building. They are looking for support and strategies to overcome these challenges.
 4. **Staying Informed with Regular Updates**: Visitors may want to subscribe to newsletters or updates to stay informed about new content, events, or learning resources.
 
 ### User Stories
 [Back to Top](#table-of-contents)
 
-1. **As a busy professional**, I want to find quick, actionable strategies for stress management, so I can improve my work-life balance.
-2. **As a recent graduate**, I want to learn how to set and achieve my career goals, so I can navigate my path to success more effectively.
-3. **As a team leader**, I want to learn techniques for positive leadership, so I can create a better work environment for my team.
-4. **As someone struggling with self-confidence**, I want to find resources for boosting self-esteem, so I can feel more empowered in my personal and professional life.
-5. **As a regular webinar attendee**, I want to easily sign up for online events, so I can learn directly from experts like Alex Richards.
-6. **As a lifelong learner**, I want to subscribe to a newsletter that provides regular insights and tips on personal growth, so I can continuously improve myself.
-7. **As a newcomer to personal development**, I want to understand the basics of mindset change, so I can start making positive changes in my life.
-8. **As a tech-savvy user**, I want a website that is easy to navigate on my phone or tablet, so I can access content on-the-go.
-9. **As a person looking for professional advice**, I want to contact the Mindset Makeover team easily, so I can get answers to my specific questions.
+1. **As a busy professional**, I want to find quick, actionable strategies for stress management so I can improve my work-life balance.
+2. **As a recent graduate**, I want to learn how to set and achieve my career goals so I can navigate my path to success more effectively.
+3. **As a team leader**, I want to learn techniques for positive leadership so I can create a better work environment for my team.
+4. **As someone struggling with self-confidence**, I want to find resources for boosting self-esteem so I can feel more empowered in my personal and professional life.
+5. **As a regular webinar attendee**, I want to sign up for online events easily so I can learn directly from experts like Alex Richards.
+6. **As a lifelong learner**, I want to subscribe to a newsletter that provides regular insights and tips on personal growth so I can continuously improve myself.
+7. **As a newcomer to personal development**, I want to understand the basics of mindset change so I can start making positive changes in my life.
+8. **As a tech-savvy user**, I want a website that is easy to navigate on my phone or tablet so I can access content on the go.
+9. **As a person looking for professional advice**, I want to contact the Mindset Makeover team easily so I can get answers to my specific questions.
 
 ### Five Planes of UX
 [Back to Top](#table-of-contents)
@@ -199,20 +199,20 @@ The ultimate purpose of the website is to not only deliver information but also 
 #### Surface
 [Back to Top](#table-of-contents)
 
-- **Visual Design**: The website will use a colour palette that inspires positivity. The design will be modern and professional, with a friendly and approachable feel.
+- **Visual Design**: The website will use a colour palette that inspires positivity. The design will be modern, professional, friendly and approachable.
 - **Typography**: Readable, web-friendly fonts will be used for easy reading across devices.
-- **Imagery**: High-quality images that resonate with the theme of personal growth and positivity will be used to engage users visually.
+- **Imagery**: High-quality images that resonate with personal growth and positivity will be used to engage users visually.
 
 ### Wireframes
 [Back to Top](#table-of-contents)
 
-Creating wireframes was crucial for developing Mindset Makeover. I chose Figma for this task because it's user-friendly and practical. I used real text instead of placeholders in the wireframes, making them more detailed and reflective of the final site.
+Creating wireframes was crucial for developing Mindset Makeover. I chose Figma for this task because it's user-friendly and practical. I used actual text instead of placeholders in the wireframes, making them more detailed and reflective of the final site.
 
 **Key Aspects of Wireframing**:
 
-- **Layout Visualization**: Using Figma, I was able to quickly visualize the site's layout, ensuring it was easy to navigate.
+- **Layout Visualisation**: Using Figma, I quickly pictured the site's layout, ensuring it was easy to navigate.
 - **Responsive Design**: I made wireframes for both desktop and mobile devices to guarantee a good user experience on any screen.
-- **Real Content Integration**: Including real text in the wireframes gave me a clearer view of the final look and functionality of the site.
+- **Real Content Integration**: Including actual text in the wireframes gave me a clearer view of the final look and functionality of the site.
 
 Figma was a great help in streamlining my design process, allowing me to focus on the user experience right from the start.
 
@@ -254,14 +254,14 @@ For this project, I chose the Poppins font. Poppins is a geometric sans-serif fo
 **Why Poppins is a good choice**:
 
 1. **Readability**: Poppins offers excellent readability across different devices and screen sizes, which is crucial for ensuring that the website's content is easily digestible by the audience.
-2. **Modern Feel**: The contemporary and uncluttered look of Poppins aligns well with the modern and professional aesthetic of the Mindset Makeover website.
-3. **Versatility**: Poppins works well in various contexts, from headings and menus to body text, providing a cohesive visual experience throughout the site.
+2. **Modern Feel**: Poppins' contemporary and uncluttered look aligns well with the modern and professional aesthetic of the Mindset Makeover website.
+3. **Versatility**: Poppins work well in various contexts, from headings and menus to body text, providing a cohesive visual experience throughout the site.
 4. **Friendly Appearance**: Despite its clean geometry, Poppins has a friendly quality that makes the website feel approachable and engaging, aligning with the supportive and motivating nature of Mindset Makeover.
 
 ![Poppins 300](./docs/poppins-300.jpg "Poppins 300")
 ![Poppins 800](./docs/poppins-800.jpg "Poppins 800")
 
-In summary, Poppins not only enhances the website’s visual appeal but also supports its functional and emotional objectives, making it an ideal choice for this project.
+In summary, Poppins enhances the website's visual appeal and supports its functional and emotional objectives, making it an ideal choice for this project.
 
 ### Visuals
 [Back to Top](#table-of-contents)
@@ -269,7 +269,7 @@ In summary, Poppins not only enhances the website’s visual appeal but also sup
 #### Logo
 [Back to Top](#table-of-contents)
 
-I brainstormed the initial design ideas for the logo using Midjourney, which helped generate a range of creative concepts. I then used Adobe Illustrator to refine my favourite concept into the final design. This process allowed me to create a logo that's clear and impactful and truly represents the ethos of the brand.
+I brainstormed the initial design ideas for the logo using Midjourney, which helped generate a range of creative concepts. I then used Adobe Illustrator to refine my favourite concept into the final design. This process allowed me to create a clear, impactful logo that truly represents the ethos of the brand.
 
 ![Logo](./docs/logo.png "Logo")
 
@@ -425,16 +425,17 @@ I also included Privacy Policy and Terms and Conditions pages with example conte
 
 - **HTML and CSS**: The core of the project, these languages were used to structure and style the website.
 - **VSCode**: I chose VSCode as my (IDE) for its efficiency and ease of use.
-- **Git and GitHub**: Git was used for version control, allowing me to track and manage changes in the code. The project is hosted on GitHub, from where it's also deployed to GitHub Pages.
-- **Figma**: A key tool in my design process, Figma was used for creating both mobile and desktop wireframes.
-- **ChatGPT and Grammarly**: ChatGPT helped me to brainstorm, create and refine the website's content, while Grammarly ensured the content was clear and plagiarism-free.
-- **DALL-E and Midjourney**: I have used DALL-E to brainstorm logo ideas while Midjourney was used for imaginative photos of Alex and other website imagery.
-- **Procreate and Adobe Illustrator**: The icons for the site were initially drawn in Procreate and then vectorized in Illustrator, ensuring high-quality and scalable graphics.
-- **Adobe Photoshop**: This was my go-to tool for editing and optimizing the generated graphics, and for exporting image files in the appropriate formats for web use.
+- **Git and GitHub**: I used Git for version control, allowing me to track and manage changes in the code. I hosted the project on GitHub and deployed it to GitHub Pages from there.
+- **Figma**: Figma played a pivotal role in my design process. I used it to create both mobile and desktop wireframes.
+- **ChatGPT and Grammarly**: I utilized ChatGPT to brainstorm ideas, create content, and refine the website's text. Grammarly helped me ensure the content's clarity and plagiarism-free nature.
+- **DALL-E and Midjourney**: For logo ideas, I turned to DALL-E, and I used Midjourney for imaginative photos of Alex and other website imagery.
+- **Procreate and Adobe Illustrator**: I initially drew the icons for the site in Procreate and then vectorized them in Adobe Illustrator to ensure high-quality and scalable graphics.
+- **Adobe Photoshop**: Adobe Photoshop was my primary tool for editing and optimizing the generated graphics and exporting image files in the appropriate formats for web use.
 
 :speech_balloon: ChatGPT was not used to generate a single line of code
 
 ## Development and Deployment
+[Back to Top](#table-of-contents)
 
 To code the project, I used VSCode locally and Git to push commits to the GitHub repository.
 
